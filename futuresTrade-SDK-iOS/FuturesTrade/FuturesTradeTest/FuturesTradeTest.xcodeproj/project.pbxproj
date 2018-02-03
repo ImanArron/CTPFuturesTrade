@@ -1,0 +1,525 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		665C6F7A1F79067200399A6E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 665C6F791F79067200399A6E /* main.m */; };
+		665C6F7D1F79067200399A6E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 665C6F7C1F79067200399A6E /* AppDelegate.m */; };
+		665C6F801F79067200399A6E /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 665C6F7F1F79067200399A6E /* ViewController.m */; };
+		665C6F831F79067200399A6E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 665C6F811F79067200399A6E /* Main.storyboard */; };
+		665C6F851F79067200399A6E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 665C6F841F79067200399A6E /* Assets.xcassets */; };
+		665C6F881F79067200399A6E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 665C6F861F79067200399A6E /* LaunchScreen.storyboard */; };
+		665C6F911F79078700399A6E /* libiconv.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 665C6F901F79078700399A6E /* libiconv.tbd */; };
+		665C6F941F79078E00399A6E /* libsqlite3.0.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 665C6F921F79078E00399A6E /* libsqlite3.0.tbd */; };
+		665C6F951F79078E00399A6E /* libsqlite3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 665C6F931F79078E00399A6E /* libsqlite3.tbd */; };
+		665C6F981F79079A00399A6E /* libstdc++.6.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 665C6F961F79079A00399A6E /* libstdc++.6.tbd */; };
+		665C6F991F79079A00399A6E /* libstdc++.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 665C6F971F79079A00399A6E /* libstdc++.tbd */; };
+		665C6F9B1F7907A500399A6E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 665C6F9A1F7907A500399A6E /* Foundation.framework */; };
+		665C6F9D1F7907AC00399A6E /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 665C6F9C1F7907AC00399A6E /* CoreGraphics.framework */; };
+		665C6F9F1F7907B100399A6E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 665C6F9E1F7907B100399A6E /* UIKit.framework */; };
+		665C6FB71F79092E00399A6E /* libksft.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 665C6FB51F79092E00399A6E /* libksft.a */; };
+		665C6FB81F79092F00399A6E /* libkslkc.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 665C6FB61F79092E00399A6E /* libkslkc.a */; };
+		665C6FBE1F79096800399A6E /* KSInterB2C.lkc in Resources */ = {isa = PBXBuildFile; fileRef = 665C6FBB1F79096800399A6E /* KSInterB2C.lkc */; };
+		665C6FBF1F79096800399A6E /* FSPXSWITCHMYJ.lkc in Resources */ = {isa = PBXBuildFile; fileRef = 665C6FBD1F79096800399A6E /* FSPXSWITCHMYJ.lkc */; };
+		667627C21F97362E000A0B02 /* FuturesTrade.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 667627BF1F97362E000A0B02 /* FuturesTrade.framework */; };
+		667627C31F97362E000A0B02 /* FuturesTradeBundle.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 667627C01F97362E000A0B02 /* FuturesTradeBundle.bundle */; };
+		667627C41F97362E000A0B02 /* FuturesTradeSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 667627C11F97362E000A0B02 /* FuturesTradeSDK.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		665C6F751F79067200399A6E /* FuturesTradeTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FuturesTradeTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		665C6F791F79067200399A6E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		665C6F7B1F79067200399A6E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		665C6F7C1F79067200399A6E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		665C6F7E1F79067200399A6E /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		665C6F7F1F79067200399A6E /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		665C6F821F79067200399A6E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		665C6F841F79067200399A6E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		665C6F871F79067200399A6E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		665C6F891F79067200399A6E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		665C6F901F79078700399A6E /* libiconv.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libiconv.tbd; path = usr/lib/libiconv.tbd; sourceTree = SDKROOT; };
+		665C6F921F79078E00399A6E /* libsqlite3.0.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.0.tbd; path = usr/lib/libsqlite3.0.tbd; sourceTree = SDKROOT; };
+		665C6F931F79078E00399A6E /* libsqlite3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.tbd; path = usr/lib/libsqlite3.tbd; sourceTree = SDKROOT; };
+		665C6F961F79079A00399A6E /* libstdc++.6.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libstdc++.6.tbd"; path = "usr/lib/libstdc++.6.tbd"; sourceTree = SDKROOT; };
+		665C6F971F79079A00399A6E /* libstdc++.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libstdc++.tbd"; path = "usr/lib/libstdc++.tbd"; sourceTree = SDKROOT; };
+		665C6F9A1F7907A500399A6E /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		665C6F9C1F7907AC00399A6E /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		665C6F9E1F7907B100399A6E /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		665C6FB51F79092E00399A6E /* libksft.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libksft.a; sourceTree = "<group>"; };
+		665C6FB61F79092E00399A6E /* libkslkc.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libkslkc.a; sourceTree = "<group>"; };
+		665C6FBB1F79096800399A6E /* KSInterB2C.lkc */ = {isa = PBXFileReference; lastKnownFileType = file; path = KSInterB2C.lkc; sourceTree = "<group>"; };
+		665C6FBD1F79096800399A6E /* FSPXSWITCHMYJ.lkc */ = {isa = PBXFileReference; lastKnownFileType = file; path = FSPXSWITCHMYJ.lkc; sourceTree = "<group>"; };
+		667627BF1F97362E000A0B02 /* FuturesTrade.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FuturesTrade.framework; sourceTree = "<group>"; };
+		667627C01F97362E000A0B02 /* FuturesTradeBundle.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = FuturesTradeBundle.bundle; sourceTree = "<group>"; };
+		667627C11F97362E000A0B02 /* FuturesTradeSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FuturesTradeSDK.framework; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		665C6F721F79067200399A6E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				665C6FB81F79092F00399A6E /* libkslkc.a in Frameworks */,
+				667627C41F97362E000A0B02 /* FuturesTradeSDK.framework in Frameworks */,
+				665C6F9F1F7907B100399A6E /* UIKit.framework in Frameworks */,
+				667627C21F97362E000A0B02 /* FuturesTrade.framework in Frameworks */,
+				665C6F9D1F7907AC00399A6E /* CoreGraphics.framework in Frameworks */,
+				665C6F9B1F7907A500399A6E /* Foundation.framework in Frameworks */,
+				665C6FB71F79092E00399A6E /* libksft.a in Frameworks */,
+				665C6F981F79079A00399A6E /* libstdc++.6.tbd in Frameworks */,
+				665C6F991F79079A00399A6E /* libstdc++.tbd in Frameworks */,
+				665C6F941F79078E00399A6E /* libsqlite3.0.tbd in Frameworks */,
+				665C6F951F79078E00399A6E /* libsqlite3.tbd in Frameworks */,
+				665C6F911F79078700399A6E /* libiconv.tbd in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		665C6F6C1F79067200399A6E = {
+			isa = PBXGroup;
+			children = (
+				665C6F771F79067200399A6E /* FuturesTradeTest */,
+				665C6F761F79067200399A6E /* Products */,
+				665C6F8F1F79078700399A6E /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		665C6F761F79067200399A6E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				665C6F751F79067200399A6E /* FuturesTradeTest.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		665C6F771F79067200399A6E /* FuturesTradeTest */ = {
+			isa = PBXGroup;
+			children = (
+				667627BE1F97362E000A0B02 /* FuturesTradeSDK */,
+				665C6FA81F79092E00399A6E /* ksft_api */,
+				665C6F7B1F79067200399A6E /* AppDelegate.h */,
+				665C6F7C1F79067200399A6E /* AppDelegate.m */,
+				665C6F7E1F79067200399A6E /* ViewController.h */,
+				665C6F7F1F79067200399A6E /* ViewController.m */,
+				665C6F811F79067200399A6E /* Main.storyboard */,
+				665C6F841F79067200399A6E /* Assets.xcassets */,
+				665C6F861F79067200399A6E /* LaunchScreen.storyboard */,
+				665C6F891F79067200399A6E /* Info.plist */,
+				665C6F781F79067200399A6E /* Supporting Files */,
+			);
+			path = FuturesTradeTest;
+			sourceTree = "<group>";
+		};
+		665C6F781F79067200399A6E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				665C6FB91F79096800399A6E /* KSInterB2C */,
+				665C6F791F79067200399A6E /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		665C6F8F1F79078700399A6E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				665C6F9E1F7907B100399A6E /* UIKit.framework */,
+				665C6F9C1F7907AC00399A6E /* CoreGraphics.framework */,
+				665C6F9A1F7907A500399A6E /* Foundation.framework */,
+				665C6F961F79079A00399A6E /* libstdc++.6.tbd */,
+				665C6F971F79079A00399A6E /* libstdc++.tbd */,
+				665C6F921F79078E00399A6E /* libsqlite3.0.tbd */,
+				665C6F931F79078E00399A6E /* libsqlite3.tbd */,
+				665C6F901F79078700399A6E /* libiconv.tbd */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		665C6FA81F79092E00399A6E /* ksft_api */ = {
+			isa = PBXGroup;
+			children = (
+				665C6FB51F79092E00399A6E /* libksft.a */,
+				665C6FB61F79092E00399A6E /* libkslkc.a */,
+			);
+			path = ksft_api;
+			sourceTree = "<group>";
+		};
+		665C6FB91F79096800399A6E /* KSInterB2C */ = {
+			isa = PBXGroup;
+			children = (
+				665C6FBA1F79096800399A6E /* Real */,
+				665C6FBC1F79096800399A6E /* Simulate */,
+			);
+			path = KSInterB2C;
+			sourceTree = "<group>";
+		};
+		665C6FBA1F79096800399A6E /* Real */ = {
+			isa = PBXGroup;
+			children = (
+				665C6FBB1F79096800399A6E /* KSInterB2C.lkc */,
+			);
+			path = Real;
+			sourceTree = "<group>";
+		};
+		665C6FBC1F79096800399A6E /* Simulate */ = {
+			isa = PBXGroup;
+			children = (
+				665C6FBD1F79096800399A6E /* FSPXSWITCHMYJ.lkc */,
+			);
+			path = Simulate;
+			sourceTree = "<group>";
+		};
+		667627BE1F97362E000A0B02 /* FuturesTradeSDK */ = {
+			isa = PBXGroup;
+			children = (
+				667627BF1F97362E000A0B02 /* FuturesTrade.framework */,
+				667627C01F97362E000A0B02 /* FuturesTradeBundle.bundle */,
+				667627C11F97362E000A0B02 /* FuturesTradeSDK.framework */,
+			);
+			path = FuturesTradeSDK;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		665C6F741F79067200399A6E /* FuturesTradeTest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 665C6F8C1F79067200399A6E /* Build configuration list for PBXNativeTarget "FuturesTradeTest" */;
+			buildPhases = (
+				665C6F711F79067200399A6E /* Sources */,
+				665C6F721F79067200399A6E /* Frameworks */,
+				665C6F731F79067200399A6E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FuturesTradeTest;
+			productName = FuturesTradeTest;
+			productReference = 665C6F751F79067200399A6E /* FuturesTradeTest.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		665C6F6D1F79067200399A6E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = ferdinand;
+				TargetAttributes = {
+					665C6F741F79067200399A6E = {
+						CreatedOnToolsVersion = 8.2;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 665C6F701F79067200399A6E /* Build configuration list for PBXProject "FuturesTradeTest" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 665C6F6C1F79067200399A6E;
+			productRefGroup = 665C6F761F79067200399A6E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				665C6F741F79067200399A6E /* FuturesTradeTest */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		665C6F731F79067200399A6E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				665C6F881F79067200399A6E /* LaunchScreen.storyboard in Resources */,
+				665C6FBF1F79096800399A6E /* FSPXSWITCHMYJ.lkc in Resources */,
+				665C6FBE1F79096800399A6E /* KSInterB2C.lkc in Resources */,
+				667627C31F97362E000A0B02 /* FuturesTradeBundle.bundle in Resources */,
+				665C6F851F79067200399A6E /* Assets.xcassets in Resources */,
+				665C6F831F79067200399A6E /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		665C6F711F79067200399A6E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				665C6F801F79067200399A6E /* ViewController.m in Sources */,
+				665C6F7D1F79067200399A6E /* AppDelegate.m in Sources */,
+				665C6F7A1F79067200399A6E /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		665C6F811F79067200399A6E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				665C6F821F79067200399A6E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		665C6F861F79067200399A6E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				665C6F871F79067200399A6E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		665C6F8A1F79067200399A6E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		665C6F8B1F79067200399A6E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		665C6F8D1F79067200399A6E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = "";
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/FuturesTradeTest/FuturesTradeSDK",
+				);
+				INFOPLIST_FILE = FuturesTradeTest/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/FuturesTradeTest/ksft_api",
+				);
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ferdinand.futurestrade;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+			};
+			name = Debug;
+		};
+		665C6F8E1F79067200399A6E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = "";
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/FuturesTradeTest/FuturesTradeSDK",
+				);
+				INFOPLIST_FILE = FuturesTradeTest/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/FuturesTradeTest/ksft_api",
+				);
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ferdinand.futurestrade;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+			};
+			name = Release;
+		};
+		668EAC2C1F7A365D0099EBDF /* InHouse */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = InHouse;
+		};
+		668EAC2D1F7A365D0099EBDF /* InHouse */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = "";
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/FuturesTradeTest/FuturesTradeSDK",
+				);
+				INFOPLIST_FILE = FuturesTradeTest/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/FuturesTradeTest/ksft_api",
+				);
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ferdinand.futurestrade;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+			};
+			name = InHouse;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		665C6F701F79067200399A6E /* Build configuration list for PBXProject "FuturesTradeTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				665C6F8A1F79067200399A6E /* Debug */,
+				665C6F8B1F79067200399A6E /* Release */,
+				668EAC2C1F7A365D0099EBDF /* InHouse */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		665C6F8C1F79067200399A6E /* Build configuration list for PBXNativeTarget "FuturesTradeTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				665C6F8D1F79067200399A6E /* Debug */,
+				665C6F8E1F79067200399A6E /* Release */,
+				668EAC2D1F7A365D0099EBDF /* InHouse */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 665C6F6D1F79067200399A6E /* Project object */;
+}

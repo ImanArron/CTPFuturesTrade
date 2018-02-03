@@ -1,0 +1,6 @@
+framework module FuturesTradeSDK {
+  umbrella header "FuturesTradeSDK.h"
+
+  export *
+  module * { export * }
+}

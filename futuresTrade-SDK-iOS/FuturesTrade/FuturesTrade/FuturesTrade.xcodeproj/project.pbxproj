@@ -1,0 +1,1892 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		665C6DB11F78FBFB00399A6E /* UPFuturesTradeBaseTableViewCell.h in Headers */ = {isa = PBXBuildFile; fileRef = 665C6C821F78FBFB00399A6E /* UPFuturesTradeBaseTableViewCell.h */; };
+		665C6DB21F78FBFB00399A6E /* UPFuturesTradeBaseTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 665C6C831F78FBFB00399A6E /* UPFuturesTradeBaseTableViewCell.m */; };
+		665C6DB31F78FBFB00399A6E /* UPFuturesTradeBaseView.h in Headers */ = {isa = PBXBuildFile; fileRef = 665C6C841F78FBFB00399A6E /* UPFuturesTradeBaseView.h */; };
+		665C6DB41F78FBFB00399A6E /* UPFuturesTradeBaseView.m in Sources */ = {isa = PBXBuildFile; fileRef = 665C6C851F78FBFB00399A6E /* UPFuturesTradeBaseView.m */; };
+		665C6DB51F78FBFB00399A6E /* UPFuturesTradeBaseViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 665C6C861F78FBFB00399A6E /* UPFuturesTradeBaseViewController.h */; };
+		665C6DB61F78FBFB00399A6E /* UPFuturesTradeBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 665C6C871F78FBFB00399A6E /* UPFuturesTradeBaseViewController.m */; };
+		665C6DB71F78FBFB00399A6E /* UPFuturesTradeBusinessMainViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 665C6C8A1F78FBFB00399A6E /* UPFuturesTradeBusinessMainViewController.h */; };
+		665C6DB81F78FBFB00399A6E /* UPFuturesTradeBusinessMainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 665C6C8B1F78FBFB00399A6E /* UPFuturesTradeBusinessMainViewController.m */; };
+		665C6DBA1F78FBFB00399A6E /* UPFuturesTradeOrderActionModel.h in Headers */ = {isa = PBXBuildFile; fileRef = 665C6C8E1F78FBFB00399A6E /* UPFuturesTradeOrderActionModel.h */; };
+		665C6DBB1F78FBFB00399A6E /* UPFuturesTradeOrderActionModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 665C6C8F1F78FBFB00399A6E /* UPFuturesTradeOrderActionModel.m */; };
+		665C6DBC1F78FBFB00399A6E /* UPFuturesTradeOrderModel.h in Headers */ = {isa = PBXBuildFile; fileRef = 665C6C901F78FBFB00399A6E /* UPFuturesTradeOrderModel.h */; };
+		665C6DBD1F78FBFB00399A6E /* UPFuturesTradeOrderModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 665C6C911F78FBFB00399A6E /* UPFuturesTradeOrderModel.m */; };
+		665C6DBE1F78FBFB00399A6E /* UPFuturesTradeBusinessHeaderView.h in Headers */ = {isa = PBXBuildFile; fileRef = 665C6C931F78FBFB00399A6E /* UPFuturesTradeBusinessHeaderView.h */; };
+		665C6DBF1F78FBFB00399A6E /* UPFuturesTradeBusinessHeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = 665C6C941F78FBFB00399A6E /* UPFuturesTradeBusinessHeaderView.m */; };
+		665C6DC11F78FBFB00399A6E /* UPFuturesTradeBusinessView.h in Headers */ = {isa = PBXBuildFile; fileRef = 665C6C961F78FBFB00399A6E /* UPFuturesTradeBusinessView.h */; };
+		665C6DC21F78FBFB00399A6E /* UPFuturesTradeBusinessView.m in Sources */ = {isa = PBXBuildFile; fileRef = 665C6C971F78FBFB00399A6E /* UPFuturesTradeBusinessView.m */; };
+		665C6DC41F78FBFB00399A6E /* UPFuturesTradeOrderCell.h in Headers */ = {isa = PBXBuildFile; fileRef = 665C6C991F78FBFB00399A6E /* UPFuturesTradeOrderCell.h */; };
+		665C6DC51F78FBFB00399A6E /* UPFuturesTradeOrderCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 665C6C9A1F78FBFB00399A6E /* UPFuturesTradeOrderCell.m */; };
+		665C6DC71F78FBFB00399A6E /* UPFuturesTradeOrderHeaderCell.h in Headers */ = {isa = PBXBuildFile; fileRef = 665C6C9C1F78FBFB00399A6E /* UPFuturesTradeOrderHeaderCell.h */; };
+		665C6DC81F78FBFB00399A6E /* UPFuturesTradeOrderHeaderCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 665C6C9D1F78FBFB00399A6E /* UPFuturesTradeOrderHeaderCell.m */; };
+		665C6DCA1F78FBFB00399A6E /* UPFuturesTradePositionCell.h in Headers */ = {isa = PBXBuildFile; fileRef = 665C6C9F1F78FBFB00399A6E /* UPFuturesTradePositionCell.h */; };
+		665C6DCB1F78FBFB00399A6E /* UPFuturesTradePositionCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 665C6CA01F78FBFB00399A6E /* UPFuturesTradePositionCell.m */; };
+		665C6DCD1F78FBFB00399A6E /* UPFuturesTradePositionHeaderCell.h in Headers */ = {isa = PBXBuildFile; fileRef = 665C6CA21F78FBFB00399A6E /* UPFuturesTradePositionHeaderCell.h */; };
+		665C6DCE1F78FBFB00399A6E /* UPFuturesTradePositionHeaderCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 665C6CA31F78FBFB00399A6E /* UPFuturesTradePositionHeaderCell.m */; };
+		665C6DD01F78FBFB00399A6E /* UPFuturesTradeVarietyCollectionCell.h in Headers */ = {isa = PBXBuildFile; fileRef = 665C6CA51F78FBFB00399A6E /* UPFuturesTradeVarietyCollectionCell.h */; };
+		665C6DD11F78FBFB00399A6E /* UPFuturesTradeVarietyCollectionCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 665C6CA61F78FBFB00399A6E /* UPFuturesTradeVarietyCollectionCell.m */; };
+		665C6DD31F78FBFB00399A6E /* UPFuturesTradeVarietyInfoView.h in Headers */ = {isa = PBXBuildFile; fileRef = 665C6CA81F78FBFB00399A6E /* UPFuturesTradeVarietyInfoView.h */; };
+		665C6DD41F78FBFB00399A6E /* UPFuturesTradeVarietyInfoView.m in Sources */ = {isa = PBXBuildFile; fileRef = 665C6CA91F78FBFB00399A6E /* UPFuturesTradeVarietyInfoView.m */; };
+		665C6DD61F78FBFB00399A6E /* UPFuturesTradeVarietyKeyBoard.h in Headers */ = {isa = PBXBuildFile; fileRef = 665C6CAB1F78FBFB00399A6E /* UPFuturesTradeVarietyKeyBoard.h */; };
+		665C6DD71F78FBFB00399A6E /* UPFuturesTradeVarietyKeyBoard.m in Sources */ = {isa = PBXBuildFile; fileRef = 665C6CAC1F78FBFB00399A6E /* UPFuturesTradeVarietyKeyBoard.m */; };
+		665C6DD91F78FBFB00399A6E /* UPFuturesTradeVarietyKeyBoardCell.h in Headers */ = {isa = PBXBuildFile; fileRef = 665C6CAE1F78FBFB00399A6E /* UPFuturesTradeVarietyKeyBoardCell.h */; };
+		665C6DDA1F78FBFB00399A6E /* UPFuturesTradeVarietyKeyBoardCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 665C6CAF1F78FBFB00399A6E /* UPFuturesTradeVarietyKeyBoardCell.m */; };
+		665C6DDC1F78FBFB00399A6E /* UPFuturesTradeOrderViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 665C6CB31F78FBFB00399A6E /* UPFuturesTradeOrderViewController.h */; };
+		665C6DDD1F78FBFB00399A6E /* UPFuturesTradeOrderViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 665C6CB41F78FBFB00399A6E /* UPFuturesTradeOrderViewController.m */; };
+		665C6DDF1F78FBFB00399A6E /* UPFuturesTradeInputCell.h in Headers */ = {isa = PBXBuildFile; fileRef = 665C6CB91F78FBFB00399A6E /* UPFuturesTradeInputCell.h */; };
+		665C6DE01F78FBFB00399A6E /* UPFuturesTradeInputCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 665C6CBA1F78FBFB00399A6E /* UPFuturesTradeInputCell.m */; };
+		665C6DE21F78FBFB00399A6E /* UPFuturesTradeLoginFooterView.h in Headers */ = {isa = PBXBuildFile; fileRef = 665C6CBC1F78FBFB00399A6E /* UPFuturesTradeLoginFooterView.h */; };
+		665C6DE31F78FBFB00399A6E /* UPFuturesTradeLoginFooterView.m in Sources */ = {isa = PBXBuildFile; fileRef = 665C6CBD1F78FBFB00399A6E /* UPFuturesTradeLoginFooterView.m */; };
+		665C6DE51F78FBFB00399A6E /* UPFuturesTradeLoginFrontViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 665C6CBF1F78FBFB00399A6E /* UPFuturesTradeLoginFrontViewController.h */; };
+		665C6DE61F78FBFB00399A6E /* UPFuturesTradeLoginFrontViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 665C6CC01F78FBFB00399A6E /* UPFuturesTradeLoginFrontViewController.m */; };
+		665C6DE81F78FBFB00399A6E /* UPFuturesTradeLoginViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 665C6CC21F78FBFB00399A6E /* UPFuturesTradeLoginViewController.h */; };
+		665C6DE91F78FBFB00399A6E /* UPFuturesTradeLoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 665C6CC31F78FBFB00399A6E /* UPFuturesTradeLoginViewController.m */; };
+		665C6DEB1F78FBFB00399A6E /* UPFuturesTradeBlocks.h in Headers */ = {isa = PBXBuildFile; fileRef = 665C6CC61F78FBFB00399A6E /* UPFuturesTradeBlocks.h */; };
+		665C6DEC1F78FBFB00399A6E /* UPFuturesTradeColor.h in Headers */ = {isa = PBXBuildFile; fileRef = 665C6CC71F78FBFB00399A6E /* UPFuturesTradeColor.h */; };
+		665C6DED1F78FBFB00399A6E /* UPFuturesTradeDefault.h in Headers */ = {isa = PBXBuildFile; fileRef = 665C6CC81F78FBFB00399A6E /* UPFuturesTradeDefault.h */; };
+		665C6DEE1F78FBFB00399A6E /* UPFuturesTradeMacros.h in Headers */ = {isa = PBXBuildFile; fileRef = 665C6CC91F78FBFB00399A6E /* UPFuturesTradeMacros.h */; };
+		665C6DEF1F78FBFB00399A6E /* UPFuturesTradeTypes.h in Headers */ = {isa = PBXBuildFile; fileRef = 665C6CCA1F78FBFB00399A6E /* UPFuturesTradeTypes.h */; };
+		665C6DF01F78FBFB00399A6E /* UPFuturesTradeValidation.h in Headers */ = {isa = PBXBuildFile; fileRef = 665C6CCB1F78FBFB00399A6E /* UPFuturesTradeValidation.h */; };
+		665C6DF11F78FBFB00399A6E /* UPFuturesTradeWeakStrong.h in Headers */ = {isa = PBXBuildFile; fileRef = 665C6CCC1F78FBFB00399A6E /* UPFuturesTradeWeakStrong.h */; };
+		665C6DF21F78FBFB00399A6E /* UPFutursTradeDimens.h in Headers */ = {isa = PBXBuildFile; fileRef = 665C6CCD1F78FBFB00399A6E /* UPFutursTradeDimens.h */; };
+		665C6DF31F78FBFB00399A6E /* UPFuturesTradeAccountViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 665C6CD01F78FBFB00399A6E /* UPFuturesTradeAccountViewController.h */; };
+		665C6DF41F78FBFB00399A6E /* UPFuturesTradeAccountViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 665C6CD11F78FBFB00399A6E /* UPFuturesTradeAccountViewController.m */; };
+		665C6DF61F78FBFB00399A6E /* UPFuturesTradeBaseBusinessViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 665C6CD31F78FBFB00399A6E /* UPFuturesTradeBaseBusinessViewController.h */; };
+		665C6DF71F78FBFB00399A6E /* UPFuturesTradeBaseBusinessViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 665C6CD41F78FBFB00399A6E /* UPFuturesTradeBaseBusinessViewController.m */; };
+		665C6DF91F78FBFB00399A6E /* UPFuturesTradeMainViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 665C6CD61F78FBFB00399A6E /* UPFuturesTradeMainViewController.h */; };
+		665C6DFA1F78FBFB00399A6E /* UPFuturesTradeMainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 665C6CD71F78FBFB00399A6E /* UPFuturesTradeMainViewController.m */; };
+		665C6DFC1F78FBFB00399A6E /* GoldTradeKeyBoard.h in Headers */ = {isa = PBXBuildFile; fileRef = 665C6CDA1F78FBFB00399A6E /* GoldTradeKeyBoard.h */; };
+		665C6DFD1F78FBFB00399A6E /* GoldTradeKeyBoard.m in Sources */ = {isa = PBXBuildFile; fileRef = 665C6CDB1F78FBFB00399A6E /* GoldTradeKeyBoard.m */; };
+		665C6DFE1F78FBFB00399A6E /* UPFuturesTradeTabView.h in Headers */ = {isa = PBXBuildFile; fileRef = 665C6CDC1F78FBFB00399A6E /* UPFuturesTradeTabView.h */; };
+		665C6DFF1F78FBFB00399A6E /* UPFuturesTradeTabView.m in Sources */ = {isa = PBXBuildFile; fileRef = 665C6CDD1F78FBFB00399A6E /* UPFuturesTradeTabView.m */; };
+		665C6E001F78FBFB00399A6E /* UPFuturesTradeUIDatePickerView.h in Headers */ = {isa = PBXBuildFile; fileRef = 665C6CDE1F78FBFB00399A6E /* UPFuturesTradeUIDatePickerView.h */; };
+		665C6E011F78FBFB00399A6E /* UPFuturesTradeUIDatePickerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 665C6CDF1F78FBFB00399A6E /* UPFuturesTradeUIDatePickerView.m */; };
+		665C6E021F78FBFB00399A6E /* UPGoldTradeTextField.h in Headers */ = {isa = PBXBuildFile; fileRef = 665C6CE01F78FBFB00399A6E /* UPGoldTradeTextField.h */; };
+		665C6E031F78FBFB00399A6E /* UPGoldTradeTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = 665C6CE11F78FBFB00399A6E /* UPGoldTradeTextField.m */; };
+		665C6E041F78FBFB00399A6E /* UPFuturesTradeManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 665C6CE31F78FBFB00399A6E /* UPFuturesTradeManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		665C6E051F78FBFB00399A6E /* UPFuturesTradeManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 665C6CE41F78FBFB00399A6E /* UPFuturesTradeManager.m */; };
+		665C6E061F78FBFB00399A6E /* UPFuturesTradePositionViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 665C6CE71F78FBFB00399A6E /* UPFuturesTradePositionViewController.h */; };
+		665C6E071F78FBFB00399A6E /* UPFuturesTradePositionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 665C6CE81F78FBFB00399A6E /* UPFuturesTradePositionViewController.m */; };
+		665C6E091F78FBFB00399A6E /* UPFuturesTradePositionHeaderView.h in Headers */ = {isa = PBXBuildFile; fileRef = 665C6CEC1F78FBFB00399A6E /* UPFuturesTradePositionHeaderView.h */; };
+		665C6E0A1F78FBFB00399A6E /* UPFuturesTradePositionHeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = 665C6CED1F78FBFB00399A6E /* UPFuturesTradePositionHeaderView.m */; };
+		665C6E0C1F78FBFB00399A6E /* UPFuturesTradePositionTableViewCell.h in Headers */ = {isa = PBXBuildFile; fileRef = 665C6CEF1F78FBFB00399A6E /* UPFuturesTradePositionTableViewCell.h */; };
+		665C6E0D1F78FBFB00399A6E /* UPFuturesTradePositionTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 665C6CF01F78FBFB00399A6E /* UPFuturesTradePositionTableViewCell.m */; };
+		665C6E0F1F78FBFB00399A6E /* UPFuturesTradeFundStatusViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 665C6CF41F78FBFB00399A6E /* UPFuturesTradeFundStatusViewController.h */; };
+		665C6E101F78FBFB00399A6E /* UPFuturesTradeFundStatusViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 665C6CF51F78FBFB00399A6E /* UPFuturesTradeFundStatusViewController.m */; };
+		665C6E121F78FBFB00399A6E /* UPFuturesTradeQueryViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 665C6CF71F78FBFB00399A6E /* UPFuturesTradeQueryViewController.h */; };
+		665C6E131F78FBFB00399A6E /* UPFuturesTradeQueryViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 665C6CF81F78FBFB00399A6E /* UPFuturesTradeQueryViewController.m */; };
+		665C6E151F78FBFB00399A6E /* UPFuturesTradeChooseDateView.h in Headers */ = {isa = PBXBuildFile; fileRef = 665C6CFC1F78FBFB00399A6E /* UPFuturesTradeChooseDateView.h */; };
+		665C6E161F78FBFB00399A6E /* UPFuturesTradeChooseDateView.m in Sources */ = {isa = PBXBuildFile; fileRef = 665C6CFD1F78FBFB00399A6E /* UPFuturesTradeChooseDateView.m */; };
+		665C6E181F78FBFB00399A6E /* UPFuturesTradeFundStatusCell.h in Headers */ = {isa = PBXBuildFile; fileRef = 665C6CFF1F78FBFB00399A6E /* UPFuturesTradeFundStatusCell.h */; };
+		665C6E191F78FBFB00399A6E /* UPFuturesTradeFundStatusCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 665C6D001F78FBFB00399A6E /* UPFuturesTradeFundStatusCell.m */; };
+		665C6E1B1F78FBFB00399A6E /* UPFuturesTradeFundStatusSectionHeaderView.h in Headers */ = {isa = PBXBuildFile; fileRef = 665C6D021F78FBFB00399A6E /* UPFuturesTradeFundStatusSectionHeaderView.h */; };
+		665C6E1C1F78FBFB00399A6E /* UPFuturesTradeFundStatusSectionHeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = 665C6D031F78FBFB00399A6E /* UPFuturesTradeFundStatusSectionHeaderView.m */; };
+		665C6E1E1F78FBFB00399A6E /* UPFuturesTradeQueryCell.h in Headers */ = {isa = PBXBuildFile; fileRef = 665C6D051F78FBFB00399A6E /* UPFuturesTradeQueryCell.h */; };
+		665C6E1F1F78FBFB00399A6E /* UPFuturesTradeQueryCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 665C6D061F78FBFB00399A6E /* UPFuturesTradeQueryCell.m */; };
+		665C6E211F78FBFB00399A6E /* UPFuturesTradeTradeViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 665C6D0A1F78FBFB00399A6E /* UPFuturesTradeTradeViewController.h */; };
+		665C6E221F78FBFB00399A6E /* UPFuturesTradeTradeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 665C6D0B1F78FBFB00399A6E /* UPFuturesTradeTradeViewController.m */; };
+		665C6E241F78FBFB00399A6E /* UPFuturesTradeTransferInViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 665C6D111F78FBFB00399A6E /* UPFuturesTradeTransferInViewController.h */; };
+		665C6E251F78FBFB00399A6E /* UPFuturesTradeTransferInViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 665C6D121F78FBFB00399A6E /* UPFuturesTradeTransferInViewController.m */; };
+		665C6E271F78FBFB00399A6E /* UPFuturesTradeTransferMainViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 665C6D141F78FBFB00399A6E /* UPFuturesTradeTransferMainViewController.h */; };
+		665C6E281F78FBFB00399A6E /* UPFuturesTradeTransferMainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 665C6D151F78FBFB00399A6E /* UPFuturesTradeTransferMainViewController.m */; };
+		665C6E2A1F78FBFB00399A6E /* UPFuturesTradeTransferOutViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 665C6D171F78FBFB00399A6E /* UPFuturesTradeTransferOutViewController.h */; };
+		665C6E2B1F78FBFB00399A6E /* UPFuturesTradeTransferOutViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 665C6D181F78FBFB00399A6E /* UPFuturesTradeTransferOutViewController.m */; };
+		665C6E2D1F78FBFB00399A6E /* UPFuturesTradeTransferSerialViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 665C6D1A1F78FBFB00399A6E /* UPFuturesTradeTransferSerialViewController.h */; };
+		665C6E2E1F78FBFB00399A6E /* UPFuturesTradeTransferSerialViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 665C6D1B1F78FBFB00399A6E /* UPFuturesTradeTransferSerialViewController.m */; };
+		665C6E301F78FBFB00399A6E /* UPFuturesTradeTransferSerialCell.h in Headers */ = {isa = PBXBuildFile; fileRef = 665C6D1F1F78FBFB00399A6E /* UPFuturesTradeTransferSerialCell.h */; };
+		665C6E311F78FBFB00399A6E /* UPFuturesTradeTransferSerialCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 665C6D201F78FBFB00399A6E /* UPFuturesTradeTransferSerialCell.m */; };
+		665C6E331F78FBFB00399A6E /* UPFuturesTradeTransferSerialSectionHeaderView.h in Headers */ = {isa = PBXBuildFile; fileRef = 665C6D221F78FBFB00399A6E /* UPFuturesTradeTransferSerialSectionHeaderView.h */; };
+		665C6E341F78FBFB00399A6E /* UPFuturesTradeTransferSerialSectionHeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = 665C6D231F78FBFB00399A6E /* UPFuturesTradeTransferSerialSectionHeaderView.m */; };
+		665C6E361F78FBFC00399A6E /* UPFuturesTradeCaculateUtil.h in Headers */ = {isa = PBXBuildFile; fileRef = 665C6D271F78FBFB00399A6E /* UPFuturesTradeCaculateUtil.h */; };
+		665C6E371F78FBFC00399A6E /* UPFuturesTradeCaculateUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 665C6D281F78FBFB00399A6E /* UPFuturesTradeCaculateUtil.m */; };
+		665C6E381F78FBFC00399A6E /* UPFuturesTradeColorUtil.h in Headers */ = {isa = PBXBuildFile; fileRef = 665C6D2A1F78FBFB00399A6E /* UPFuturesTradeColorUtil.h */; };
+		665C6E391F78FBFC00399A6E /* UPFuturesTradeColorUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 665C6D2B1F78FBFB00399A6E /* UPFuturesTradeColorUtil.m */; };
+		665C6E3A1F78FBFC00399A6E /* UPBaseDateUtil.h in Headers */ = {isa = PBXBuildFile; fileRef = 665C6D2D1F78FBFB00399A6E /* UPBaseDateUtil.h */; };
+		665C6E3B1F78FBFC00399A6E /* UPBaseDateUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 665C6D2E1F78FBFB00399A6E /* UPBaseDateUtil.m */; };
+		665C6E3C1F78FBFC00399A6E /* UPValidateManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 665C6D301F78FBFB00399A6E /* UPValidateManager.h */; };
+		665C6E3D1F78FBFC00399A6E /* UPValidateManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 665C6D311F78FBFB00399A6E /* UPValidateManager.m */; };
+		665C6E3E1F78FBFC00399A6E /* UPFuturesTradeTransferUtil.h in Headers */ = {isa = PBXBuildFile; fileRef = 665C6D331F78FBFB00399A6E /* UPFuturesTradeTransferUtil.h */; };
+		665C6E3F1F78FBFC00399A6E /* UPFuturesTradeTransferUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 665C6D341F78FBFB00399A6E /* UPFuturesTradeTransferUtil.m */; };
+		665C6E401F78FBFC00399A6E /* UPFuturesTradeNumberUtil.h in Headers */ = {isa = PBXBuildFile; fileRef = 665C6D361F78FBFB00399A6E /* UPFuturesTradeNumberUtil.h */; };
+		665C6E411F78FBFC00399A6E /* UPFuturesTradeNumberUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 665C6D371F78FBFB00399A6E /* UPFuturesTradeNumberUtil.m */; };
+		665C6E421F78FBFC00399A6E /* UPFuturesTradeOrderUtil.h in Headers */ = {isa = PBXBuildFile; fileRef = 665C6D391F78FBFB00399A6E /* UPFuturesTradeOrderUtil.h */; };
+		665C6E431F78FBFC00399A6E /* UPFuturesTradeOrderUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 665C6D3A1F78FBFB00399A6E /* UPFuturesTradeOrderUtil.m */; };
+		665C6E441F78FBFC00399A6E /* UPFuturesTradeSearchUtil.h in Headers */ = {isa = PBXBuildFile; fileRef = 665C6D3C1F78FBFB00399A6E /* UPFuturesTradeSearchUtil.h */; };
+		665C6E451F78FBFC00399A6E /* UPFuturesTradeSearchUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 665C6D3D1F78FBFB00399A6E /* UPFuturesTradeSearchUtil.m */; };
+		665C6E461F78FBFC00399A6E /* UPFuturesTradeStringUtil.h in Headers */ = {isa = PBXBuildFile; fileRef = 665C6D3F1F78FBFB00399A6E /* UPFuturesTradeStringUtil.h */; };
+		665C6E471F78FBFC00399A6E /* UPFuturesTradeStringUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 665C6D401F78FBFB00399A6E /* UPFuturesTradeStringUtil.m */; };
+		665C6E481F78FBFC00399A6E /* UPFuturesTradeColor2ImageUtil.h in Headers */ = {isa = PBXBuildFile; fileRef = 665C6D431F78FBFB00399A6E /* UPFuturesTradeColor2ImageUtil.h */; };
+		665C6E491F78FBFC00399A6E /* UPFuturesTradeColor2ImageUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 665C6D441F78FBFB00399A6E /* UPFuturesTradeColor2ImageUtil.m */; };
+		665C6E4A1F78FBFC00399A6E /* UPHUD.h in Headers */ = {isa = PBXBuildFile; fileRef = 665C6D461F78FBFB00399A6E /* UPHUD.h */; };
+		665C6E4B1F78FBFC00399A6E /* UPHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 665C6D471F78FBFB00399A6E /* UPHUD.m */; };
+		665C6E4C1F78FBFC00399A6E /* UPFuturesTradeOrderConfirmAlert.h in Headers */ = {isa = PBXBuildFile; fileRef = 665C6D491F78FBFB00399A6E /* UPFuturesTradeOrderConfirmAlert.h */; };
+		665C6E4D1F78FBFC00399A6E /* UPFuturesTradeOrderConfirmAlert.m in Sources */ = {isa = PBXBuildFile; fileRef = 665C6D4A1F78FBFB00399A6E /* UPFuturesTradeOrderConfirmAlert.m */; };
+		665C6E7B1F78FBFC00399A6E /* UPFuturesTradeProgressHUD.h in Headers */ = {isa = PBXBuildFile; fileRef = 665C6D7C1F78FBFB00399A6E /* UPFuturesTradeProgressHUD.h */; };
+		665C6E7C1F78FBFC00399A6E /* UPFuturesTradeProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 665C6D7D1F78FBFB00399A6E /* UPFuturesTradeProgressHUD.m */; };
+		665C6E7D1F78FBFC00399A6E /* UPFuturesTradeRefreshAutoFooter.h in Headers */ = {isa = PBXBuildFile; fileRef = 665C6D801F78FBFB00399A6E /* UPFuturesTradeRefreshAutoFooter.h */; };
+		665C6E7E1F78FBFC00399A6E /* UPFuturesTradeRefreshAutoFooter.m in Sources */ = {isa = PBXBuildFile; fileRef = 665C6D811F78FBFB00399A6E /* UPFuturesTradeRefreshAutoFooter.m */; };
+		665C6E7F1F78FBFC00399A6E /* UPFuturesTradeRefreshBackFooter.h in Headers */ = {isa = PBXBuildFile; fileRef = 665C6D821F78FBFB00399A6E /* UPFuturesTradeRefreshBackFooter.h */; };
+		665C6E801F78FBFC00399A6E /* UPFuturesTradeRefreshBackFooter.m in Sources */ = {isa = PBXBuildFile; fileRef = 665C6D831F78FBFB00399A6E /* UPFuturesTradeRefreshBackFooter.m */; };
+		665C6E811F78FBFC00399A6E /* UPFuturesTradeRefreshComponent.h in Headers */ = {isa = PBXBuildFile; fileRef = 665C6D841F78FBFB00399A6E /* UPFuturesTradeRefreshComponent.h */; };
+		665C6E821F78FBFC00399A6E /* UPFuturesTradeRefreshComponent.m in Sources */ = {isa = PBXBuildFile; fileRef = 665C6D851F78FBFB00399A6E /* UPFuturesTradeRefreshComponent.m */; };
+		665C6E831F78FBFC00399A6E /* UPFuturesTradeRefreshFooter.h in Headers */ = {isa = PBXBuildFile; fileRef = 665C6D861F78FBFB00399A6E /* UPFuturesTradeRefreshFooter.h */; };
+		665C6E841F78FBFC00399A6E /* UPFuturesTradeRefreshFooter.m in Sources */ = {isa = PBXBuildFile; fileRef = 665C6D871F78FBFB00399A6E /* UPFuturesTradeRefreshFooter.m */; };
+		665C6E851F78FBFC00399A6E /* UPFuturesTradeRefreshHeader.h in Headers */ = {isa = PBXBuildFile; fileRef = 665C6D881F78FBFB00399A6E /* UPFuturesTradeRefreshHeader.h */; };
+		665C6E861F78FBFC00399A6E /* UPFuturesTradeRefreshHeader.m in Sources */ = {isa = PBXBuildFile; fileRef = 665C6D891F78FBFB00399A6E /* UPFuturesTradeRefreshHeader.m */; };
+		665C6E871F78FBFC00399A6E /* UPFuturesTradeRefreshAutoGifFooter.h in Headers */ = {isa = PBXBuildFile; fileRef = 665C6D8D1F78FBFB00399A6E /* UPFuturesTradeRefreshAutoGifFooter.h */; };
+		665C6E881F78FBFC00399A6E /* UPFuturesTradeRefreshAutoGifFooter.m in Sources */ = {isa = PBXBuildFile; fileRef = 665C6D8E1F78FBFB00399A6E /* UPFuturesTradeRefreshAutoGifFooter.m */; };
+		665C6E891F78FBFC00399A6E /* UPFuturesTradeRefreshAutoNormalFooter.h in Headers */ = {isa = PBXBuildFile; fileRef = 665C6D8F1F78FBFB00399A6E /* UPFuturesTradeRefreshAutoNormalFooter.h */; };
+		665C6E8A1F78FBFC00399A6E /* UPFuturesTradeRefreshAutoNormalFooter.m in Sources */ = {isa = PBXBuildFile; fileRef = 665C6D901F78FBFB00399A6E /* UPFuturesTradeRefreshAutoNormalFooter.m */; };
+		665C6E8B1F78FBFC00399A6E /* UPFuturesTradeRefreshAutoStateFooter.h in Headers */ = {isa = PBXBuildFile; fileRef = 665C6D911F78FBFB00399A6E /* UPFuturesTradeRefreshAutoStateFooter.h */; };
+		665C6E8C1F78FBFC00399A6E /* UPFuturesTradeRefreshAutoStateFooter.m in Sources */ = {isa = PBXBuildFile; fileRef = 665C6D921F78FBFB00399A6E /* UPFuturesTradeRefreshAutoStateFooter.m */; };
+		665C6E8D1F78FBFC00399A6E /* UPFuturesTradeRefreshBackGifFooter.h in Headers */ = {isa = PBXBuildFile; fileRef = 665C6D941F78FBFB00399A6E /* UPFuturesTradeRefreshBackGifFooter.h */; };
+		665C6E8E1F78FBFC00399A6E /* UPFuturesTradeRefreshBackGifFooter.m in Sources */ = {isa = PBXBuildFile; fileRef = 665C6D951F78FBFB00399A6E /* UPFuturesTradeRefreshBackGifFooter.m */; };
+		665C6E8F1F78FBFC00399A6E /* UPFuturesTradeRefreshBackNormalFooter.h in Headers */ = {isa = PBXBuildFile; fileRef = 665C6D961F78FBFB00399A6E /* UPFuturesTradeRefreshBackNormalFooter.h */; };
+		665C6E901F78FBFC00399A6E /* UPFuturesTradeRefreshBackNormalFooter.m in Sources */ = {isa = PBXBuildFile; fileRef = 665C6D971F78FBFB00399A6E /* UPFuturesTradeRefreshBackNormalFooter.m */; };
+		665C6E911F78FBFC00399A6E /* UPFuturesTradeRefreshBackStateFooter.h in Headers */ = {isa = PBXBuildFile; fileRef = 665C6D981F78FBFB00399A6E /* UPFuturesTradeRefreshBackStateFooter.h */; };
+		665C6E921F78FBFC00399A6E /* UPFuturesTradeRefreshBackStateFooter.m in Sources */ = {isa = PBXBuildFile; fileRef = 665C6D991F78FBFB00399A6E /* UPFuturesTradeRefreshBackStateFooter.m */; };
+		665C6E931F78FBFC00399A6E /* UPFuturesTradeRefreshGifHeader.h in Headers */ = {isa = PBXBuildFile; fileRef = 665C6D9B1F78FBFB00399A6E /* UPFuturesTradeRefreshGifHeader.h */; };
+		665C6E941F78FBFC00399A6E /* UPFuturesTradeRefreshGifHeader.m in Sources */ = {isa = PBXBuildFile; fileRef = 665C6D9C1F78FBFB00399A6E /* UPFuturesTradeRefreshGifHeader.m */; };
+		665C6E951F78FBFC00399A6E /* UPFuturesTradeRefreshNormalHeader.h in Headers */ = {isa = PBXBuildFile; fileRef = 665C6D9D1F78FBFB00399A6E /* UPFuturesTradeRefreshNormalHeader.h */; };
+		665C6E961F78FBFC00399A6E /* UPFuturesTradeRefreshNormalHeader.m in Sources */ = {isa = PBXBuildFile; fileRef = 665C6D9E1F78FBFB00399A6E /* UPFuturesTradeRefreshNormalHeader.m */; };
+		665C6E971F78FBFC00399A6E /* UPFuturesTradeRefreshStateHeader.h in Headers */ = {isa = PBXBuildFile; fileRef = 665C6D9F1F78FBFB00399A6E /* UPFuturesTradeRefreshStateHeader.h */; };
+		665C6E981F78FBFC00399A6E /* UPFuturesTradeRefreshStateHeader.m in Sources */ = {isa = PBXBuildFile; fileRef = 665C6DA01F78FBFB00399A6E /* UPFuturesTradeRefreshStateHeader.m */; };
+		665C6E991F78FBFC00399A6E /* NSBundle+UPFuturesTradeRefresh.h in Headers */ = {isa = PBXBuildFile; fileRef = 665C6DA11F78FBFB00399A6E /* NSBundle+UPFuturesTradeRefresh.h */; };
+		665C6E9A1F78FBFC00399A6E /* NSBundle+UPFuturesTradeRefresh.m in Sources */ = {isa = PBXBuildFile; fileRef = 665C6DA21F78FBFB00399A6E /* NSBundle+UPFuturesTradeRefresh.m */; };
+		665C6E9D1F78FBFC00399A6E /* UIScrollView+UPFuturesTradeExtension.h in Headers */ = {isa = PBXBuildFile; fileRef = 665C6DA71F78FBFB00399A6E /* UIScrollView+UPFuturesTradeExtension.h */; };
+		665C6E9E1F78FBFC00399A6E /* UIScrollView+UPFuturesTradeExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 665C6DA81F78FBFB00399A6E /* UIScrollView+UPFuturesTradeExtension.m */; };
+		665C6E9F1F78FBFC00399A6E /* UIScrollView+UPFuturesTradeRefresh.h in Headers */ = {isa = PBXBuildFile; fileRef = 665C6DA91F78FBFB00399A6E /* UIScrollView+UPFuturesTradeRefresh.h */; };
+		665C6EA01F78FBFC00399A6E /* UIScrollView+UPFuturesTradeRefresh.m in Sources */ = {isa = PBXBuildFile; fileRef = 665C6DAA1F78FBFB00399A6E /* UIScrollView+UPFuturesTradeRefresh.m */; };
+		665C6EA11F78FBFC00399A6E /* UIView+UPFuturesTradeExtension.h in Headers */ = {isa = PBXBuildFile; fileRef = 665C6DAB1F78FBFB00399A6E /* UIView+UPFuturesTradeExtension.h */; };
+		665C6EA21F78FBFC00399A6E /* UIView+UPFuturesTradeExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 665C6DAC1F78FBFB00399A6E /* UIView+UPFuturesTradeExtension.m */; };
+		665C6EA41F78FBFC00399A6E /* UPFuturesTradeRefresh.h in Headers */ = {isa = PBXBuildFile; fileRef = 665C6DAE1F78FBFB00399A6E /* UPFuturesTradeRefresh.h */; };
+		665C6EA51F78FBFC00399A6E /* UPFuturesTradeRefreshConst.h in Headers */ = {isa = PBXBuildFile; fileRef = 665C6DAF1F78FBFB00399A6E /* UPFuturesTradeRefreshConst.h */; };
+		665C6EA61F78FBFC00399A6E /* UPFuturesTradeRefreshConst.m in Sources */ = {isa = PBXBuildFile; fileRef = 665C6DB01F78FBFB00399A6E /* UPFuturesTradeRefreshConst.m */; };
+		665C6EDD1F78FF3300399A6E /* UPFuturesTradeBusinessMainViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 665C6C8C1F78FBFB00399A6E /* UPFuturesTradeBusinessMainViewController.xib */; };
+		665C6EDE1F78FF3300399A6E /* UPFuturesTradeBusinessHeaderView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 665C6C951F78FBFB00399A6E /* UPFuturesTradeBusinessHeaderView.xib */; };
+		665C6EDF1F78FF3300399A6E /* UPFuturesTradeBusinessView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 665C6C981F78FBFB00399A6E /* UPFuturesTradeBusinessView.xib */; };
+		665C6EE01F78FF3300399A6E /* UPFuturesTradeOrderCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 665C6C9B1F78FBFB00399A6E /* UPFuturesTradeOrderCell.xib */; };
+		665C6EE11F78FF3300399A6E /* UPFuturesTradeOrderHeaderCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 665C6C9E1F78FBFB00399A6E /* UPFuturesTradeOrderHeaderCell.xib */; };
+		665C6EE21F78FF3300399A6E /* UPFuturesTradePositionCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 665C6CA11F78FBFB00399A6E /* UPFuturesTradePositionCell.xib */; };
+		665C6EE31F78FF3300399A6E /* UPFuturesTradePositionHeaderCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 665C6CA41F78FBFB00399A6E /* UPFuturesTradePositionHeaderCell.xib */; };
+		665C6EE41F78FF3300399A6E /* UPFuturesTradeVarietyCollectionCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 665C6CA71F78FBFB00399A6E /* UPFuturesTradeVarietyCollectionCell.xib */; };
+		665C6EE51F78FF3300399A6E /* UPFuturesTradeVarietyInfoView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 665C6CAA1F78FBFB00399A6E /* UPFuturesTradeVarietyInfoView.xib */; };
+		665C6EE61F78FF3300399A6E /* UPFuturesTradeVarietyKeyBoard.xib in Resources */ = {isa = PBXBuildFile; fileRef = 665C6CAD1F78FBFB00399A6E /* UPFuturesTradeVarietyKeyBoard.xib */; };
+		665C6EE71F78FF3300399A6E /* UPFuturesTradeVarietyKeyBoardCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 665C6CB01F78FBFB00399A6E /* UPFuturesTradeVarietyKeyBoardCell.xib */; };
+		665C6EE81F78FF3300399A6E /* UPFuturesTradeOrderViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 665C6CB51F78FBFB00399A6E /* UPFuturesTradeOrderViewController.xib */; };
+		665C6EE91F78FF3300399A6E /* UPFuturesTradeInputCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 665C6CBB1F78FBFB00399A6E /* UPFuturesTradeInputCell.xib */; };
+		665C6EEA1F78FF3300399A6E /* UPFuturesTradeLoginFooterView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 665C6CBE1F78FBFB00399A6E /* UPFuturesTradeLoginFooterView.xib */; };
+		665C6EEB1F78FF3300399A6E /* UPFuturesTradeLoginFrontViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 665C6CC11F78FBFB00399A6E /* UPFuturesTradeLoginFrontViewController.xib */; };
+		665C6EEC1F78FF3300399A6E /* UPFuturesTradeLoginViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 665C6CC41F78FBFB00399A6E /* UPFuturesTradeLoginViewController.xib */; };
+		665C6EED1F78FF3300399A6E /* UPFuturesTradeAccountViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 665C6CD21F78FBFB00399A6E /* UPFuturesTradeAccountViewController.xib */; };
+		665C6EEE1F78FF3300399A6E /* UPFuturesTradeBaseBusinessViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 665C6CD51F78FBFB00399A6E /* UPFuturesTradeBaseBusinessViewController.xib */; };
+		665C6EEF1F78FF3300399A6E /* UPFuturesTradeMainViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 665C6CD81F78FBFB00399A6E /* UPFuturesTradeMainViewController.xib */; };
+		665C6EF01F78FF3300399A6E /* UPFuturesTradePositionViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 665C6CE91F78FBFB00399A6E /* UPFuturesTradePositionViewController.xib */; };
+		665C6EF11F78FF3300399A6E /* UPFuturesTradePositionHeaderView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 665C6CEE1F78FBFB00399A6E /* UPFuturesTradePositionHeaderView.xib */; };
+		665C6EF21F78FF3300399A6E /* UPFuturesTradePositionTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 665C6CF11F78FBFB00399A6E /* UPFuturesTradePositionTableViewCell.xib */; };
+		665C6EF31F78FF3300399A6E /* UPFuturesTradeFundStatusViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 665C6CF61F78FBFB00399A6E /* UPFuturesTradeFundStatusViewController.xib */; };
+		665C6EF41F78FF3300399A6E /* UPFuturesTradeQueryViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 665C6CF91F78FBFB00399A6E /* UPFuturesTradeQueryViewController.xib */; };
+		665C6EF51F78FF3300399A6E /* UPFuturesTradeChooseDateView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 665C6CFE1F78FBFB00399A6E /* UPFuturesTradeChooseDateView.xib */; };
+		665C6EF61F78FF3300399A6E /* UPFuturesTradeFundStatusCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 665C6D011F78FBFB00399A6E /* UPFuturesTradeFundStatusCell.xib */; };
+		665C6EF71F78FF3300399A6E /* UPFuturesTradeFundStatusSectionHeaderView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 665C6D041F78FBFB00399A6E /* UPFuturesTradeFundStatusSectionHeaderView.xib */; };
+		665C6EF81F78FF3300399A6E /* UPFuturesTradeQueryCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 665C6D071F78FBFB00399A6E /* UPFuturesTradeQueryCell.xib */; };
+		665C6EF91F78FF3300399A6E /* UPFuturesTradeTradeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 665C6D0C1F78FBFB00399A6E /* UPFuturesTradeTradeViewController.xib */; };
+		665C6EFA1F78FF3300399A6E /* UPFuturesTradeTransferInViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 665C6D131F78FBFB00399A6E /* UPFuturesTradeTransferInViewController.xib */; };
+		665C6EFB1F78FF3300399A6E /* UPFuturesTradeTransferMainViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 665C6D161F78FBFB00399A6E /* UPFuturesTradeTransferMainViewController.xib */; };
+		665C6EFC1F78FF3300399A6E /* UPFuturesTradeTransferOutViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 665C6D191F78FBFB00399A6E /* UPFuturesTradeTransferOutViewController.xib */; };
+		665C6EFD1F78FF3300399A6E /* UPFuturesTradeTransferSerialViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 665C6D1C1F78FBFB00399A6E /* UPFuturesTradeTransferSerialViewController.xib */; };
+		665C6EFE1F78FF3300399A6E /* UPFuturesTradeTransferSerialCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 665C6D211F78FBFB00399A6E /* UPFuturesTradeTransferSerialCell.xib */; };
+		665C6EFF1F78FF3300399A6E /* UPFuturesTradeTransferSerialSectionHeaderView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 665C6D241F78FBFB00399A6E /* UPFuturesTradeTransferSerialSectionHeaderView.xib */; };
+		665C6F001F78FF3300399A6E /* bank_01@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 665C6D4D1F78FBFB00399A6E /* bank_01@2x.png */; };
+		665C6F011F78FF3300399A6E /* bank_02@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 665C6D4E1F78FBFB00399A6E /* bank_02@2x.png */; };
+		665C6F021F78FF3300399A6E /* bank_03@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 665C6D4F1F78FBFB00399A6E /* bank_03@2x.png */; };
+		665C6F031F78FF3300399A6E /* bank_04@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 665C6D501F78FBFB00399A6E /* bank_04@2x.png */; };
+		665C6F041F78FF3300399A6E /* bank_05@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 665C6D511F78FBFB00399A6E /* bank_05@2x.png */; };
+		665C6F051F78FF3300399A6E /* bank_06@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 665C6D521F78FBFB00399A6E /* bank_06@2x.png */; };
+		665C6F061F78FF3300399A6E /* bank_07@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 665C6D531F78FBFB00399A6E /* bank_07@2x.png */; };
+		665C6F071F78FF3300399A6E /* bank_08@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 665C6D541F78FBFB00399A6E /* bank_08@2x.png */; };
+		665C6F081F78FF3300399A6E /* bank_09@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 665C6D551F78FBFB00399A6E /* bank_09@2x.png */; };
+		665C6F091F78FF3300399A6E /* bank_10@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 665C6D561F78FBFB00399A6E /* bank_10@2x.png */; };
+		665C6F0A1F78FF3300399A6E /* bank_11@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 665C6D571F78FBFB00399A6E /* bank_11@2x.png */; };
+		665C6F0B1F78FF3300399A6E /* bank_12@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 665C6D581F78FBFB00399A6E /* bank_12@2x.png */; };
+		665C6F0C1F78FF3300399A6E /* bank_13@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 665C6D591F78FBFB00399A6E /* bank_13@2x.png */; };
+		665C6F0D1F78FF3300399A6E /* bank_14@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 665C6D5A1F78FBFB00399A6E /* bank_14@2x.png */; };
+		665C6F0E1F78FF3300399A6E /* bank_15@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 665C6D5B1F78FBFB00399A6E /* bank_15@2x.png */; };
+		665C6F0F1F78FF3300399A6E /* bank_16@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 665C6D5C1F78FBFB00399A6E /* bank_16@2x.png */; };
+		665C6F101F78FF3300399A6E /* bank_17@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 665C6D5D1F78FBFB00399A6E /* bank_17@2x.png */; };
+		665C6F111F78FF3300399A6E /* bank_18@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 665C6D5E1F78FBFB00399A6E /* bank_18@2x.png */; };
+		665C6F121F78FF3300399A6E /* emotion_del_normal@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 665C6D5F1F78FBFB00399A6E /* emotion_del_normal@2x.png */; };
+		665C6F131F78FF3300399A6E /* futures_trade_01@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 665C6D601F78FBFB00399A6E /* futures_trade_01@2x.png */; };
+		665C6F141F78FF3300399A6E /* futures_trade_01@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 665C6D611F78FBFB00399A6E /* futures_trade_01@3x.png */; };
+		665C6F151F78FF3300399A6E /* futures_trade_02@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 665C6D621F78FBFB00399A6E /* futures_trade_02@2x.png */; };
+		665C6F161F78FF3300399A6E /* futures_trade_02@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 665C6D631F78FBFB00399A6E /* futures_trade_02@3x.png */; };
+		665C6F171F78FF3300399A6E /* futures_trade_03@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 665C6D641F78FBFB00399A6E /* futures_trade_03@2x.png */; };
+		665C6F181F78FF3300399A6E /* futures_trade_03@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 665C6D651F78FBFB00399A6E /* futures_trade_03@3x.png */; };
+		665C6F191F78FF3300399A6E /* futures_trade_04@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 665C6D661F78FBFB00399A6E /* futures_trade_04@2x.png */; };
+		665C6F1A1F78FF3300399A6E /* futures_trade_04@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 665C6D671F78FBFB00399A6E /* futures_trade_04@3x.png */; };
+		665C6F1B1F78FF3300399A6E /* futures_trade_05@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 665C6D681F78FBFB00399A6E /* futures_trade_05@2x.png */; };
+		665C6F1C1F78FF3300399A6E /* futures_trade_05@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 665C6D691F78FBFB00399A6E /* futures_trade_05@3x.png */; };
+		665C6F1D1F78FF3300399A6E /* futures_trade_06@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 665C6D6A1F78FBFB00399A6E /* futures_trade_06@2x.png */; };
+		665C6F1E1F78FF3300399A6E /* futures_trade_06@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 665C6D6B1F78FBFB00399A6E /* futures_trade_06@3x.png */; };
+		665C6F1F1F78FF3300399A6E /* futures_trade_07@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 665C6D6C1F78FBFB00399A6E /* futures_trade_07@2x.png */; };
+		665C6F201F78FF3300399A6E /* futures_trade_07@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 665C6D6D1F78FBFB00399A6E /* futures_trade_07@3x.png */; };
+		665C6F211F78FF3300399A6E /* futures_trade_08@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 665C6D6E1F78FBFB00399A6E /* futures_trade_08@2x.png */; };
+		665C6F221F78FF3300399A6E /* futures_trade_08@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 665C6D6F1F78FBFB00399A6E /* futures_trade_08@3x.png */; };
+		665C6F231F78FF3300399A6E /* futures_trade_09@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 665C6D701F78FBFB00399A6E /* futures_trade_09@2x.png */; };
+		665C6F241F78FF3300399A6E /* futures_trade_09@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 665C6D711F78FBFB00399A6E /* futures_trade_09@3x.png */; };
+		665C6F251F78FF3300399A6E /* futures_trade_10@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 665C6D721F78FBFB00399A6E /* futures_trade_10@2x.png */; };
+		665C6F261F78FF3300399A6E /* futures_trade_10@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 665C6D731F78FBFB00399A6E /* futures_trade_10@3x.png */; };
+		665C6F271F78FF3300399A6E /* futures_trade_back@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 665C6D741F78FBFB00399A6E /* futures_trade_back@2x.png */; };
+		665C6F281F78FF3300399A6E /* icon_arrow@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 665C6D751F78FBFB00399A6E /* icon_arrow@2x.png */; };
+		665C6F291F78FF3300399A6E /* icon_arrow@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 665C6D761F78FBFB00399A6E /* icon_arrow@3x.png */; };
+		665C6F2A1F78FF3300399A6E /* icon_select_default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 665C6D771F78FBFB00399A6E /* icon_select_default@2x.png */; };
+		665C6F2B1F78FF3300399A6E /* icon_select_default@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 665C6D781F78FBFB00399A6E /* icon_select_default@3x.png */; };
+		665C6F2C1F78FF3300399A6E /* keybord_img.png in Resources */ = {isa = PBXBuildFile; fileRef = 665C6D791F78FBFB00399A6E /* keybord_img.png */; };
+		665C6F2D1F78FF3300399A6E /* UPFuturesTradeRefresh_arrow@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 665C6DA41F78FBFB00399A6E /* UPFuturesTradeRefresh_arrow@2x.png */; };
+		665C6F2E1F78FF3300399A6E /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 665C6DA51F78FBFB00399A6E /* Localizable.strings */; };
+		665C6FDE1F7926BA00399A6E /* FuturesTradeSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 665C6FDD1F7926BA00399A6E /* FuturesTradeSDK.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		665C6C741F78FBD500399A6E /* FuturesTrade.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = FuturesTrade.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		665C6C771F78FBD500399A6E /* FuturesTrade.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FuturesTrade.h; sourceTree = "<group>"; };
+		665C6C781F78FBD500399A6E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		665C6C821F78FBFB00399A6E /* UPFuturesTradeBaseTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UPFuturesTradeBaseTableViewCell.h; sourceTree = "<group>"; };
+		665C6C831F78FBFB00399A6E /* UPFuturesTradeBaseTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UPFuturesTradeBaseTableViewCell.m; sourceTree = "<group>"; };
+		665C6C841F78FBFB00399A6E /* UPFuturesTradeBaseView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UPFuturesTradeBaseView.h; sourceTree = "<group>"; };
+		665C6C851F78FBFB00399A6E /* UPFuturesTradeBaseView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UPFuturesTradeBaseView.m; sourceTree = "<group>"; };
+		665C6C861F78FBFB00399A6E /* UPFuturesTradeBaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UPFuturesTradeBaseViewController.h; sourceTree = "<group>"; };
+		665C6C871F78FBFB00399A6E /* UPFuturesTradeBaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UPFuturesTradeBaseViewController.m; sourceTree = "<group>"; };
+		665C6C8A1F78FBFB00399A6E /* UPFuturesTradeBusinessMainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UPFuturesTradeBusinessMainViewController.h; sourceTree = "<group>"; };
+		665C6C8B1F78FBFB00399A6E /* UPFuturesTradeBusinessMainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UPFuturesTradeBusinessMainViewController.m; sourceTree = "<group>"; };
+		665C6C8C1F78FBFB00399A6E /* UPFuturesTradeBusinessMainViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = UPFuturesTradeBusinessMainViewController.xib; sourceTree = "<group>"; };
+		665C6C8E1F78FBFB00399A6E /* UPFuturesTradeOrderActionModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UPFuturesTradeOrderActionModel.h; sourceTree = "<group>"; };
+		665C6C8F1F78FBFB00399A6E /* UPFuturesTradeOrderActionModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UPFuturesTradeOrderActionModel.m; sourceTree = "<group>"; };
+		665C6C901F78FBFB00399A6E /* UPFuturesTradeOrderModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UPFuturesTradeOrderModel.h; sourceTree = "<group>"; };
+		665C6C911F78FBFB00399A6E /* UPFuturesTradeOrderModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UPFuturesTradeOrderModel.m; sourceTree = "<group>"; };
+		665C6C931F78FBFB00399A6E /* UPFuturesTradeBusinessHeaderView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UPFuturesTradeBusinessHeaderView.h; sourceTree = "<group>"; };
+		665C6C941F78FBFB00399A6E /* UPFuturesTradeBusinessHeaderView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UPFuturesTradeBusinessHeaderView.m; sourceTree = "<group>"; };
+		665C6C951F78FBFB00399A6E /* UPFuturesTradeBusinessHeaderView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = UPFuturesTradeBusinessHeaderView.xib; sourceTree = "<group>"; };
+		665C6C961F78FBFB00399A6E /* UPFuturesTradeBusinessView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UPFuturesTradeBusinessView.h; sourceTree = "<group>"; };
+		665C6C971F78FBFB00399A6E /* UPFuturesTradeBusinessView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UPFuturesTradeBusinessView.m; sourceTree = "<group>"; };
+		665C6C981F78FBFB00399A6E /* UPFuturesTradeBusinessView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = UPFuturesTradeBusinessView.xib; sourceTree = "<group>"; };
+		665C6C991F78FBFB00399A6E /* UPFuturesTradeOrderCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UPFuturesTradeOrderCell.h; sourceTree = "<group>"; };
+		665C6C9A1F78FBFB00399A6E /* UPFuturesTradeOrderCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UPFuturesTradeOrderCell.m; sourceTree = "<group>"; };
+		665C6C9B1F78FBFB00399A6E /* UPFuturesTradeOrderCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = UPFuturesTradeOrderCell.xib; sourceTree = "<group>"; };
+		665C6C9C1F78FBFB00399A6E /* UPFuturesTradeOrderHeaderCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UPFuturesTradeOrderHeaderCell.h; sourceTree = "<group>"; };
+		665C6C9D1F78FBFB00399A6E /* UPFuturesTradeOrderHeaderCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UPFuturesTradeOrderHeaderCell.m; sourceTree = "<group>"; };
+		665C6C9E1F78FBFB00399A6E /* UPFuturesTradeOrderHeaderCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = UPFuturesTradeOrderHeaderCell.xib; sourceTree = "<group>"; };
+		665C6C9F1F78FBFB00399A6E /* UPFuturesTradePositionCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UPFuturesTradePositionCell.h; sourceTree = "<group>"; };
+		665C6CA01F78FBFB00399A6E /* UPFuturesTradePositionCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UPFuturesTradePositionCell.m; sourceTree = "<group>"; };
+		665C6CA11F78FBFB00399A6E /* UPFuturesTradePositionCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = UPFuturesTradePositionCell.xib; sourceTree = "<group>"; };
+		665C6CA21F78FBFB00399A6E /* UPFuturesTradePositionHeaderCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UPFuturesTradePositionHeaderCell.h; sourceTree = "<group>"; };
+		665C6CA31F78FBFB00399A6E /* UPFuturesTradePositionHeaderCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UPFuturesTradePositionHeaderCell.m; sourceTree = "<group>"; };
+		665C6CA41F78FBFB00399A6E /* UPFuturesTradePositionHeaderCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = UPFuturesTradePositionHeaderCell.xib; sourceTree = "<group>"; };
+		665C6CA51F78FBFB00399A6E /* UPFuturesTradeVarietyCollectionCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UPFuturesTradeVarietyCollectionCell.h; sourceTree = "<group>"; };
+		665C6CA61F78FBFB00399A6E /* UPFuturesTradeVarietyCollectionCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UPFuturesTradeVarietyCollectionCell.m; sourceTree = "<group>"; };
+		665C6CA71F78FBFB00399A6E /* UPFuturesTradeVarietyCollectionCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = UPFuturesTradeVarietyCollectionCell.xib; sourceTree = "<group>"; };
+		665C6CA81F78FBFB00399A6E /* UPFuturesTradeVarietyInfoView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UPFuturesTradeVarietyInfoView.h; sourceTree = "<group>"; };
+		665C6CA91F78FBFB00399A6E /* UPFuturesTradeVarietyInfoView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UPFuturesTradeVarietyInfoView.m; sourceTree = "<group>"; };
+		665C6CAA1F78FBFB00399A6E /* UPFuturesTradeVarietyInfoView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = UPFuturesTradeVarietyInfoView.xib; sourceTree = "<group>"; };
+		665C6CAB1F78FBFB00399A6E /* UPFuturesTradeVarietyKeyBoard.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UPFuturesTradeVarietyKeyBoard.h; sourceTree = "<group>"; };
+		665C6CAC1F78FBFB00399A6E /* UPFuturesTradeVarietyKeyBoard.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UPFuturesTradeVarietyKeyBoard.m; sourceTree = "<group>"; };
+		665C6CAD1F78FBFB00399A6E /* UPFuturesTradeVarietyKeyBoard.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = UPFuturesTradeVarietyKeyBoard.xib; sourceTree = "<group>"; };
+		665C6CAE1F78FBFB00399A6E /* UPFuturesTradeVarietyKeyBoardCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UPFuturesTradeVarietyKeyBoardCell.h; sourceTree = "<group>"; };
+		665C6CAF1F78FBFB00399A6E /* UPFuturesTradeVarietyKeyBoardCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UPFuturesTradeVarietyKeyBoardCell.m; sourceTree = "<group>"; };
+		665C6CB01F78FBFB00399A6E /* UPFuturesTradeVarietyKeyBoardCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = UPFuturesTradeVarietyKeyBoardCell.xib; sourceTree = "<group>"; };
+		665C6CB31F78FBFB00399A6E /* UPFuturesTradeOrderViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UPFuturesTradeOrderViewController.h; sourceTree = "<group>"; };
+		665C6CB41F78FBFB00399A6E /* UPFuturesTradeOrderViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UPFuturesTradeOrderViewController.m; sourceTree = "<group>"; };
+		665C6CB51F78FBFB00399A6E /* UPFuturesTradeOrderViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = UPFuturesTradeOrderViewController.xib; sourceTree = "<group>"; };
+		665C6CB91F78FBFB00399A6E /* UPFuturesTradeInputCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UPFuturesTradeInputCell.h; sourceTree = "<group>"; };
+		665C6CBA1F78FBFB00399A6E /* UPFuturesTradeInputCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UPFuturesTradeInputCell.m; sourceTree = "<group>"; };
+		665C6CBB1F78FBFB00399A6E /* UPFuturesTradeInputCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = UPFuturesTradeInputCell.xib; sourceTree = "<group>"; };
+		665C6CBC1F78FBFB00399A6E /* UPFuturesTradeLoginFooterView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UPFuturesTradeLoginFooterView.h; sourceTree = "<group>"; };
+		665C6CBD1F78FBFB00399A6E /* UPFuturesTradeLoginFooterView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UPFuturesTradeLoginFooterView.m; sourceTree = "<group>"; };
+		665C6CBE1F78FBFB00399A6E /* UPFuturesTradeLoginFooterView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = UPFuturesTradeLoginFooterView.xib; sourceTree = "<group>"; };
+		665C6CBF1F78FBFB00399A6E /* UPFuturesTradeLoginFrontViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UPFuturesTradeLoginFrontViewController.h; sourceTree = "<group>"; };
+		665C6CC01F78FBFB00399A6E /* UPFuturesTradeLoginFrontViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UPFuturesTradeLoginFrontViewController.m; sourceTree = "<group>"; };
+		665C6CC11F78FBFB00399A6E /* UPFuturesTradeLoginFrontViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = UPFuturesTradeLoginFrontViewController.xib; sourceTree = "<group>"; };
+		665C6CC21F78FBFB00399A6E /* UPFuturesTradeLoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UPFuturesTradeLoginViewController.h; sourceTree = "<group>"; };
+		665C6CC31F78FBFB00399A6E /* UPFuturesTradeLoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UPFuturesTradeLoginViewController.m; sourceTree = "<group>"; };
+		665C6CC41F78FBFB00399A6E /* UPFuturesTradeLoginViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = UPFuturesTradeLoginViewController.xib; sourceTree = "<group>"; };
+		665C6CC61F78FBFB00399A6E /* UPFuturesTradeBlocks.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UPFuturesTradeBlocks.h; sourceTree = "<group>"; };
+		665C6CC71F78FBFB00399A6E /* UPFuturesTradeColor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UPFuturesTradeColor.h; sourceTree = "<group>"; };
+		665C6CC81F78FBFB00399A6E /* UPFuturesTradeDefault.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UPFuturesTradeDefault.h; sourceTree = "<group>"; };
+		665C6CC91F78FBFB00399A6E /* UPFuturesTradeMacros.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UPFuturesTradeMacros.h; sourceTree = "<group>"; };
+		665C6CCA1F78FBFB00399A6E /* UPFuturesTradeTypes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UPFuturesTradeTypes.h; sourceTree = "<group>"; };
+		665C6CCB1F78FBFB00399A6E /* UPFuturesTradeValidation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UPFuturesTradeValidation.h; sourceTree = "<group>"; };
+		665C6CCC1F78FBFB00399A6E /* UPFuturesTradeWeakStrong.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UPFuturesTradeWeakStrong.h; sourceTree = "<group>"; };
+		665C6CCD1F78FBFB00399A6E /* UPFutursTradeDimens.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UPFutursTradeDimens.h; sourceTree = "<group>"; };
+		665C6CD01F78FBFB00399A6E /* UPFuturesTradeAccountViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UPFuturesTradeAccountViewController.h; sourceTree = "<group>"; };
+		665C6CD11F78FBFB00399A6E /* UPFuturesTradeAccountViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UPFuturesTradeAccountViewController.m; sourceTree = "<group>"; };
+		665C6CD21F78FBFB00399A6E /* UPFuturesTradeAccountViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = UPFuturesTradeAccountViewController.xib; sourceTree = "<group>"; };
+		665C6CD31F78FBFB00399A6E /* UPFuturesTradeBaseBusinessViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UPFuturesTradeBaseBusinessViewController.h; sourceTree = "<group>"; };
+		665C6CD41F78FBFB00399A6E /* UPFuturesTradeBaseBusinessViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UPFuturesTradeBaseBusinessViewController.m; sourceTree = "<group>"; };
+		665C6CD51F78FBFB00399A6E /* UPFuturesTradeBaseBusinessViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = UPFuturesTradeBaseBusinessViewController.xib; sourceTree = "<group>"; };
+		665C6CD61F78FBFB00399A6E /* UPFuturesTradeMainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UPFuturesTradeMainViewController.h; sourceTree = "<group>"; };
+		665C6CD71F78FBFB00399A6E /* UPFuturesTradeMainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UPFuturesTradeMainViewController.m; sourceTree = "<group>"; };
+		665C6CD81F78FBFB00399A6E /* UPFuturesTradeMainViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = UPFuturesTradeMainViewController.xib; sourceTree = "<group>"; };
+		665C6CDA1F78FBFB00399A6E /* GoldTradeKeyBoard.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GoldTradeKeyBoard.h; sourceTree = "<group>"; };
+		665C6CDB1F78FBFB00399A6E /* GoldTradeKeyBoard.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GoldTradeKeyBoard.m; sourceTree = "<group>"; };
+		665C6CDC1F78FBFB00399A6E /* UPFuturesTradeTabView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UPFuturesTradeTabView.h; sourceTree = "<group>"; };
+		665C6CDD1F78FBFB00399A6E /* UPFuturesTradeTabView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UPFuturesTradeTabView.m; sourceTree = "<group>"; };
+		665C6CDE1F78FBFB00399A6E /* UPFuturesTradeUIDatePickerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UPFuturesTradeUIDatePickerView.h; sourceTree = "<group>"; };
+		665C6CDF1F78FBFB00399A6E /* UPFuturesTradeUIDatePickerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UPFuturesTradeUIDatePickerView.m; sourceTree = "<group>"; };
+		665C6CE01F78FBFB00399A6E /* UPGoldTradeTextField.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UPGoldTradeTextField.h; sourceTree = "<group>"; };
+		665C6CE11F78FBFB00399A6E /* UPGoldTradeTextField.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UPGoldTradeTextField.m; sourceTree = "<group>"; };
+		665C6CE31F78FBFB00399A6E /* UPFuturesTradeManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UPFuturesTradeManager.h; sourceTree = "<group>"; };
+		665C6CE41F78FBFB00399A6E /* UPFuturesTradeManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UPFuturesTradeManager.m; sourceTree = "<group>"; };
+		665C6CE71F78FBFB00399A6E /* UPFuturesTradePositionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UPFuturesTradePositionViewController.h; sourceTree = "<group>"; };
+		665C6CE81F78FBFB00399A6E /* UPFuturesTradePositionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UPFuturesTradePositionViewController.m; sourceTree = "<group>"; };
+		665C6CE91F78FBFB00399A6E /* UPFuturesTradePositionViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = UPFuturesTradePositionViewController.xib; sourceTree = "<group>"; };
+		665C6CEC1F78FBFB00399A6E /* UPFuturesTradePositionHeaderView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UPFuturesTradePositionHeaderView.h; sourceTree = "<group>"; };
+		665C6CED1F78FBFB00399A6E /* UPFuturesTradePositionHeaderView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UPFuturesTradePositionHeaderView.m; sourceTree = "<group>"; };
+		665C6CEE1F78FBFB00399A6E /* UPFuturesTradePositionHeaderView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = UPFuturesTradePositionHeaderView.xib; sourceTree = "<group>"; };
+		665C6CEF1F78FBFB00399A6E /* UPFuturesTradePositionTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UPFuturesTradePositionTableViewCell.h; sourceTree = "<group>"; };
+		665C6CF01F78FBFB00399A6E /* UPFuturesTradePositionTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UPFuturesTradePositionTableViewCell.m; sourceTree = "<group>"; };
+		665C6CF11F78FBFB00399A6E /* UPFuturesTradePositionTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = UPFuturesTradePositionTableViewCell.xib; sourceTree = "<group>"; };
+		665C6CF41F78FBFB00399A6E /* UPFuturesTradeFundStatusViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UPFuturesTradeFundStatusViewController.h; sourceTree = "<group>"; };
+		665C6CF51F78FBFB00399A6E /* UPFuturesTradeFundStatusViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UPFuturesTradeFundStatusViewController.m; sourceTree = "<group>"; };
+		665C6CF61F78FBFB00399A6E /* UPFuturesTradeFundStatusViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = UPFuturesTradeFundStatusViewController.xib; sourceTree = "<group>"; };
+		665C6CF71F78FBFB00399A6E /* UPFuturesTradeQueryViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UPFuturesTradeQueryViewController.h; sourceTree = "<group>"; };
+		665C6CF81F78FBFB00399A6E /* UPFuturesTradeQueryViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UPFuturesTradeQueryViewController.m; sourceTree = "<group>"; };
+		665C6CF91F78FBFB00399A6E /* UPFuturesTradeQueryViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = UPFuturesTradeQueryViewController.xib; sourceTree = "<group>"; };
+		665C6CFC1F78FBFB00399A6E /* UPFuturesTradeChooseDateView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UPFuturesTradeChooseDateView.h; sourceTree = "<group>"; };
+		665C6CFD1F78FBFB00399A6E /* UPFuturesTradeChooseDateView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UPFuturesTradeChooseDateView.m; sourceTree = "<group>"; };
+		665C6CFE1F78FBFB00399A6E /* UPFuturesTradeChooseDateView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = UPFuturesTradeChooseDateView.xib; sourceTree = "<group>"; };
+		665C6CFF1F78FBFB00399A6E /* UPFuturesTradeFundStatusCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UPFuturesTradeFundStatusCell.h; sourceTree = "<group>"; };
+		665C6D001F78FBFB00399A6E /* UPFuturesTradeFundStatusCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UPFuturesTradeFundStatusCell.m; sourceTree = "<group>"; };
+		665C6D011F78FBFB00399A6E /* UPFuturesTradeFundStatusCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = UPFuturesTradeFundStatusCell.xib; sourceTree = "<group>"; };
+		665C6D021F78FBFB00399A6E /* UPFuturesTradeFundStatusSectionHeaderView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UPFuturesTradeFundStatusSectionHeaderView.h; sourceTree = "<group>"; };
+		665C6D031F78FBFB00399A6E /* UPFuturesTradeFundStatusSectionHeaderView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UPFuturesTradeFundStatusSectionHeaderView.m; sourceTree = "<group>"; };
+		665C6D041F78FBFB00399A6E /* UPFuturesTradeFundStatusSectionHeaderView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = UPFuturesTradeFundStatusSectionHeaderView.xib; sourceTree = "<group>"; };
+		665C6D051F78FBFB00399A6E /* UPFuturesTradeQueryCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UPFuturesTradeQueryCell.h; sourceTree = "<group>"; };
+		665C6D061F78FBFB00399A6E /* UPFuturesTradeQueryCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UPFuturesTradeQueryCell.m; sourceTree = "<group>"; };
+		665C6D071F78FBFB00399A6E /* UPFuturesTradeQueryCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = UPFuturesTradeQueryCell.xib; sourceTree = "<group>"; };
+		665C6D0A1F78FBFB00399A6E /* UPFuturesTradeTradeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UPFuturesTradeTradeViewController.h; sourceTree = "<group>"; };
+		665C6D0B1F78FBFB00399A6E /* UPFuturesTradeTradeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UPFuturesTradeTradeViewController.m; sourceTree = "<group>"; };
+		665C6D0C1F78FBFB00399A6E /* UPFuturesTradeTradeViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = UPFuturesTradeTradeViewController.xib; sourceTree = "<group>"; };
+		665C6D111F78FBFB00399A6E /* UPFuturesTradeTransferInViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UPFuturesTradeTransferInViewController.h; sourceTree = "<group>"; };
+		665C6D121F78FBFB00399A6E /* UPFuturesTradeTransferInViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UPFuturesTradeTransferInViewController.m; sourceTree = "<group>"; };
+		665C6D131F78FBFB00399A6E /* UPFuturesTradeTransferInViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = UPFuturesTradeTransferInViewController.xib; sourceTree = "<group>"; };
+		665C6D141F78FBFB00399A6E /* UPFuturesTradeTransferMainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UPFuturesTradeTransferMainViewController.h; sourceTree = "<group>"; };
+		665C6D151F78FBFB00399A6E /* UPFuturesTradeTransferMainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UPFuturesTradeTransferMainViewController.m; sourceTree = "<group>"; };
+		665C6D161F78FBFB00399A6E /* UPFuturesTradeTransferMainViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = UPFuturesTradeTransferMainViewController.xib; sourceTree = "<group>"; };
+		665C6D171F78FBFB00399A6E /* UPFuturesTradeTransferOutViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UPFuturesTradeTransferOutViewController.h; sourceTree = "<group>"; };
+		665C6D181F78FBFB00399A6E /* UPFuturesTradeTransferOutViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UPFuturesTradeTransferOutViewController.m; sourceTree = "<group>"; };
+		665C6D191F78FBFB00399A6E /* UPFuturesTradeTransferOutViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = UPFuturesTradeTransferOutViewController.xib; sourceTree = "<group>"; };
+		665C6D1A1F78FBFB00399A6E /* UPFuturesTradeTransferSerialViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UPFuturesTradeTransferSerialViewController.h; sourceTree = "<group>"; };
+		665C6D1B1F78FBFB00399A6E /* UPFuturesTradeTransferSerialViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UPFuturesTradeTransferSerialViewController.m; sourceTree = "<group>"; };
+		665C6D1C1F78FBFB00399A6E /* UPFuturesTradeTransferSerialViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = UPFuturesTradeTransferSerialViewController.xib; sourceTree = "<group>"; };
+		665C6D1F1F78FBFB00399A6E /* UPFuturesTradeTransferSerialCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UPFuturesTradeTransferSerialCell.h; sourceTree = "<group>"; };
+		665C6D201F78FBFB00399A6E /* UPFuturesTradeTransferSerialCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UPFuturesTradeTransferSerialCell.m; sourceTree = "<group>"; };
+		665C6D211F78FBFB00399A6E /* UPFuturesTradeTransferSerialCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = UPFuturesTradeTransferSerialCell.xib; sourceTree = "<group>"; };
+		665C6D221F78FBFB00399A6E /* UPFuturesTradeTransferSerialSectionHeaderView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UPFuturesTradeTransferSerialSectionHeaderView.h; sourceTree = "<group>"; };
+		665C6D231F78FBFB00399A6E /* UPFuturesTradeTransferSerialSectionHeaderView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UPFuturesTradeTransferSerialSectionHeaderView.m; sourceTree = "<group>"; };
+		665C6D241F78FBFB00399A6E /* UPFuturesTradeTransferSerialSectionHeaderView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = UPFuturesTradeTransferSerialSectionHeaderView.xib; sourceTree = "<group>"; };
+		665C6D271F78FBFB00399A6E /* UPFuturesTradeCaculateUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UPFuturesTradeCaculateUtil.h; sourceTree = "<group>"; };
+		665C6D281F78FBFB00399A6E /* UPFuturesTradeCaculateUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UPFuturesTradeCaculateUtil.m; sourceTree = "<group>"; };
+		665C6D2A1F78FBFB00399A6E /* UPFuturesTradeColorUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UPFuturesTradeColorUtil.h; sourceTree = "<group>"; };
+		665C6D2B1F78FBFB00399A6E /* UPFuturesTradeColorUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UPFuturesTradeColorUtil.m; sourceTree = "<group>"; };
+		665C6D2D1F78FBFB00399A6E /* UPBaseDateUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UPBaseDateUtil.h; sourceTree = "<group>"; };
+		665C6D2E1F78FBFB00399A6E /* UPBaseDateUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UPBaseDateUtil.m; sourceTree = "<group>"; };
+		665C6D301F78FBFB00399A6E /* UPValidateManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UPValidateManager.h; sourceTree = "<group>"; };
+		665C6D311F78FBFB00399A6E /* UPValidateManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UPValidateManager.m; sourceTree = "<group>"; };
+		665C6D331F78FBFB00399A6E /* UPFuturesTradeTransferUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UPFuturesTradeTransferUtil.h; sourceTree = "<group>"; };
+		665C6D341F78FBFB00399A6E /* UPFuturesTradeTransferUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UPFuturesTradeTransferUtil.m; sourceTree = "<group>"; };
+		665C6D361F78FBFB00399A6E /* UPFuturesTradeNumberUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UPFuturesTradeNumberUtil.h; sourceTree = "<group>"; };
+		665C6D371F78FBFB00399A6E /* UPFuturesTradeNumberUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UPFuturesTradeNumberUtil.m; sourceTree = "<group>"; };
+		665C6D391F78FBFB00399A6E /* UPFuturesTradeOrderUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UPFuturesTradeOrderUtil.h; sourceTree = "<group>"; };
+		665C6D3A1F78FBFB00399A6E /* UPFuturesTradeOrderUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UPFuturesTradeOrderUtil.m; sourceTree = "<group>"; };
+		665C6D3C1F78FBFB00399A6E /* UPFuturesTradeSearchUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UPFuturesTradeSearchUtil.h; sourceTree = "<group>"; };
+		665C6D3D1F78FBFB00399A6E /* UPFuturesTradeSearchUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UPFuturesTradeSearchUtil.m; sourceTree = "<group>"; };
+		665C6D3F1F78FBFB00399A6E /* UPFuturesTradeStringUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UPFuturesTradeStringUtil.h; sourceTree = "<group>"; };
+		665C6D401F78FBFB00399A6E /* UPFuturesTradeStringUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UPFuturesTradeStringUtil.m; sourceTree = "<group>"; };
+		665C6D431F78FBFB00399A6E /* UPFuturesTradeColor2ImageUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UPFuturesTradeColor2ImageUtil.h; sourceTree = "<group>"; };
+		665C6D441F78FBFB00399A6E /* UPFuturesTradeColor2ImageUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UPFuturesTradeColor2ImageUtil.m; sourceTree = "<group>"; };
+		665C6D461F78FBFB00399A6E /* UPHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UPHUD.h; sourceTree = "<group>"; };
+		665C6D471F78FBFB00399A6E /* UPHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UPHUD.m; sourceTree = "<group>"; };
+		665C6D491F78FBFB00399A6E /* UPFuturesTradeOrderConfirmAlert.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UPFuturesTradeOrderConfirmAlert.h; sourceTree = "<group>"; };
+		665C6D4A1F78FBFB00399A6E /* UPFuturesTradeOrderConfirmAlert.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UPFuturesTradeOrderConfirmAlert.m; sourceTree = "<group>"; };
+		665C6D4D1F78FBFB00399A6E /* bank_01@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "bank_01@2x.png"; sourceTree = "<group>"; };
+		665C6D4E1F78FBFB00399A6E /* bank_02@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "bank_02@2x.png"; sourceTree = "<group>"; };
+		665C6D4F1F78FBFB00399A6E /* bank_03@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "bank_03@2x.png"; sourceTree = "<group>"; };
+		665C6D501F78FBFB00399A6E /* bank_04@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "bank_04@2x.png"; sourceTree = "<group>"; };
+		665C6D511F78FBFB00399A6E /* bank_05@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "bank_05@2x.png"; sourceTree = "<group>"; };
+		665C6D521F78FBFB00399A6E /* bank_06@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "bank_06@2x.png"; sourceTree = "<group>"; };
+		665C6D531F78FBFB00399A6E /* bank_07@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "bank_07@2x.png"; sourceTree = "<group>"; };
+		665C6D541F78FBFB00399A6E /* bank_08@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "bank_08@2x.png"; sourceTree = "<group>"; };
+		665C6D551F78FBFB00399A6E /* bank_09@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "bank_09@2x.png"; sourceTree = "<group>"; };
+		665C6D561F78FBFB00399A6E /* bank_10@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "bank_10@2x.png"; sourceTree = "<group>"; };
+		665C6D571F78FBFB00399A6E /* bank_11@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "bank_11@2x.png"; sourceTree = "<group>"; };
+		665C6D581F78FBFB00399A6E /* bank_12@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "bank_12@2x.png"; sourceTree = "<group>"; };
+		665C6D591F78FBFB00399A6E /* bank_13@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "bank_13@2x.png"; sourceTree = "<group>"; };
+		665C6D5A1F78FBFB00399A6E /* bank_14@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "bank_14@2x.png"; sourceTree = "<group>"; };
+		665C6D5B1F78FBFB00399A6E /* bank_15@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "bank_15@2x.png"; sourceTree = "<group>"; };
+		665C6D5C1F78FBFB00399A6E /* bank_16@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "bank_16@2x.png"; sourceTree = "<group>"; };
+		665C6D5D1F78FBFB00399A6E /* bank_17@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "bank_17@2x.png"; sourceTree = "<group>"; };
+		665C6D5E1F78FBFB00399A6E /* bank_18@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "bank_18@2x.png"; sourceTree = "<group>"; };
+		665C6D5F1F78FBFB00399A6E /* emotion_del_normal@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "emotion_del_normal@2x.png"; sourceTree = "<group>"; };
+		665C6D601F78FBFB00399A6E /* futures_trade_01@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "futures_trade_01@2x.png"; sourceTree = "<group>"; };
+		665C6D611F78FBFB00399A6E /* futures_trade_01@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "futures_trade_01@3x.png"; sourceTree = "<group>"; };
+		665C6D621F78FBFB00399A6E /* futures_trade_02@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "futures_trade_02@2x.png"; sourceTree = "<group>"; };
+		665C6D631F78FBFB00399A6E /* futures_trade_02@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "futures_trade_02@3x.png"; sourceTree = "<group>"; };
+		665C6D641F78FBFB00399A6E /* futures_trade_03@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "futures_trade_03@2x.png"; sourceTree = "<group>"; };
+		665C6D651F78FBFB00399A6E /* futures_trade_03@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "futures_trade_03@3x.png"; sourceTree = "<group>"; };
+		665C6D661F78FBFB00399A6E /* futures_trade_04@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "futures_trade_04@2x.png"; sourceTree = "<group>"; };
+		665C6D671F78FBFB00399A6E /* futures_trade_04@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "futures_trade_04@3x.png"; sourceTree = "<group>"; };
+		665C6D681F78FBFB00399A6E /* futures_trade_05@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "futures_trade_05@2x.png"; sourceTree = "<group>"; };
+		665C6D691F78FBFB00399A6E /* futures_trade_05@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "futures_trade_05@3x.png"; sourceTree = "<group>"; };
+		665C6D6A1F78FBFB00399A6E /* futures_trade_06@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "futures_trade_06@2x.png"; sourceTree = "<group>"; };
+		665C6D6B1F78FBFB00399A6E /* futures_trade_06@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "futures_trade_06@3x.png"; sourceTree = "<group>"; };
+		665C6D6C1F78FBFB00399A6E /* futures_trade_07@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "futures_trade_07@2x.png"; sourceTree = "<group>"; };
+		665C6D6D1F78FBFB00399A6E /* futures_trade_07@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "futures_trade_07@3x.png"; sourceTree = "<group>"; };
+		665C6D6E1F78FBFB00399A6E /* futures_trade_08@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "futures_trade_08@2x.png"; sourceTree = "<group>"; };
+		665C6D6F1F78FBFB00399A6E /* futures_trade_08@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "futures_trade_08@3x.png"; sourceTree = "<group>"; };
+		665C6D701F78FBFB00399A6E /* futures_trade_09@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "futures_trade_09@2x.png"; sourceTree = "<group>"; };
+		665C6D711F78FBFB00399A6E /* futures_trade_09@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "futures_trade_09@3x.png"; sourceTree = "<group>"; };
+		665C6D721F78FBFB00399A6E /* futures_trade_10@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "futures_trade_10@2x.png"; sourceTree = "<group>"; };
+		665C6D731F78FBFB00399A6E /* futures_trade_10@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "futures_trade_10@3x.png"; sourceTree = "<group>"; };
+		665C6D741F78FBFB00399A6E /* futures_trade_back@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "futures_trade_back@2x.png"; sourceTree = "<group>"; };
+		665C6D751F78FBFB00399A6E /* icon_arrow@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon_arrow@2x.png"; sourceTree = "<group>"; };
+		665C6D761F78FBFB00399A6E /* icon_arrow@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon_arrow@3x.png"; sourceTree = "<group>"; };
+		665C6D771F78FBFB00399A6E /* icon_select_default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon_select_default@2x.png"; sourceTree = "<group>"; };
+		665C6D781F78FBFB00399A6E /* icon_select_default@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon_select_default@3x.png"; sourceTree = "<group>"; };
+		665C6D791F78FBFB00399A6E /* keybord_img.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = keybord_img.png; sourceTree = "<group>"; };
+		665C6D7C1F78FBFB00399A6E /* UPFuturesTradeProgressHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UPFuturesTradeProgressHUD.h; sourceTree = "<group>"; };
+		665C6D7D1F78FBFB00399A6E /* UPFuturesTradeProgressHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UPFuturesTradeProgressHUD.m; sourceTree = "<group>"; };
+		665C6D801F78FBFB00399A6E /* UPFuturesTradeRefreshAutoFooter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UPFuturesTradeRefreshAutoFooter.h; sourceTree = "<group>"; };
+		665C6D811F78FBFB00399A6E /* UPFuturesTradeRefreshAutoFooter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UPFuturesTradeRefreshAutoFooter.m; sourceTree = "<group>"; };
+		665C6D821F78FBFB00399A6E /* UPFuturesTradeRefreshBackFooter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UPFuturesTradeRefreshBackFooter.h; sourceTree = "<group>"; };
+		665C6D831F78FBFB00399A6E /* UPFuturesTradeRefreshBackFooter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UPFuturesTradeRefreshBackFooter.m; sourceTree = "<group>"; };
+		665C6D841F78FBFB00399A6E /* UPFuturesTradeRefreshComponent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UPFuturesTradeRefreshComponent.h; sourceTree = "<group>"; };
+		665C6D851F78FBFB00399A6E /* UPFuturesTradeRefreshComponent.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UPFuturesTradeRefreshComponent.m; sourceTree = "<group>"; };
+		665C6D861F78FBFB00399A6E /* UPFuturesTradeRefreshFooter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UPFuturesTradeRefreshFooter.h; sourceTree = "<group>"; };
+		665C6D871F78FBFB00399A6E /* UPFuturesTradeRefreshFooter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UPFuturesTradeRefreshFooter.m; sourceTree = "<group>"; };
+		665C6D881F78FBFB00399A6E /* UPFuturesTradeRefreshHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UPFuturesTradeRefreshHeader.h; sourceTree = "<group>"; };
+		665C6D891F78FBFB00399A6E /* UPFuturesTradeRefreshHeader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UPFuturesTradeRefreshHeader.m; sourceTree = "<group>"; };
+		665C6D8D1F78FBFB00399A6E /* UPFuturesTradeRefreshAutoGifFooter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UPFuturesTradeRefreshAutoGifFooter.h; sourceTree = "<group>"; };
+		665C6D8E1F78FBFB00399A6E /* UPFuturesTradeRefreshAutoGifFooter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UPFuturesTradeRefreshAutoGifFooter.m; sourceTree = "<group>"; };
+		665C6D8F1F78FBFB00399A6E /* UPFuturesTradeRefreshAutoNormalFooter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UPFuturesTradeRefreshAutoNormalFooter.h; sourceTree = "<group>"; };
+		665C6D901F78FBFB00399A6E /* UPFuturesTradeRefreshAutoNormalFooter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UPFuturesTradeRefreshAutoNormalFooter.m; sourceTree = "<group>"; };
+		665C6D911F78FBFB00399A6E /* UPFuturesTradeRefreshAutoStateFooter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UPFuturesTradeRefreshAutoStateFooter.h; sourceTree = "<group>"; };
+		665C6D921F78FBFB00399A6E /* UPFuturesTradeRefreshAutoStateFooter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UPFuturesTradeRefreshAutoStateFooter.m; sourceTree = "<group>"; };
+		665C6D941F78FBFB00399A6E /* UPFuturesTradeRefreshBackGifFooter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UPFuturesTradeRefreshBackGifFooter.h; sourceTree = "<group>"; };
+		665C6D951F78FBFB00399A6E /* UPFuturesTradeRefreshBackGifFooter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UPFuturesTradeRefreshBackGifFooter.m; sourceTree = "<group>"; };
+		665C6D961F78FBFB00399A6E /* UPFuturesTradeRefreshBackNormalFooter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UPFuturesTradeRefreshBackNormalFooter.h; sourceTree = "<group>"; };
+		665C6D971F78FBFB00399A6E /* UPFuturesTradeRefreshBackNormalFooter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UPFuturesTradeRefreshBackNormalFooter.m; sourceTree = "<group>"; };
+		665C6D981F78FBFB00399A6E /* UPFuturesTradeRefreshBackStateFooter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UPFuturesTradeRefreshBackStateFooter.h; sourceTree = "<group>"; };
+		665C6D991F78FBFB00399A6E /* UPFuturesTradeRefreshBackStateFooter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UPFuturesTradeRefreshBackStateFooter.m; sourceTree = "<group>"; };
+		665C6D9B1F78FBFB00399A6E /* UPFuturesTradeRefreshGifHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UPFuturesTradeRefreshGifHeader.h; sourceTree = "<group>"; };
+		665C6D9C1F78FBFB00399A6E /* UPFuturesTradeRefreshGifHeader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UPFuturesTradeRefreshGifHeader.m; sourceTree = "<group>"; };
+		665C6D9D1F78FBFB00399A6E /* UPFuturesTradeRefreshNormalHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UPFuturesTradeRefreshNormalHeader.h; sourceTree = "<group>"; };
+		665C6D9E1F78FBFB00399A6E /* UPFuturesTradeRefreshNormalHeader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UPFuturesTradeRefreshNormalHeader.m; sourceTree = "<group>"; };
+		665C6D9F1F78FBFB00399A6E /* UPFuturesTradeRefreshStateHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UPFuturesTradeRefreshStateHeader.h; sourceTree = "<group>"; };
+		665C6DA01F78FBFB00399A6E /* UPFuturesTradeRefreshStateHeader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UPFuturesTradeRefreshStateHeader.m; sourceTree = "<group>"; };
+		665C6DA11F78FBFB00399A6E /* NSBundle+UPFuturesTradeRefresh.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSBundle+UPFuturesTradeRefresh.h"; sourceTree = "<group>"; };
+		665C6DA21F78FBFB00399A6E /* NSBundle+UPFuturesTradeRefresh.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSBundle+UPFuturesTradeRefresh.m"; sourceTree = "<group>"; };
+		665C6DA41F78FBFB00399A6E /* UPFuturesTradeRefresh_arrow@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "UPFuturesTradeRefresh_arrow@2x.png"; sourceTree = "<group>"; };
+		665C6DA61F78FBFB00399A6E /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/Localizable.strings"; sourceTree = "<group>"; };
+		665C6DA71F78FBFB00399A6E /* UIScrollView+UPFuturesTradeExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIScrollView+UPFuturesTradeExtension.h"; sourceTree = "<group>"; };
+		665C6DA81F78FBFB00399A6E /* UIScrollView+UPFuturesTradeExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIScrollView+UPFuturesTradeExtension.m"; sourceTree = "<group>"; };
+		665C6DA91F78FBFB00399A6E /* UIScrollView+UPFuturesTradeRefresh.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIScrollView+UPFuturesTradeRefresh.h"; sourceTree = "<group>"; };
+		665C6DAA1F78FBFB00399A6E /* UIScrollView+UPFuturesTradeRefresh.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIScrollView+UPFuturesTradeRefresh.m"; sourceTree = "<group>"; };
+		665C6DAB1F78FBFB00399A6E /* UIView+UPFuturesTradeExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+UPFuturesTradeExtension.h"; sourceTree = "<group>"; };
+		665C6DAC1F78FBFB00399A6E /* UIView+UPFuturesTradeExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+UPFuturesTradeExtension.m"; sourceTree = "<group>"; };
+		665C6DAE1F78FBFB00399A6E /* UPFuturesTradeRefresh.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UPFuturesTradeRefresh.h; sourceTree = "<group>"; };
+		665C6DAF1F78FBFB00399A6E /* UPFuturesTradeRefreshConst.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UPFuturesTradeRefreshConst.h; sourceTree = "<group>"; };
+		665C6DB01F78FBFB00399A6E /* UPFuturesTradeRefreshConst.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UPFuturesTradeRefreshConst.m; sourceTree = "<group>"; };
+		665C6ED71F78FE5200399A6E /* FuturesTradeBundle.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FuturesTradeBundle.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		665C6ED91F78FE5200399A6E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		665C6FDD1F7926BA00399A6E /* FuturesTradeSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FuturesTradeSDK.framework; path = ../FuturesTradeSDK/FuturesTradeSDK.framework; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		665C6C701F78FBD500399A6E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				665C6FDE1F7926BA00399A6E /* FuturesTradeSDK.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		665C6ED41F78FE5200399A6E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		665C6C6A1F78FBD500399A6E = {
+			isa = PBXGroup;
+			children = (
+				665C6C761F78FBD500399A6E /* FuturesTrade */,
+				665C6ED81F78FE5200399A6E /* FuturesTradeBundle */,
+				665C6C751F78FBD500399A6E /* Products */,
+				665C6F4C1F78FF9400399A6E /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		665C6C751F78FBD500399A6E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				665C6C741F78FBD500399A6E /* FuturesTrade.framework */,
+				665C6ED71F78FE5200399A6E /* FuturesTradeBundle.bundle */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		665C6C761F78FBD500399A6E /* FuturesTrade */ = {
+			isa = PBXGroup;
+			children = (
+				665C6C7F1F78FBFB00399A6E /* FutureTrade */,
+				665C6C771F78FBD500399A6E /* FuturesTrade.h */,
+				665C6C781F78FBD500399A6E /* Info.plist */,
+			);
+			path = FuturesTrade;
+			sourceTree = "<group>";
+		};
+		665C6C7F1F78FBFB00399A6E /* FutureTrade */ = {
+			isa = PBXGroup;
+			children = (
+				665C6C801F78FBFB00399A6E /* Classes */,
+				665C6D4B1F78FBFB00399A6E /* Resource */,
+				665C6D7A1F78FBFB00399A6E /* Vender */,
+			);
+			path = FutureTrade;
+			sourceTree = "<group>";
+		};
+		665C6C801F78FBFB00399A6E /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				665C6CC51F78FBFB00399A6E /* Macros */,
+				665C6C811F78FBFB00399A6E /* Base */,
+				665C6CE21F78FBFB00399A6E /* Manager */,
+				665C6C881F78FBFB00399A6E /* Business */,
+				665C6CB11F78FBFB00399A6E /* Delegate */,
+				665C6CB81F78FBFB00399A6E /* Login */,
+				665C6CCE1F78FBFB00399A6E /* Main */,
+				665C6CE51F78FBFB00399A6E /* Position */,
+				665C6CF21F78FBFB00399A6E /* Query */,
+				665C6D081F78FBFB00399A6E /* Trade */,
+				665C6D0F1F78FBFB00399A6E /* Transfer */,
+				665C6D251F78FBFB00399A6E /* Utils */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		665C6C811F78FBFB00399A6E /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				665C6C821F78FBFB00399A6E /* UPFuturesTradeBaseTableViewCell.h */,
+				665C6C831F78FBFB00399A6E /* UPFuturesTradeBaseTableViewCell.m */,
+				665C6C841F78FBFB00399A6E /* UPFuturesTradeBaseView.h */,
+				665C6C851F78FBFB00399A6E /* UPFuturesTradeBaseView.m */,
+				665C6C861F78FBFB00399A6E /* UPFuturesTradeBaseViewController.h */,
+				665C6C871F78FBFB00399A6E /* UPFuturesTradeBaseViewController.m */,
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
+		665C6C881F78FBFB00399A6E /* Business */ = {
+			isa = PBXGroup;
+			children = (
+				665C6C891F78FBFB00399A6E /* Controller */,
+				665C6C8D1F78FBFB00399A6E /* Model */,
+				665C6C921F78FBFB00399A6E /* View */,
+			);
+			path = Business;
+			sourceTree = "<group>";
+		};
+		665C6C891F78FBFB00399A6E /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				665C6C8A1F78FBFB00399A6E /* UPFuturesTradeBusinessMainViewController.h */,
+				665C6C8B1F78FBFB00399A6E /* UPFuturesTradeBusinessMainViewController.m */,
+				665C6C8C1F78FBFB00399A6E /* UPFuturesTradeBusinessMainViewController.xib */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		665C6C8D1F78FBFB00399A6E /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				665C6C8E1F78FBFB00399A6E /* UPFuturesTradeOrderActionModel.h */,
+				665C6C8F1F78FBFB00399A6E /* UPFuturesTradeOrderActionModel.m */,
+				665C6C901F78FBFB00399A6E /* UPFuturesTradeOrderModel.h */,
+				665C6C911F78FBFB00399A6E /* UPFuturesTradeOrderModel.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		665C6C921F78FBFB00399A6E /* View */ = {
+			isa = PBXGroup;
+			children = (
+				665C6C931F78FBFB00399A6E /* UPFuturesTradeBusinessHeaderView.h */,
+				665C6C941F78FBFB00399A6E /* UPFuturesTradeBusinessHeaderView.m */,
+				665C6C951F78FBFB00399A6E /* UPFuturesTradeBusinessHeaderView.xib */,
+				665C6C961F78FBFB00399A6E /* UPFuturesTradeBusinessView.h */,
+				665C6C971F78FBFB00399A6E /* UPFuturesTradeBusinessView.m */,
+				665C6C981F78FBFB00399A6E /* UPFuturesTradeBusinessView.xib */,
+				665C6C991F78FBFB00399A6E /* UPFuturesTradeOrderCell.h */,
+				665C6C9A1F78FBFB00399A6E /* UPFuturesTradeOrderCell.m */,
+				665C6C9B1F78FBFB00399A6E /* UPFuturesTradeOrderCell.xib */,
+				665C6C9C1F78FBFB00399A6E /* UPFuturesTradeOrderHeaderCell.h */,
+				665C6C9D1F78FBFB00399A6E /* UPFuturesTradeOrderHeaderCell.m */,
+				665C6C9E1F78FBFB00399A6E /* UPFuturesTradeOrderHeaderCell.xib */,
+				665C6C9F1F78FBFB00399A6E /* UPFuturesTradePositionCell.h */,
+				665C6CA01F78FBFB00399A6E /* UPFuturesTradePositionCell.m */,
+				665C6CA11F78FBFB00399A6E /* UPFuturesTradePositionCell.xib */,
+				665C6CA21F78FBFB00399A6E /* UPFuturesTradePositionHeaderCell.h */,
+				665C6CA31F78FBFB00399A6E /* UPFuturesTradePositionHeaderCell.m */,
+				665C6CA41F78FBFB00399A6E /* UPFuturesTradePositionHeaderCell.xib */,
+				665C6CA51F78FBFB00399A6E /* UPFuturesTradeVarietyCollectionCell.h */,
+				665C6CA61F78FBFB00399A6E /* UPFuturesTradeVarietyCollectionCell.m */,
+				665C6CA71F78FBFB00399A6E /* UPFuturesTradeVarietyCollectionCell.xib */,
+				665C6CA81F78FBFB00399A6E /* UPFuturesTradeVarietyInfoView.h */,
+				665C6CA91F78FBFB00399A6E /* UPFuturesTradeVarietyInfoView.m */,
+				665C6CAA1F78FBFB00399A6E /* UPFuturesTradeVarietyInfoView.xib */,
+				665C6CAB1F78FBFB00399A6E /* UPFuturesTradeVarietyKeyBoard.h */,
+				665C6CAC1F78FBFB00399A6E /* UPFuturesTradeVarietyKeyBoard.m */,
+				665C6CAD1F78FBFB00399A6E /* UPFuturesTradeVarietyKeyBoard.xib */,
+				665C6CAE1F78FBFB00399A6E /* UPFuturesTradeVarietyKeyBoardCell.h */,
+				665C6CAF1F78FBFB00399A6E /* UPFuturesTradeVarietyKeyBoardCell.m */,
+				665C6CB01F78FBFB00399A6E /* UPFuturesTradeVarietyKeyBoardCell.xib */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		665C6CB11F78FBFB00399A6E /* Delegate */ = {
+			isa = PBXGroup;
+			children = (
+				665C6CB21F78FBFB00399A6E /* Controller */,
+				665C6CB61F78FBFB00399A6E /* Model */,
+				665C6CB71F78FBFB00399A6E /* View */,
+			);
+			path = Delegate;
+			sourceTree = "<group>";
+		};
+		665C6CB21F78FBFB00399A6E /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				665C6CB31F78FBFB00399A6E /* UPFuturesTradeOrderViewController.h */,
+				665C6CB41F78FBFB00399A6E /* UPFuturesTradeOrderViewController.m */,
+				665C6CB51F78FBFB00399A6E /* UPFuturesTradeOrderViewController.xib */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		665C6CB61F78FBFB00399A6E /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		665C6CB71F78FBFB00399A6E /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		665C6CB81F78FBFB00399A6E /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				665C6CB91F78FBFB00399A6E /* UPFuturesTradeInputCell.h */,
+				665C6CBA1F78FBFB00399A6E /* UPFuturesTradeInputCell.m */,
+				665C6CBB1F78FBFB00399A6E /* UPFuturesTradeInputCell.xib */,
+				665C6CBC1F78FBFB00399A6E /* UPFuturesTradeLoginFooterView.h */,
+				665C6CBD1F78FBFB00399A6E /* UPFuturesTradeLoginFooterView.m */,
+				665C6CBE1F78FBFB00399A6E /* UPFuturesTradeLoginFooterView.xib */,
+				665C6CBF1F78FBFB00399A6E /* UPFuturesTradeLoginFrontViewController.h */,
+				665C6CC01F78FBFB00399A6E /* UPFuturesTradeLoginFrontViewController.m */,
+				665C6CC11F78FBFB00399A6E /* UPFuturesTradeLoginFrontViewController.xib */,
+				665C6CC21F78FBFB00399A6E /* UPFuturesTradeLoginViewController.h */,
+				665C6CC31F78FBFB00399A6E /* UPFuturesTradeLoginViewController.m */,
+				665C6CC41F78FBFB00399A6E /* UPFuturesTradeLoginViewController.xib */,
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
+		665C6CC51F78FBFB00399A6E /* Macros */ = {
+			isa = PBXGroup;
+			children = (
+				665C6CC61F78FBFB00399A6E /* UPFuturesTradeBlocks.h */,
+				665C6CC71F78FBFB00399A6E /* UPFuturesTradeColor.h */,
+				665C6CC81F78FBFB00399A6E /* UPFuturesTradeDefault.h */,
+				665C6CC91F78FBFB00399A6E /* UPFuturesTradeMacros.h */,
+				665C6CCA1F78FBFB00399A6E /* UPFuturesTradeTypes.h */,
+				665C6CCB1F78FBFB00399A6E /* UPFuturesTradeValidation.h */,
+				665C6CCC1F78FBFB00399A6E /* UPFuturesTradeWeakStrong.h */,
+				665C6CCD1F78FBFB00399A6E /* UPFutursTradeDimens.h */,
+			);
+			path = Macros;
+			sourceTree = "<group>";
+		};
+		665C6CCE1F78FBFB00399A6E /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				665C6CCF1F78FBFB00399A6E /* Controller */,
+				665C6CD91F78FBFB00399A6E /* View */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		665C6CCF1F78FBFB00399A6E /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				665C6CD01F78FBFB00399A6E /* UPFuturesTradeAccountViewController.h */,
+				665C6CD11F78FBFB00399A6E /* UPFuturesTradeAccountViewController.m */,
+				665C6CD21F78FBFB00399A6E /* UPFuturesTradeAccountViewController.xib */,
+				665C6CD31F78FBFB00399A6E /* UPFuturesTradeBaseBusinessViewController.h */,
+				665C6CD41F78FBFB00399A6E /* UPFuturesTradeBaseBusinessViewController.m */,
+				665C6CD51F78FBFB00399A6E /* UPFuturesTradeBaseBusinessViewController.xib */,
+				665C6CD61F78FBFB00399A6E /* UPFuturesTradeMainViewController.h */,
+				665C6CD71F78FBFB00399A6E /* UPFuturesTradeMainViewController.m */,
+				665C6CD81F78FBFB00399A6E /* UPFuturesTradeMainViewController.xib */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		665C6CD91F78FBFB00399A6E /* View */ = {
+			isa = PBXGroup;
+			children = (
+				665C6CDA1F78FBFB00399A6E /* GoldTradeKeyBoard.h */,
+				665C6CDB1F78FBFB00399A6E /* GoldTradeKeyBoard.m */,
+				665C6CDC1F78FBFB00399A6E /* UPFuturesTradeTabView.h */,
+				665C6CDD1F78FBFB00399A6E /* UPFuturesTradeTabView.m */,
+				665C6CDE1F78FBFB00399A6E /* UPFuturesTradeUIDatePickerView.h */,
+				665C6CDF1F78FBFB00399A6E /* UPFuturesTradeUIDatePickerView.m */,
+				665C6CE01F78FBFB00399A6E /* UPGoldTradeTextField.h */,
+				665C6CE11F78FBFB00399A6E /* UPGoldTradeTextField.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		665C6CE21F78FBFB00399A6E /* Manager */ = {
+			isa = PBXGroup;
+			children = (
+				665C6CE31F78FBFB00399A6E /* UPFuturesTradeManager.h */,
+				665C6CE41F78FBFB00399A6E /* UPFuturesTradeManager.m */,
+			);
+			path = Manager;
+			sourceTree = "<group>";
+		};
+		665C6CE51F78FBFB00399A6E /* Position */ = {
+			isa = PBXGroup;
+			children = (
+				665C6CE61F78FBFB00399A6E /* Controller */,
+				665C6CEA1F78FBFB00399A6E /* Model */,
+				665C6CEB1F78FBFB00399A6E /* View */,
+			);
+			path = Position;
+			sourceTree = "<group>";
+		};
+		665C6CE61F78FBFB00399A6E /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				665C6CE71F78FBFB00399A6E /* UPFuturesTradePositionViewController.h */,
+				665C6CE81F78FBFB00399A6E /* UPFuturesTradePositionViewController.m */,
+				665C6CE91F78FBFB00399A6E /* UPFuturesTradePositionViewController.xib */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		665C6CEA1F78FBFB00399A6E /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		665C6CEB1F78FBFB00399A6E /* View */ = {
+			isa = PBXGroup;
+			children = (
+				665C6CEC1F78FBFB00399A6E /* UPFuturesTradePositionHeaderView.h */,
+				665C6CED1F78FBFB00399A6E /* UPFuturesTradePositionHeaderView.m */,
+				665C6CEE1F78FBFB00399A6E /* UPFuturesTradePositionHeaderView.xib */,
+				665C6CEF1F78FBFB00399A6E /* UPFuturesTradePositionTableViewCell.h */,
+				665C6CF01F78FBFB00399A6E /* UPFuturesTradePositionTableViewCell.m */,
+				665C6CF11F78FBFB00399A6E /* UPFuturesTradePositionTableViewCell.xib */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		665C6CF21F78FBFB00399A6E /* Query */ = {
+			isa = PBXGroup;
+			children = (
+				665C6CF31F78FBFB00399A6E /* Controller */,
+				665C6CFA1F78FBFB00399A6E /* Model */,
+				665C6CFB1F78FBFB00399A6E /* View */,
+			);
+			path = Query;
+			sourceTree = "<group>";
+		};
+		665C6CF31F78FBFB00399A6E /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				665C6CF71F78FBFB00399A6E /* UPFuturesTradeQueryViewController.h */,
+				665C6CF81F78FBFB00399A6E /* UPFuturesTradeQueryViewController.m */,
+				665C6CF91F78FBFB00399A6E /* UPFuturesTradeQueryViewController.xib */,
+				665C6CF41F78FBFB00399A6E /* UPFuturesTradeFundStatusViewController.h */,
+				665C6CF51F78FBFB00399A6E /* UPFuturesTradeFundStatusViewController.m */,
+				665C6CF61F78FBFB00399A6E /* UPFuturesTradeFundStatusViewController.xib */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		665C6CFA1F78FBFB00399A6E /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		665C6CFB1F78FBFB00399A6E /* View */ = {
+			isa = PBXGroup;
+			children = (
+				665C6CFC1F78FBFB00399A6E /* UPFuturesTradeChooseDateView.h */,
+				665C6CFD1F78FBFB00399A6E /* UPFuturesTradeChooseDateView.m */,
+				665C6CFE1F78FBFB00399A6E /* UPFuturesTradeChooseDateView.xib */,
+				665C6CFF1F78FBFB00399A6E /* UPFuturesTradeFundStatusCell.h */,
+				665C6D001F78FBFB00399A6E /* UPFuturesTradeFundStatusCell.m */,
+				665C6D011F78FBFB00399A6E /* UPFuturesTradeFundStatusCell.xib */,
+				665C6D021F78FBFB00399A6E /* UPFuturesTradeFundStatusSectionHeaderView.h */,
+				665C6D031F78FBFB00399A6E /* UPFuturesTradeFundStatusSectionHeaderView.m */,
+				665C6D041F78FBFB00399A6E /* UPFuturesTradeFundStatusSectionHeaderView.xib */,
+				665C6D051F78FBFB00399A6E /* UPFuturesTradeQueryCell.h */,
+				665C6D061F78FBFB00399A6E /* UPFuturesTradeQueryCell.m */,
+				665C6D071F78FBFB00399A6E /* UPFuturesTradeQueryCell.xib */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		665C6D081F78FBFB00399A6E /* Trade */ = {
+			isa = PBXGroup;
+			children = (
+				665C6D091F78FBFB00399A6E /* Controller */,
+				665C6D0D1F78FBFB00399A6E /* Model */,
+				665C6D0E1F78FBFB00399A6E /* View */,
+			);
+			path = Trade;
+			sourceTree = "<group>";
+		};
+		665C6D091F78FBFB00399A6E /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				665C6D0A1F78FBFB00399A6E /* UPFuturesTradeTradeViewController.h */,
+				665C6D0B1F78FBFB00399A6E /* UPFuturesTradeTradeViewController.m */,
+				665C6D0C1F78FBFB00399A6E /* UPFuturesTradeTradeViewController.xib */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		665C6D0D1F78FBFB00399A6E /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		665C6D0E1F78FBFB00399A6E /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		665C6D0F1F78FBFB00399A6E /* Transfer */ = {
+			isa = PBXGroup;
+			children = (
+				665C6D101F78FBFB00399A6E /* Controller */,
+				665C6D1D1F78FBFB00399A6E /* Model */,
+				665C6D1E1F78FBFB00399A6E /* View */,
+			);
+			path = Transfer;
+			sourceTree = "<group>";
+		};
+		665C6D101F78FBFB00399A6E /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				665C6D111F78FBFB00399A6E /* UPFuturesTradeTransferInViewController.h */,
+				665C6D121F78FBFB00399A6E /* UPFuturesTradeTransferInViewController.m */,
+				665C6D131F78FBFB00399A6E /* UPFuturesTradeTransferInViewController.xib */,
+				665C6D141F78FBFB00399A6E /* UPFuturesTradeTransferMainViewController.h */,
+				665C6D151F78FBFB00399A6E /* UPFuturesTradeTransferMainViewController.m */,
+				665C6D161F78FBFB00399A6E /* UPFuturesTradeTransferMainViewController.xib */,
+				665C6D171F78FBFB00399A6E /* UPFuturesTradeTransferOutViewController.h */,
+				665C6D181F78FBFB00399A6E /* UPFuturesTradeTransferOutViewController.m */,
+				665C6D191F78FBFB00399A6E /* UPFuturesTradeTransferOutViewController.xib */,
+				665C6D1A1F78FBFB00399A6E /* UPFuturesTradeTransferSerialViewController.h */,
+				665C6D1B1F78FBFB00399A6E /* UPFuturesTradeTransferSerialViewController.m */,
+				665C6D1C1F78FBFB00399A6E /* UPFuturesTradeTransferSerialViewController.xib */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		665C6D1D1F78FBFB00399A6E /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		665C6D1E1F78FBFB00399A6E /* View */ = {
+			isa = PBXGroup;
+			children = (
+				665C6D1F1F78FBFB00399A6E /* UPFuturesTradeTransferSerialCell.h */,
+				665C6D201F78FBFB00399A6E /* UPFuturesTradeTransferSerialCell.m */,
+				665C6D211F78FBFB00399A6E /* UPFuturesTradeTransferSerialCell.xib */,
+				665C6D221F78FBFB00399A6E /* UPFuturesTradeTransferSerialSectionHeaderView.h */,
+				665C6D231F78FBFB00399A6E /* UPFuturesTradeTransferSerialSectionHeaderView.m */,
+				665C6D241F78FBFB00399A6E /* UPFuturesTradeTransferSerialSectionHeaderView.xib */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		665C6D251F78FBFB00399A6E /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				665C6D261F78FBFB00399A6E /* Caculate */,
+				665C6D291F78FBFB00399A6E /* Color */,
+				665C6D2C1F78FBFB00399A6E /* Date */,
+				665C6D2F1F78FBFB00399A6E /* Manager */,
+				665C6D321F78FBFB00399A6E /* ModelTransfer */,
+				665C6D351F78FBFB00399A6E /* Number */,
+				665C6D381F78FBFB00399A6E /* Order */,
+				665C6D3B1F78FBFB00399A6E /* Search */,
+				665C6D3E1F78FBFB00399A6E /* String */,
+				665C6D411F78FBFB00399A6E /* UI */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		665C6D261F78FBFB00399A6E /* Caculate */ = {
+			isa = PBXGroup;
+			children = (
+				665C6D271F78FBFB00399A6E /* UPFuturesTradeCaculateUtil.h */,
+				665C6D281F78FBFB00399A6E /* UPFuturesTradeCaculateUtil.m */,
+			);
+			path = Caculate;
+			sourceTree = "<group>";
+		};
+		665C6D291F78FBFB00399A6E /* Color */ = {
+			isa = PBXGroup;
+			children = (
+				665C6D2A1F78FBFB00399A6E /* UPFuturesTradeColorUtil.h */,
+				665C6D2B1F78FBFB00399A6E /* UPFuturesTradeColorUtil.m */,
+			);
+			path = Color;
+			sourceTree = "<group>";
+		};
+		665C6D2C1F78FBFB00399A6E /* Date */ = {
+			isa = PBXGroup;
+			children = (
+				665C6D2D1F78FBFB00399A6E /* UPBaseDateUtil.h */,
+				665C6D2E1F78FBFB00399A6E /* UPBaseDateUtil.m */,
+			);
+			path = Date;
+			sourceTree = "<group>";
+		};
+		665C6D2F1F78FBFB00399A6E /* Manager */ = {
+			isa = PBXGroup;
+			children = (
+				665C6D301F78FBFB00399A6E /* UPValidateManager.h */,
+				665C6D311F78FBFB00399A6E /* UPValidateManager.m */,
+			);
+			path = Manager;
+			sourceTree = "<group>";
+		};
+		665C6D321F78FBFB00399A6E /* ModelTransfer */ = {
+			isa = PBXGroup;
+			children = (
+				665C6D331F78FBFB00399A6E /* UPFuturesTradeTransferUtil.h */,
+				665C6D341F78FBFB00399A6E /* UPFuturesTradeTransferUtil.m */,
+			);
+			path = ModelTransfer;
+			sourceTree = "<group>";
+		};
+		665C6D351F78FBFB00399A6E /* Number */ = {
+			isa = PBXGroup;
+			children = (
+				665C6D361F78FBFB00399A6E /* UPFuturesTradeNumberUtil.h */,
+				665C6D371F78FBFB00399A6E /* UPFuturesTradeNumberUtil.m */,
+			);
+			path = Number;
+			sourceTree = "<group>";
+		};
+		665C6D381F78FBFB00399A6E /* Order */ = {
+			isa = PBXGroup;
+			children = (
+				665C6D391F78FBFB00399A6E /* UPFuturesTradeOrderUtil.h */,
+				665C6D3A1F78FBFB00399A6E /* UPFuturesTradeOrderUtil.m */,
+			);
+			path = Order;
+			sourceTree = "<group>";
+		};
+		665C6D3B1F78FBFB00399A6E /* Search */ = {
+			isa = PBXGroup;
+			children = (
+				665C6D3C1F78FBFB00399A6E /* UPFuturesTradeSearchUtil.h */,
+				665C6D3D1F78FBFB00399A6E /* UPFuturesTradeSearchUtil.m */,
+			);
+			path = Search;
+			sourceTree = "<group>";
+		};
+		665C6D3E1F78FBFB00399A6E /* String */ = {
+			isa = PBXGroup;
+			children = (
+				665C6D3F1F78FBFB00399A6E /* UPFuturesTradeStringUtil.h */,
+				665C6D401F78FBFB00399A6E /* UPFuturesTradeStringUtil.m */,
+			);
+			path = String;
+			sourceTree = "<group>";
+		};
+		665C6D411F78FBFB00399A6E /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				665C6D421F78FBFB00399A6E /* Color2Image */,
+				665C6D451F78FBFB00399A6E /* HUD */,
+				665C6D481F78FBFB00399A6E /* OrderConfirmAlert */,
+			);
+			path = UI;
+			sourceTree = "<group>";
+		};
+		665C6D421F78FBFB00399A6E /* Color2Image */ = {
+			isa = PBXGroup;
+			children = (
+				665C6D431F78FBFB00399A6E /* UPFuturesTradeColor2ImageUtil.h */,
+				665C6D441F78FBFB00399A6E /* UPFuturesTradeColor2ImageUtil.m */,
+			);
+			path = Color2Image;
+			sourceTree = "<group>";
+		};
+		665C6D451F78FBFB00399A6E /* HUD */ = {
+			isa = PBXGroup;
+			children = (
+				665C6D461F78FBFB00399A6E /* UPHUD.h */,
+				665C6D471F78FBFB00399A6E /* UPHUD.m */,
+			);
+			path = HUD;
+			sourceTree = "<group>";
+		};
+		665C6D481F78FBFB00399A6E /* OrderConfirmAlert */ = {
+			isa = PBXGroup;
+			children = (
+				665C6D491F78FBFB00399A6E /* UPFuturesTradeOrderConfirmAlert.h */,
+				665C6D4A1F78FBFB00399A6E /* UPFuturesTradeOrderConfirmAlert.m */,
+			);
+			path = OrderConfirmAlert;
+			sourceTree = "<group>";
+		};
+		665C6D4B1F78FBFB00399A6E /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				665C6D4C1F78FBFB00399A6E /* Bank */,
+				665C6D5F1F78FBFB00399A6E /* emotion_del_normal@2x.png */,
+				665C6D601F78FBFB00399A6E /* futures_trade_01@2x.png */,
+				665C6D611F78FBFB00399A6E /* futures_trade_01@3x.png */,
+				665C6D621F78FBFB00399A6E /* futures_trade_02@2x.png */,
+				665C6D631F78FBFB00399A6E /* futures_trade_02@3x.png */,
+				665C6D641F78FBFB00399A6E /* futures_trade_03@2x.png */,
+				665C6D651F78FBFB00399A6E /* futures_trade_03@3x.png */,
+				665C6D661F78FBFB00399A6E /* futures_trade_04@2x.png */,
+				665C6D671F78FBFB00399A6E /* futures_trade_04@3x.png */,
+				665C6D681F78FBFB00399A6E /* futures_trade_05@2x.png */,
+				665C6D691F78FBFB00399A6E /* futures_trade_05@3x.png */,
+				665C6D6A1F78FBFB00399A6E /* futures_trade_06@2x.png */,
+				665C6D6B1F78FBFB00399A6E /* futures_trade_06@3x.png */,
+				665C6D6C1F78FBFB00399A6E /* futures_trade_07@2x.png */,
+				665C6D6D1F78FBFB00399A6E /* futures_trade_07@3x.png */,
+				665C6D6E1F78FBFB00399A6E /* futures_trade_08@2x.png */,
+				665C6D6F1F78FBFB00399A6E /* futures_trade_08@3x.png */,
+				665C6D701F78FBFB00399A6E /* futures_trade_09@2x.png */,
+				665C6D711F78FBFB00399A6E /* futures_trade_09@3x.png */,
+				665C6D721F78FBFB00399A6E /* futures_trade_10@2x.png */,
+				665C6D731F78FBFB00399A6E /* futures_trade_10@3x.png */,
+				665C6D741F78FBFB00399A6E /* futures_trade_back@2x.png */,
+				665C6D751F78FBFB00399A6E /* icon_arrow@2x.png */,
+				665C6D761F78FBFB00399A6E /* icon_arrow@3x.png */,
+				665C6D771F78FBFB00399A6E /* icon_select_default@2x.png */,
+				665C6D781F78FBFB00399A6E /* icon_select_default@3x.png */,
+				665C6D791F78FBFB00399A6E /* keybord_img.png */,
+			);
+			path = Resource;
+			sourceTree = "<group>";
+		};
+		665C6D4C1F78FBFB00399A6E /* Bank */ = {
+			isa = PBXGroup;
+			children = (
+				665C6D4D1F78FBFB00399A6E /* bank_01@2x.png */,
+				665C6D4E1F78FBFB00399A6E /* bank_02@2x.png */,
+				665C6D4F1F78FBFB00399A6E /* bank_03@2x.png */,
+				665C6D501F78FBFB00399A6E /* bank_04@2x.png */,
+				665C6D511F78FBFB00399A6E /* bank_05@2x.png */,
+				665C6D521F78FBFB00399A6E /* bank_06@2x.png */,
+				665C6D531F78FBFB00399A6E /* bank_07@2x.png */,
+				665C6D541F78FBFB00399A6E /* bank_08@2x.png */,
+				665C6D551F78FBFB00399A6E /* bank_09@2x.png */,
+				665C6D561F78FBFB00399A6E /* bank_10@2x.png */,
+				665C6D571F78FBFB00399A6E /* bank_11@2x.png */,
+				665C6D581F78FBFB00399A6E /* bank_12@2x.png */,
+				665C6D591F78FBFB00399A6E /* bank_13@2x.png */,
+				665C6D5A1F78FBFB00399A6E /* bank_14@2x.png */,
+				665C6D5B1F78FBFB00399A6E /* bank_15@2x.png */,
+				665C6D5C1F78FBFB00399A6E /* bank_16@2x.png */,
+				665C6D5D1F78FBFB00399A6E /* bank_17@2x.png */,
+				665C6D5E1F78FBFB00399A6E /* bank_18@2x.png */,
+			);
+			path = Bank;
+			sourceTree = "<group>";
+		};
+		665C6D7A1F78FBFB00399A6E /* Vender */ = {
+			isa = PBXGroup;
+			children = (
+				665C6D7B1F78FBFB00399A6E /* MBProgressHUD */,
+				665C6D7E1F78FBFB00399A6E /* MJRefresh */,
+			);
+			path = Vender;
+			sourceTree = "<group>";
+		};
+		665C6D7B1F78FBFB00399A6E /* MBProgressHUD */ = {
+			isa = PBXGroup;
+			children = (
+				665C6D7C1F78FBFB00399A6E /* UPFuturesTradeProgressHUD.h */,
+				665C6D7D1F78FBFB00399A6E /* UPFuturesTradeProgressHUD.m */,
+			);
+			path = MBProgressHUD;
+			sourceTree = "<group>";
+		};
+		665C6D7E1F78FBFB00399A6E /* MJRefresh */ = {
+			isa = PBXGroup;
+			children = (
+				665C6DA31F78FBFB00399A6E /* Resource */,
+				665C6D7F1F78FBFB00399A6E /* Base */,
+				665C6D8A1F78FBFB00399A6E /* Custom */,
+				665C6DA11F78FBFB00399A6E /* NSBundle+UPFuturesTradeRefresh.h */,
+				665C6DA21F78FBFB00399A6E /* NSBundle+UPFuturesTradeRefresh.m */,
+				665C6DA71F78FBFB00399A6E /* UIScrollView+UPFuturesTradeExtension.h */,
+				665C6DA81F78FBFB00399A6E /* UIScrollView+UPFuturesTradeExtension.m */,
+				665C6DA91F78FBFB00399A6E /* UIScrollView+UPFuturesTradeRefresh.h */,
+				665C6DAA1F78FBFB00399A6E /* UIScrollView+UPFuturesTradeRefresh.m */,
+				665C6DAB1F78FBFB00399A6E /* UIView+UPFuturesTradeExtension.h */,
+				665C6DAC1F78FBFB00399A6E /* UIView+UPFuturesTradeExtension.m */,
+				665C6DAE1F78FBFB00399A6E /* UPFuturesTradeRefresh.h */,
+				665C6DAF1F78FBFB00399A6E /* UPFuturesTradeRefreshConst.h */,
+				665C6DB01F78FBFB00399A6E /* UPFuturesTradeRefreshConst.m */,
+			);
+			path = MJRefresh;
+			sourceTree = "<group>";
+		};
+		665C6D7F1F78FBFB00399A6E /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				665C6D801F78FBFB00399A6E /* UPFuturesTradeRefreshAutoFooter.h */,
+				665C6D811F78FBFB00399A6E /* UPFuturesTradeRefreshAutoFooter.m */,
+				665C6D821F78FBFB00399A6E /* UPFuturesTradeRefreshBackFooter.h */,
+				665C6D831F78FBFB00399A6E /* UPFuturesTradeRefreshBackFooter.m */,
+				665C6D841F78FBFB00399A6E /* UPFuturesTradeRefreshComponent.h */,
+				665C6D851F78FBFB00399A6E /* UPFuturesTradeRefreshComponent.m */,
+				665C6D861F78FBFB00399A6E /* UPFuturesTradeRefreshFooter.h */,
+				665C6D871F78FBFB00399A6E /* UPFuturesTradeRefreshFooter.m */,
+				665C6D881F78FBFB00399A6E /* UPFuturesTradeRefreshHeader.h */,
+				665C6D891F78FBFB00399A6E /* UPFuturesTradeRefreshHeader.m */,
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
+		665C6D8A1F78FBFB00399A6E /* Custom */ = {
+			isa = PBXGroup;
+			children = (
+				665C6D8B1F78FBFB00399A6E /* Footer */,
+				665C6D9A1F78FBFB00399A6E /* Header */,
+			);
+			path = Custom;
+			sourceTree = "<group>";
+		};
+		665C6D8B1F78FBFB00399A6E /* Footer */ = {
+			isa = PBXGroup;
+			children = (
+				665C6D8C1F78FBFB00399A6E /* Auto */,
+				665C6D931F78FBFB00399A6E /* Back */,
+			);
+			path = Footer;
+			sourceTree = "<group>";
+		};
+		665C6D8C1F78FBFB00399A6E /* Auto */ = {
+			isa = PBXGroup;
+			children = (
+				665C6D8D1F78FBFB00399A6E /* UPFuturesTradeRefreshAutoGifFooter.h */,
+				665C6D8E1F78FBFB00399A6E /* UPFuturesTradeRefreshAutoGifFooter.m */,
+				665C6D8F1F78FBFB00399A6E /* UPFuturesTradeRefreshAutoNormalFooter.h */,
+				665C6D901F78FBFB00399A6E /* UPFuturesTradeRefreshAutoNormalFooter.m */,
+				665C6D911F78FBFB00399A6E /* UPFuturesTradeRefreshAutoStateFooter.h */,
+				665C6D921F78FBFB00399A6E /* UPFuturesTradeRefreshAutoStateFooter.m */,
+			);
+			path = Auto;
+			sourceTree = "<group>";
+		};
+		665C6D931F78FBFB00399A6E /* Back */ = {
+			isa = PBXGroup;
+			children = (
+				665C6D941F78FBFB00399A6E /* UPFuturesTradeRefreshBackGifFooter.h */,
+				665C6D951F78FBFB00399A6E /* UPFuturesTradeRefreshBackGifFooter.m */,
+				665C6D961F78FBFB00399A6E /* UPFuturesTradeRefreshBackNormalFooter.h */,
+				665C6D971F78FBFB00399A6E /* UPFuturesTradeRefreshBackNormalFooter.m */,
+				665C6D981F78FBFB00399A6E /* UPFuturesTradeRefreshBackStateFooter.h */,
+				665C6D991F78FBFB00399A6E /* UPFuturesTradeRefreshBackStateFooter.m */,
+			);
+			path = Back;
+			sourceTree = "<group>";
+		};
+		665C6D9A1F78FBFB00399A6E /* Header */ = {
+			isa = PBXGroup;
+			children = (
+				665C6D9B1F78FBFB00399A6E /* UPFuturesTradeRefreshGifHeader.h */,
+				665C6D9C1F78FBFB00399A6E /* UPFuturesTradeRefreshGifHeader.m */,
+				665C6D9D1F78FBFB00399A6E /* UPFuturesTradeRefreshNormalHeader.h */,
+				665C6D9E1F78FBFB00399A6E /* UPFuturesTradeRefreshNormalHeader.m */,
+				665C6D9F1F78FBFB00399A6E /* UPFuturesTradeRefreshStateHeader.h */,
+				665C6DA01F78FBFB00399A6E /* UPFuturesTradeRefreshStateHeader.m */,
+			);
+			path = Header;
+			sourceTree = "<group>";
+		};
+		665C6DA31F78FBFB00399A6E /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				665C6DA41F78FBFB00399A6E /* UPFuturesTradeRefresh_arrow@2x.png */,
+				665C6DA51F78FBFB00399A6E /* Localizable.strings */,
+			);
+			path = Resource;
+			sourceTree = "<group>";
+		};
+		665C6ED81F78FE5200399A6E /* FuturesTradeBundle */ = {
+			isa = PBXGroup;
+			children = (
+				665C6ED91F78FE5200399A6E /* Info.plist */,
+			);
+			path = FuturesTradeBundle;
+			sourceTree = "<group>";
+		};
+		665C6F4C1F78FF9400399A6E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				665C6FDD1F7926BA00399A6E /* FuturesTradeSDK.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		665C6C711F78FBD500399A6E /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				665C6E041F78FBFB00399A6E /* UPFuturesTradeManager.h in Headers */,
+				665C6DFC1F78FBFB00399A6E /* GoldTradeKeyBoard.h in Headers */,
+				665C6DC41F78FBFB00399A6E /* UPFuturesTradeOrderCell.h in Headers */,
+				665C6E811F78FBFC00399A6E /* UPFuturesTradeRefreshComponent.h in Headers */,
+				665C6DF21F78FBFB00399A6E /* UPFutursTradeDimens.h in Headers */,
+				665C6E931F78FBFC00399A6E /* UPFuturesTradeRefreshGifHeader.h in Headers */,
+				665C6E951F78FBFC00399A6E /* UPFuturesTradeRefreshNormalHeader.h in Headers */,
+				665C6DB11F78FBFB00399A6E /* UPFuturesTradeBaseTableViewCell.h in Headers */,
+				665C6E241F78FBFB00399A6E /* UPFuturesTradeTransferInViewController.h in Headers */,
+				665C6DD31F78FBFB00399A6E /* UPFuturesTradeVarietyInfoView.h in Headers */,
+				665C6DC71F78FBFB00399A6E /* UPFuturesTradeOrderHeaderCell.h in Headers */,
+				665C6DBC1F78FBFB00399A6E /* UPFuturesTradeOrderModel.h in Headers */,
+				665C6E271F78FBFB00399A6E /* UPFuturesTradeTransferMainViewController.h in Headers */,
+				665C6DEC1F78FBFB00399A6E /* UPFuturesTradeColor.h in Headers */,
+				665C6DB51F78FBFB00399A6E /* UPFuturesTradeBaseViewController.h in Headers */,
+				665C6E8F1F78FBFC00399A6E /* UPFuturesTradeRefreshBackNormalFooter.h in Headers */,
+				665C6E441F78FBFC00399A6E /* UPFuturesTradeSearchUtil.h in Headers */,
+				665C6E151F78FBFB00399A6E /* UPFuturesTradeChooseDateView.h in Headers */,
+				665C6E7F1F78FBFC00399A6E /* UPFuturesTradeRefreshBackFooter.h in Headers */,
+				665C6DF11F78FBFB00399A6E /* UPFuturesTradeWeakStrong.h in Headers */,
+				665C6DF61F78FBFB00399A6E /* UPFuturesTradeBaseBusinessViewController.h in Headers */,
+				665C6DB31F78FBFB00399A6E /* UPFuturesTradeBaseView.h in Headers */,
+				665C6E3C1F78FBFC00399A6E /* UPValidateManager.h in Headers */,
+				665C6EA11F78FBFC00399A6E /* UIView+UPFuturesTradeExtension.h in Headers */,
+				665C6E001F78FBFB00399A6E /* UPFuturesTradeUIDatePickerView.h in Headers */,
+				665C6E9F1F78FBFC00399A6E /* UIScrollView+UPFuturesTradeRefresh.h in Headers */,
+				665C6E121F78FBFB00399A6E /* UPFuturesTradeQueryViewController.h in Headers */,
+				665C6E2A1F78FBFB00399A6E /* UPFuturesTradeTransferOutViewController.h in Headers */,
+				665C6E4C1F78FBFC00399A6E /* UPFuturesTradeOrderConfirmAlert.h in Headers */,
+				665C6E021F78FBFB00399A6E /* UPGoldTradeTextField.h in Headers */,
+				665C6EA41F78FBFC00399A6E /* UPFuturesTradeRefresh.h in Headers */,
+				665C6DCA1F78FBFB00399A6E /* UPFuturesTradePositionCell.h in Headers */,
+				665C6E331F78FBFB00399A6E /* UPFuturesTradeTransferSerialSectionHeaderView.h in Headers */,
+				665C6E181F78FBFB00399A6E /* UPFuturesTradeFundStatusCell.h in Headers */,
+				665C6E991F78FBFC00399A6E /* NSBundle+UPFuturesTradeRefresh.h in Headers */,
+				665C6DEB1F78FBFB00399A6E /* UPFuturesTradeBlocks.h in Headers */,
+				665C6E211F78FBFB00399A6E /* UPFuturesTradeTradeViewController.h in Headers */,
+				665C6E061F78FBFB00399A6E /* UPFuturesTradePositionViewController.h in Headers */,
+				665C6EA51F78FBFC00399A6E /* UPFuturesTradeRefreshConst.h in Headers */,
+				665C6E851F78FBFC00399A6E /* UPFuturesTradeRefreshHeader.h in Headers */,
+				665C6DF91F78FBFB00399A6E /* UPFuturesTradeMainViewController.h in Headers */,
+				665C6E1E1F78FBFB00399A6E /* UPFuturesTradeQueryCell.h in Headers */,
+				665C6E361F78FBFC00399A6E /* UPFuturesTradeCaculateUtil.h in Headers */,
+				665C6DED1F78FBFB00399A6E /* UPFuturesTradeDefault.h in Headers */,
+				665C6E831F78FBFC00399A6E /* UPFuturesTradeRefreshFooter.h in Headers */,
+				665C6E401F78FBFC00399A6E /* UPFuturesTradeNumberUtil.h in Headers */,
+				665C6E3A1F78FBFC00399A6E /* UPBaseDateUtil.h in Headers */,
+				665C6E7D1F78FBFC00399A6E /* UPFuturesTradeRefreshAutoFooter.h in Headers */,
+				665C6E911F78FBFC00399A6E /* UPFuturesTradeRefreshBackStateFooter.h in Headers */,
+				665C6E091F78FBFB00399A6E /* UPFuturesTradePositionHeaderView.h in Headers */,
+				665C6DD01F78FBFB00399A6E /* UPFuturesTradeVarietyCollectionCell.h in Headers */,
+				665C6DCD1F78FBFB00399A6E /* UPFuturesTradePositionHeaderCell.h in Headers */,
+				665C6DE51F78FBFB00399A6E /* UPFuturesTradeLoginFrontViewController.h in Headers */,
+				665C6DDF1F78FBFB00399A6E /* UPFuturesTradeInputCell.h in Headers */,
+				665C6E0F1F78FBFB00399A6E /* UPFuturesTradeFundStatusViewController.h in Headers */,
+				665C6E4A1F78FBFC00399A6E /* UPHUD.h in Headers */,
+				665C6E9D1F78FBFC00399A6E /* UIScrollView+UPFuturesTradeExtension.h in Headers */,
+				665C6DEE1F78FBFB00399A6E /* UPFuturesTradeMacros.h in Headers */,
+				665C6E3E1F78FBFC00399A6E /* UPFuturesTradeTransferUtil.h in Headers */,
+				665C6E481F78FBFC00399A6E /* UPFuturesTradeColor2ImageUtil.h in Headers */,
+				665C6DEF1F78FBFB00399A6E /* UPFuturesTradeTypes.h in Headers */,
+				665C6DD91F78FBFB00399A6E /* UPFuturesTradeVarietyKeyBoardCell.h in Headers */,
+				665C6E381F78FBFC00399A6E /* UPFuturesTradeColorUtil.h in Headers */,
+				665C6E1B1F78FBFB00399A6E /* UPFuturesTradeFundStatusSectionHeaderView.h in Headers */,
+				665C6E891F78FBFC00399A6E /* UPFuturesTradeRefreshAutoNormalFooter.h in Headers */,
+				665C6DC11F78FBFB00399A6E /* UPFuturesTradeBusinessView.h in Headers */,
+				665C6E0C1F78FBFB00399A6E /* UPFuturesTradePositionTableViewCell.h in Headers */,
+				665C6E971F78FBFC00399A6E /* UPFuturesTradeRefreshStateHeader.h in Headers */,
+				665C6DBA1F78FBFB00399A6E /* UPFuturesTradeOrderActionModel.h in Headers */,
+				665C6DE81F78FBFB00399A6E /* UPFuturesTradeLoginViewController.h in Headers */,
+				665C6E871F78FBFC00399A6E /* UPFuturesTradeRefreshAutoGifFooter.h in Headers */,
+				665C6DF01F78FBFB00399A6E /* UPFuturesTradeValidation.h in Headers */,
+				665C6E8D1F78FBFC00399A6E /* UPFuturesTradeRefreshBackGifFooter.h in Headers */,
+				665C6DE21F78FBFB00399A6E /* UPFuturesTradeLoginFooterView.h in Headers */,
+				665C6E2D1F78FBFB00399A6E /* UPFuturesTradeTransferSerialViewController.h in Headers */,
+				665C6DF31F78FBFB00399A6E /* UPFuturesTradeAccountViewController.h in Headers */,
+				665C6E7B1F78FBFC00399A6E /* UPFuturesTradeProgressHUD.h in Headers */,
+				665C6E301F78FBFB00399A6E /* UPFuturesTradeTransferSerialCell.h in Headers */,
+				665C6E421F78FBFC00399A6E /* UPFuturesTradeOrderUtil.h in Headers */,
+				665C6DD61F78FBFB00399A6E /* UPFuturesTradeVarietyKeyBoard.h in Headers */,
+				665C6DDC1F78FBFB00399A6E /* UPFuturesTradeOrderViewController.h in Headers */,
+				665C6DFE1F78FBFB00399A6E /* UPFuturesTradeTabView.h in Headers */,
+				665C6E461F78FBFC00399A6E /* UPFuturesTradeStringUtil.h in Headers */,
+				665C6DB71F78FBFB00399A6E /* UPFuturesTradeBusinessMainViewController.h in Headers */,
+				665C6E8B1F78FBFC00399A6E /* UPFuturesTradeRefreshAutoStateFooter.h in Headers */,
+				665C6DBE1F78FBFB00399A6E /* UPFuturesTradeBusinessHeaderView.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		665C6C731F78FBD500399A6E /* FuturesTrade */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 665C6C7C1F78FBD500399A6E /* Build configuration list for PBXNativeTarget "FuturesTrade" */;
+			buildPhases = (
+				665C6C6F1F78FBD500399A6E /* Sources */,
+				665C6C701F78FBD500399A6E /* Frameworks */,
+				665C6C711F78FBD500399A6E /* Headers */,
+				665C6C721F78FBD500399A6E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FuturesTrade;
+			productName = FuturesTrade;
+			productReference = 665C6C741F78FBD500399A6E /* FuturesTrade.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		665C6ED61F78FE5200399A6E /* FuturesTradeBundle */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 665C6EDA1F78FE5200399A6E /* Build configuration list for PBXNativeTarget "FuturesTradeBundle" */;
+			buildPhases = (
+				665C6ED31F78FE5200399A6E /* Sources */,
+				665C6ED41F78FE5200399A6E /* Frameworks */,
+				665C6ED51F78FE5200399A6E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FuturesTradeBundle;
+			productName = FuturesTradeBundle;
+			productReference = 665C6ED71F78FE5200399A6E /* FuturesTradeBundle.bundle */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		665C6C6B1F78FBD500399A6E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = ferdinand;
+				TargetAttributes = {
+					665C6C731F78FBD500399A6E = {
+						CreatedOnToolsVersion = 8.2;
+						ProvisioningStyle = Automatic;
+					};
+					665C6ED61F78FE5200399A6E = {
+						CreatedOnToolsVersion = 8.2;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 665C6C6E1F78FBD500399A6E /* Build configuration list for PBXProject "FuturesTrade" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				"zh-Hans",
+			);
+			mainGroup = 665C6C6A1F78FBD500399A6E;
+			productRefGroup = 665C6C751F78FBD500399A6E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				665C6C731F78FBD500399A6E /* FuturesTrade */,
+				665C6ED61F78FE5200399A6E /* FuturesTradeBundle */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		665C6C721F78FBD500399A6E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		665C6ED51F78FE5200399A6E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				665C6EDD1F78FF3300399A6E /* UPFuturesTradeBusinessMainViewController.xib in Resources */,
+				665C6EDE1F78FF3300399A6E /* UPFuturesTradeBusinessHeaderView.xib in Resources */,
+				665C6EDF1F78FF3300399A6E /* UPFuturesTradeBusinessView.xib in Resources */,
+				665C6EE01F78FF3300399A6E /* UPFuturesTradeOrderCell.xib in Resources */,
+				665C6EE11F78FF3300399A6E /* UPFuturesTradeOrderHeaderCell.xib in Resources */,
+				665C6EE21F78FF3300399A6E /* UPFuturesTradePositionCell.xib in Resources */,
+				665C6EE31F78FF3300399A6E /* UPFuturesTradePositionHeaderCell.xib in Resources */,
+				665C6EE41F78FF3300399A6E /* UPFuturesTradeVarietyCollectionCell.xib in Resources */,
+				665C6EE51F78FF3300399A6E /* UPFuturesTradeVarietyInfoView.xib in Resources */,
+				665C6EE61F78FF3300399A6E /* UPFuturesTradeVarietyKeyBoard.xib in Resources */,
+				665C6EE71F78FF3300399A6E /* UPFuturesTradeVarietyKeyBoardCell.xib in Resources */,
+				665C6EE81F78FF3300399A6E /* UPFuturesTradeOrderViewController.xib in Resources */,
+				665C6EE91F78FF3300399A6E /* UPFuturesTradeInputCell.xib in Resources */,
+				665C6EEA1F78FF3300399A6E /* UPFuturesTradeLoginFooterView.xib in Resources */,
+				665C6EEB1F78FF3300399A6E /* UPFuturesTradeLoginFrontViewController.xib in Resources */,
+				665C6EEC1F78FF3300399A6E /* UPFuturesTradeLoginViewController.xib in Resources */,
+				665C6EED1F78FF3300399A6E /* UPFuturesTradeAccountViewController.xib in Resources */,
+				665C6EEE1F78FF3300399A6E /* UPFuturesTradeBaseBusinessViewController.xib in Resources */,
+				665C6EEF1F78FF3300399A6E /* UPFuturesTradeMainViewController.xib in Resources */,
+				665C6EF01F78FF3300399A6E /* UPFuturesTradePositionViewController.xib in Resources */,
+				665C6EF11F78FF3300399A6E /* UPFuturesTradePositionHeaderView.xib in Resources */,
+				665C6EF21F78FF3300399A6E /* UPFuturesTradePositionTableViewCell.xib in Resources */,
+				665C6EF31F78FF3300399A6E /* UPFuturesTradeFundStatusViewController.xib in Resources */,
+				665C6EF41F78FF3300399A6E /* UPFuturesTradeQueryViewController.xib in Resources */,
+				665C6EF51F78FF3300399A6E /* UPFuturesTradeChooseDateView.xib in Resources */,
+				665C6EF61F78FF3300399A6E /* UPFuturesTradeFundStatusCell.xib in Resources */,
+				665C6EF71F78FF3300399A6E /* UPFuturesTradeFundStatusSectionHeaderView.xib in Resources */,
+				665C6EF81F78FF3300399A6E /* UPFuturesTradeQueryCell.xib in Resources */,
+				665C6EF91F78FF3300399A6E /* UPFuturesTradeTradeViewController.xib in Resources */,
+				665C6EFA1F78FF3300399A6E /* UPFuturesTradeTransferInViewController.xib in Resources */,
+				665C6EFB1F78FF3300399A6E /* UPFuturesTradeTransferMainViewController.xib in Resources */,
+				665C6EFC1F78FF3300399A6E /* UPFuturesTradeTransferOutViewController.xib in Resources */,
+				665C6EFD1F78FF3300399A6E /* UPFuturesTradeTransferSerialViewController.xib in Resources */,
+				665C6EFE1F78FF3300399A6E /* UPFuturesTradeTransferSerialCell.xib in Resources */,
+				665C6EFF1F78FF3300399A6E /* UPFuturesTradeTransferSerialSectionHeaderView.xib in Resources */,
+				665C6F001F78FF3300399A6E /* bank_01@2x.png in Resources */,
+				665C6F011F78FF3300399A6E /* bank_02@2x.png in Resources */,
+				665C6F021F78FF3300399A6E /* bank_03@2x.png in Resources */,
+				665C6F031F78FF3300399A6E /* bank_04@2x.png in Resources */,
+				665C6F041F78FF3300399A6E /* bank_05@2x.png in Resources */,
+				665C6F051F78FF3300399A6E /* bank_06@2x.png in Resources */,
+				665C6F061F78FF3300399A6E /* bank_07@2x.png in Resources */,
+				665C6F071F78FF3300399A6E /* bank_08@2x.png in Resources */,
+				665C6F081F78FF3300399A6E /* bank_09@2x.png in Resources */,
+				665C6F091F78FF3300399A6E /* bank_10@2x.png in Resources */,
+				665C6F0A1F78FF3300399A6E /* bank_11@2x.png in Resources */,
+				665C6F0B1F78FF3300399A6E /* bank_12@2x.png in Resources */,
+				665C6F0C1F78FF3300399A6E /* bank_13@2x.png in Resources */,
+				665C6F0D1F78FF3300399A6E /* bank_14@2x.png in Resources */,
+				665C6F0E1F78FF3300399A6E /* bank_15@2x.png in Resources */,
+				665C6F0F1F78FF3300399A6E /* bank_16@2x.png in Resources */,
+				665C6F101F78FF3300399A6E /* bank_17@2x.png in Resources */,
+				665C6F111F78FF3300399A6E /* bank_18@2x.png in Resources */,
+				665C6F121F78FF3300399A6E /* emotion_del_normal@2x.png in Resources */,
+				665C6F131F78FF3300399A6E /* futures_trade_01@2x.png in Resources */,
+				665C6F141F78FF3300399A6E /* futures_trade_01@3x.png in Resources */,
+				665C6F151F78FF3300399A6E /* futures_trade_02@2x.png in Resources */,
+				665C6F161F78FF3300399A6E /* futures_trade_02@3x.png in Resources */,
+				665C6F171F78FF3300399A6E /* futures_trade_03@2x.png in Resources */,
+				665C6F181F78FF3300399A6E /* futures_trade_03@3x.png in Resources */,
+				665C6F191F78FF3300399A6E /* futures_trade_04@2x.png in Resources */,
+				665C6F1A1F78FF3300399A6E /* futures_trade_04@3x.png in Resources */,
+				665C6F1B1F78FF3300399A6E /* futures_trade_05@2x.png in Resources */,
+				665C6F1C1F78FF3300399A6E /* futures_trade_05@3x.png in Resources */,
+				665C6F1D1F78FF3300399A6E /* futures_trade_06@2x.png in Resources */,
+				665C6F1E1F78FF3300399A6E /* futures_trade_06@3x.png in Resources */,
+				665C6F1F1F78FF3300399A6E /* futures_trade_07@2x.png in Resources */,
+				665C6F201F78FF3300399A6E /* futures_trade_07@3x.png in Resources */,
+				665C6F211F78FF3300399A6E /* futures_trade_08@2x.png in Resources */,
+				665C6F221F78FF3300399A6E /* futures_trade_08@3x.png in Resources */,
+				665C6F231F78FF3300399A6E /* futures_trade_09@2x.png in Resources */,
+				665C6F241F78FF3300399A6E /* futures_trade_09@3x.png in Resources */,
+				665C6F251F78FF3300399A6E /* futures_trade_10@2x.png in Resources */,
+				665C6F261F78FF3300399A6E /* futures_trade_10@3x.png in Resources */,
+				665C6F271F78FF3300399A6E /* futures_trade_back@2x.png in Resources */,
+				665C6F281F78FF3300399A6E /* icon_arrow@2x.png in Resources */,
+				665C6F291F78FF3300399A6E /* icon_arrow@3x.png in Resources */,
+				665C6F2A1F78FF3300399A6E /* icon_select_default@2x.png in Resources */,
+				665C6F2B1F78FF3300399A6E /* icon_select_default@3x.png in Resources */,
+				665C6F2C1F78FF3300399A6E /* keybord_img.png in Resources */,
+				665C6F2D1F78FF3300399A6E /* UPFuturesTradeRefresh_arrow@2x.png in Resources */,
+				665C6F2E1F78FF3300399A6E /* Localizable.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		665C6C6F1F78FBD500399A6E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				665C6DB81F78FBFB00399A6E /* UPFuturesTradeBusinessMainViewController.m in Sources */,
+				665C6E901F78FBFC00399A6E /* UPFuturesTradeRefreshBackNormalFooter.m in Sources */,
+				665C6E431F78FBFC00399A6E /* UPFuturesTradeOrderUtil.m in Sources */,
+				665C6E281F78FBFB00399A6E /* UPFuturesTradeTransferMainViewController.m in Sources */,
+				665C6DCB1F78FBFB00399A6E /* UPFuturesTradePositionCell.m in Sources */,
+				665C6E981F78FBFC00399A6E /* UPFuturesTradeRefreshStateHeader.m in Sources */,
+				665C6E821F78FBFC00399A6E /* UPFuturesTradeRefreshComponent.m in Sources */,
+				665C6DC21F78FBFB00399A6E /* UPFuturesTradeBusinessView.m in Sources */,
+				665C6E451F78FBFC00399A6E /* UPFuturesTradeSearchUtil.m in Sources */,
+				665C6E411F78FBFC00399A6E /* UPFuturesTradeNumberUtil.m in Sources */,
+				665C6E8C1F78FBFC00399A6E /* UPFuturesTradeRefreshAutoStateFooter.m in Sources */,
+				665C6DFD1F78FBFB00399A6E /* GoldTradeKeyBoard.m in Sources */,
+				665C6EA61F78FBFC00399A6E /* UPFuturesTradeRefreshConst.m in Sources */,
+				665C6E2B1F78FBFB00399A6E /* UPFuturesTradeTransferOutViewController.m in Sources */,
+				665C6E131F78FBFB00399A6E /* UPFuturesTradeQueryViewController.m in Sources */,
+				665C6E1F1F78FBFB00399A6E /* UPFuturesTradeQueryCell.m in Sources */,
+				665C6DE01F78FBFB00399A6E /* UPFuturesTradeInputCell.m in Sources */,
+				665C6E9A1F78FBFC00399A6E /* NSBundle+UPFuturesTradeRefresh.m in Sources */,
+				665C6DFF1F78FBFB00399A6E /* UPFuturesTradeTabView.m in Sources */,
+				665C6E471F78FBFC00399A6E /* UPFuturesTradeStringUtil.m in Sources */,
+				665C6DD71F78FBFB00399A6E /* UPFuturesTradeVarietyKeyBoard.m in Sources */,
+				665C6E7C1F78FBFC00399A6E /* UPFuturesTradeProgressHUD.m in Sources */,
+				665C6DDD1F78FBFB00399A6E /* UPFuturesTradeOrderViewController.m in Sources */,
+				665C6EA21F78FBFC00399A6E /* UIView+UPFuturesTradeExtension.m in Sources */,
+				665C6E961F78FBFC00399A6E /* UPFuturesTradeRefreshNormalHeader.m in Sources */,
+				665C6E191F78FBFB00399A6E /* UPFuturesTradeFundStatusCell.m in Sources */,
+				665C6E841F78FBFC00399A6E /* UPFuturesTradeRefreshFooter.m in Sources */,
+				665C6DC81F78FBFB00399A6E /* UPFuturesTradeOrderHeaderCell.m in Sources */,
+				665C6DBB1F78FBFB00399A6E /* UPFuturesTradeOrderActionModel.m in Sources */,
+				665C6DDA1F78FBFB00399A6E /* UPFuturesTradeVarietyKeyBoardCell.m in Sources */,
+				665C6E4D1F78FBFC00399A6E /* UPFuturesTradeOrderConfirmAlert.m in Sources */,
+				665C6E801F78FBFC00399A6E /* UPFuturesTradeRefreshBackFooter.m in Sources */,
+				665C6DB41F78FBFB00399A6E /* UPFuturesTradeBaseView.m in Sources */,
+				665C6DF71F78FBFB00399A6E /* UPFuturesTradeBaseBusinessViewController.m in Sources */,
+				665C6E221F78FBFB00399A6E /* UPFuturesTradeTradeViewController.m in Sources */,
+				665C6E0A1F78FBFB00399A6E /* UPFuturesTradePositionHeaderView.m in Sources */,
+				665C6E4B1F78FBFC00399A6E /* UPHUD.m in Sources */,
+				665C6E341F78FBFB00399A6E /* UPFuturesTradeTransferSerialSectionHeaderView.m in Sources */,
+				665C6E881F78FBFC00399A6E /* UPFuturesTradeRefreshAutoGifFooter.m in Sources */,
+				665C6E391F78FBFC00399A6E /* UPFuturesTradeColorUtil.m in Sources */,
+				665C6E161F78FBFB00399A6E /* UPFuturesTradeChooseDateView.m in Sources */,
+				665C6E861F78FBFC00399A6E /* UPFuturesTradeRefreshHeader.m in Sources */,
+				665C6E8A1F78FBFC00399A6E /* UPFuturesTradeRefreshAutoNormalFooter.m in Sources */,
+				665C6E8E1F78FBFC00399A6E /* UPFuturesTradeRefreshBackGifFooter.m in Sources */,
+				665C6DCE1F78FBFB00399A6E /* UPFuturesTradePositionHeaderCell.m in Sources */,
+				665C6E071F78FBFB00399A6E /* UPFuturesTradePositionViewController.m in Sources */,
+				665C6DBF1F78FBFB00399A6E /* UPFuturesTradeBusinessHeaderView.m in Sources */,
+				665C6DE31F78FBFB00399A6E /* UPFuturesTradeLoginFooterView.m in Sources */,
+				665C6DF41F78FBFB00399A6E /* UPFuturesTradeAccountViewController.m in Sources */,
+				665C6DBD1F78FBFB00399A6E /* UPFuturesTradeOrderModel.m in Sources */,
+				665C6E9E1F78FBFC00399A6E /* UIScrollView+UPFuturesTradeExtension.m in Sources */,
+				665C6E921F78FBFC00399A6E /* UPFuturesTradeRefreshBackStateFooter.m in Sources */,
+				665C6E491F78FBFC00399A6E /* UPFuturesTradeColor2ImageUtil.m in Sources */,
+				665C6E371F78FBFC00399A6E /* UPFuturesTradeCaculateUtil.m in Sources */,
+				665C6E941F78FBFC00399A6E /* UPFuturesTradeRefreshGifHeader.m in Sources */,
+				665C6E3D1F78FBFC00399A6E /* UPValidateManager.m in Sources */,
+				665C6E251F78FBFB00399A6E /* UPFuturesTradeTransferInViewController.m in Sources */,
+				665C6DD11F78FBFB00399A6E /* UPFuturesTradeVarietyCollectionCell.m in Sources */,
+				665C6E1C1F78FBFB00399A6E /* UPFuturesTradeFundStatusSectionHeaderView.m in Sources */,
+				665C6DE91F78FBFB00399A6E /* UPFuturesTradeLoginViewController.m in Sources */,
+				665C6DE61F78FBFB00399A6E /* UPFuturesTradeLoginFrontViewController.m in Sources */,
+				665C6E101F78FBFB00399A6E /* UPFuturesTradeFundStatusViewController.m in Sources */,
+				665C6E7E1F78FBFC00399A6E /* UPFuturesTradeRefreshAutoFooter.m in Sources */,
+				665C6E031F78FBFB00399A6E /* UPGoldTradeTextField.m in Sources */,
+				665C6DB21F78FBFB00399A6E /* UPFuturesTradeBaseTableViewCell.m in Sources */,
+				665C6E011F78FBFB00399A6E /* UPFuturesTradeUIDatePickerView.m in Sources */,
+				665C6E3B1F78FBFC00399A6E /* UPBaseDateUtil.m in Sources */,
+				665C6DFA1F78FBFB00399A6E /* UPFuturesTradeMainViewController.m in Sources */,
+				665C6E311F78FBFB00399A6E /* UPFuturesTradeTransferSerialCell.m in Sources */,
+				665C6E3F1F78FBFC00399A6E /* UPFuturesTradeTransferUtil.m in Sources */,
+				665C6E2E1F78FBFB00399A6E /* UPFuturesTradeTransferSerialViewController.m in Sources */,
+				665C6E0D1F78FBFB00399A6E /* UPFuturesTradePositionTableViewCell.m in Sources */,
+				665C6DB61F78FBFB00399A6E /* UPFuturesTradeBaseViewController.m in Sources */,
+				665C6E051F78FBFB00399A6E /* UPFuturesTradeManager.m in Sources */,
+				665C6EA01F78FBFC00399A6E /* UIScrollView+UPFuturesTradeRefresh.m in Sources */,
+				665C6DD41F78FBFB00399A6E /* UPFuturesTradeVarietyInfoView.m in Sources */,
+				665C6DC51F78FBFB00399A6E /* UPFuturesTradeOrderCell.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		665C6ED31F78FE5200399A6E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		665C6DA51F78FBFB00399A6E /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				665C6DA61F78FBFB00399A6E /* zh-Hans */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		665C6C7A1F78FBD500399A6E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		665C6C7B1F78FBD500399A6E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		665C6C7D1F78FBD500399A6E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)SDK",
+				);
+				INFOPLIST_FILE = FuturesTrade/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/FuturesTrade/FutureTrade/Vender/ksft_api",
+					"$(PROJECT_DIR)SDK/FuturesTradeSDK/FuturesTradeSDK/Vender/ksft_api",
+				);
+				MACH_O_TYPE = staticlib;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ferdinand.FuturesTrade;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		665C6C7E1F78FBD500399A6E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)SDK",
+				);
+				INFOPLIST_FILE = FuturesTrade/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/FuturesTrade/FutureTrade/Vender/ksft_api",
+					"$(PROJECT_DIR)SDK/FuturesTradeSDK/FuturesTradeSDK/Vender/ksft_api",
+				);
+				MACH_O_TYPE = staticlib;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ferdinand.FuturesTrade;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		665C6EDB1F78FE5200399A6E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
+				COMBINE_HIDPI_IMAGES = NO;
+				ENABLE_BITCODE = NO;
+				INFOPLIST_FILE = FuturesTradeBundle/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Bundles";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ferdinand.FuturesTradeBundle;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+		665C6EDC1F78FE5200399A6E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
+				COMBINE_HIDPI_IMAGES = NO;
+				ENABLE_BITCODE = NO;
+				INFOPLIST_FILE = FuturesTradeBundle/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Bundles";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ferdinand.FuturesTradeBundle;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		665C6C6E1F78FBD500399A6E /* Build configuration list for PBXProject "FuturesTrade" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				665C6C7A1F78FBD500399A6E /* Debug */,
+				665C6C7B1F78FBD500399A6E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		665C6C7C1F78FBD500399A6E /* Build configuration list for PBXNativeTarget "FuturesTrade" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				665C6C7D1F78FBD500399A6E /* Debug */,
+				665C6C7E1F78FBD500399A6E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		665C6EDA1F78FE5200399A6E /* Build configuration list for PBXNativeTarget "FuturesTradeBundle" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				665C6EDB1F78FE5200399A6E /* Debug */,
+				665C6EDC1F78FE5200399A6E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 665C6C6B1F78FBD500399A6E /* Project object */;
+}

@@ -1,0 +1,791 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		665C6B871F78F8EE00399A6E /* FuturesTradeSDK.h in Headers */ = {isa = PBXBuildFile; fileRef = 665C6B851F78F8EE00399A6E /* FuturesTradeSDK.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		665C6BFA1F78F91600399A6E /* UPCTPTradeCache.h in Headers */ = {isa = PBXBuildFile; fileRef = 665C6B901F78F91600399A6E /* UPCTPTradeCache.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		665C6BFB1F78F91600399A6E /* UPCTPTradeCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 665C6B911F78F91600399A6E /* UPCTPTradeCache.m */; };
+		665C6BFC1F78F91600399A6E /* UPCTPRequestCode.h in Headers */ = {isa = PBXBuildFile; fileRef = 665C6B931F78F91600399A6E /* UPCTPRequestCode.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		665C6BFD1F78F91600399A6E /* UPCTPRequestCode.m in Sources */ = {isa = PBXBuildFile; fileRef = 665C6B941F78F91600399A6E /* UPCTPRequestCode.m */; };
+		665C6BFE1F78F91600399A6E /* UPCTPTradeErrorConstants.h in Headers */ = {isa = PBXBuildFile; fileRef = 665C6B951F78F91600399A6E /* UPCTPTradeErrorConstants.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		665C6BFF1F78F91600399A6E /* UPCTPTradeErrorConstants.m in Sources */ = {isa = PBXBuildFile; fileRef = 665C6B961F78F91600399A6E /* UPCTPTradeErrorConstants.m */; };
+		665C6C001F78F91600399A6E /* UPCTPBaseClient.h in Headers */ = {isa = PBXBuildFile; fileRef = 665C6B981F78F91600399A6E /* UPCTPBaseClient.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		665C6C011F78F91600399A6E /* UPCTPBaseClient.m in Sources */ = {isa = PBXBuildFile; fileRef = 665C6B991F78F91600399A6E /* UPCTPBaseClient.m */; };
+		665C6C021F78F91600399A6E /* UPCTPSimTradeClient.h in Headers */ = {isa = PBXBuildFile; fileRef = 665C6B9A1F78F91600399A6E /* UPCTPSimTradeClient.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		665C6C031F78F91600399A6E /* UPCTPSimTradeClient.m in Sources */ = {isa = PBXBuildFile; fileRef = 665C6B9B1F78F91600399A6E /* UPCTPSimTradeClient.m */; };
+		665C6C041F78F91600399A6E /* UPCTPSimUserClient.h in Headers */ = {isa = PBXBuildFile; fileRef = 665C6B9C1F78F91600399A6E /* UPCTPSimUserClient.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		665C6C051F78F91600399A6E /* UPCTPSimUserClient.m in Sources */ = {isa = PBXBuildFile; fileRef = 665C6B9D1F78F91600399A6E /* UPCTPSimUserClient.m */; };
+		665C6C061F78F91600399A6E /* UPCTPTradeClient.h in Headers */ = {isa = PBXBuildFile; fileRef = 665C6B9E1F78F91600399A6E /* UPCTPTradeClient.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		665C6C071F78F91600399A6E /* UPCTPTradeClient.m in Sources */ = {isa = PBXBuildFile; fileRef = 665C6B9F1F78F91600399A6E /* UPCTPTradeClient.m */; };
+		665C6C081F78F91600399A6E /* UPCTPUserClient.h in Headers */ = {isa = PBXBuildFile; fileRef = 665C6BA01F78F91600399A6E /* UPCTPUserClient.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		665C6C091F78F91600399A6E /* UPCTPUserClient.m in Sources */ = {isa = PBXBuildFile; fileRef = 665C6BA11F78F91600399A6E /* UPCTPUserClient.m */; };
+		665C6C0A1F78F91600399A6E /* UPCThostFtdcMdSpi.h in Headers */ = {isa = PBXBuildFile; fileRef = 665C6BA31F78F91600399A6E /* UPCThostFtdcMdSpi.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		665C6C0B1F78F91600399A6E /* UPCThostFtdcMdSpi.mm in Sources */ = {isa = PBXBuildFile; fileRef = 665C6BA41F78F91600399A6E /* UPCThostFtdcMdSpi.mm */; };
+		665C6C0C1F78F91600399A6E /* UPCThostFtdcTraderService.h in Headers */ = {isa = PBXBuildFile; fileRef = 665C6BA51F78F91600399A6E /* UPCThostFtdcTraderService.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		665C6C0D1F78F91600399A6E /* UPCThostFtdcTraderService.mm in Sources */ = {isa = PBXBuildFile; fileRef = 665C6BA61F78F91600399A6E /* UPCThostFtdcTraderService.mm */; };
+		665C6C0E1F78F91600399A6E /* UPCThostFtdcTraderSpi.h in Headers */ = {isa = PBXBuildFile; fileRef = 665C6BA71F78F91600399A6E /* UPCThostFtdcTraderSpi.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		665C6C0F1F78F91600399A6E /* UPCThostFtdcTraderSpi.mm in Sources */ = {isa = PBXBuildFile; fileRef = 665C6BA81F78F91600399A6E /* UPCThostFtdcTraderSpi.mm */; };
+		665C6C101F78F91600399A6E /* UPCTPDefineHeader.h in Headers */ = {isa = PBXBuildFile; fileRef = 665C6BAA1F78F91600399A6E /* UPCTPDefineHeader.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		665C6C111F78F91600399A6E /* UPCTPTradeManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 665C6BAC1F78F91600399A6E /* UPCTPTradeManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		665C6C121F78F91600399A6E /* UPCTPTradeManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 665C6BAD1F78F91600399A6E /* UPCTPTradeManager.m */; };
+		665C6C131F78F91600399A6E /* UPCTPBlockModel.h in Headers */ = {isa = PBXBuildFile; fileRef = 665C6BAF1F78F91600399A6E /* UPCTPBlockModel.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		665C6C141F78F91600399A6E /* UPCTPBlockModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 665C6BB01F78F91600399A6E /* UPCTPBlockModel.m */; };
+		665C6C151F78F91600399A6E /* UPCTPModel.h in Headers */ = {isa = PBXBuildFile; fileRef = 665C6BB11F78F91600399A6E /* UPCTPModel.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		665C6C161F78F91600399A6E /* UPCTPModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 665C6BB21F78F91600399A6E /* UPCTPModel.m */; };
+		665C6C171F78F91600399A6E /* UPCTPModelHeader.h in Headers */ = {isa = PBXBuildFile; fileRef = 665C6BB31F78F91600399A6E /* UPCTPModelHeader.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		665C6C181F78F91600399A6E /* UPRspAccountregisterModel.h in Headers */ = {isa = PBXBuildFile; fileRef = 665C6BB41F78F91600399A6E /* UPRspAccountregisterModel.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		665C6C191F78F91600399A6E /* UPRspAccountregisterModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 665C6BB51F78F91600399A6E /* UPRspAccountregisterModel.m */; };
+		665C6C1A1F78F91600399A6E /* UPRspDepthMarketDataModel.h in Headers */ = {isa = PBXBuildFile; fileRef = 665C6BB61F78F91600399A6E /* UPRspDepthMarketDataModel.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		665C6C1B1F78F91600399A6E /* UPRspDepthMarketDataModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 665C6BB71F78F91600399A6E /* UPRspDepthMarketDataModel.m */; };
+		665C6C1C1F78F91600399A6E /* UPRspInfoModel.h in Headers */ = {isa = PBXBuildFile; fileRef = 665C6BB81F78F91600399A6E /* UPRspInfoModel.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		665C6C1D1F78F91600399A6E /* UPRspInfoModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 665C6BB91F78F91600399A6E /* UPRspInfoModel.m */; };
+		665C6C1E1F78F91600399A6E /* UPRspInstrumentMarginRateModel.h in Headers */ = {isa = PBXBuildFile; fileRef = 665C6BBA1F78F91600399A6E /* UPRspInstrumentMarginRateModel.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		665C6C1F1F78F91600399A6E /* UPRspInstrumentMarginRateModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 665C6BBB1F78F91600399A6E /* UPRspInstrumentMarginRateModel.m */; };
+		665C6C201F78F91600399A6E /* UPRspInstrumentModel.h in Headers */ = {isa = PBXBuildFile; fileRef = 665C6BBC1F78F91600399A6E /* UPRspInstrumentModel.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		665C6C211F78F91600399A6E /* UPRspInstrumentModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 665C6BBD1F78F91600399A6E /* UPRspInstrumentModel.m */; };
+		665C6C221F78F91600399A6E /* UPRspInstrumentWithIndexModel.h in Headers */ = {isa = PBXBuildFile; fileRef = 665C6BBE1F78F91600399A6E /* UPRspInstrumentWithIndexModel.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		665C6C231F78F91600399A6E /* UPRspInstrumentWithIndexModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 665C6BBF1F78F91600399A6E /* UPRspInstrumentWithIndexModel.m */; };
+		665C6C241F78F91600399A6E /* UPRspInvestorPositionDetailModel.h in Headers */ = {isa = PBXBuildFile; fileRef = 665C6BC01F78F91600399A6E /* UPRspInvestorPositionDetailModel.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		665C6C251F78F91600399A6E /* UPRspInvestorPositionDetailModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 665C6BC11F78F91600399A6E /* UPRspInvestorPositionDetailModel.m */; };
+		665C6C261F78F91600399A6E /* UPRspInvestorPositionModel.h in Headers */ = {isa = PBXBuildFile; fileRef = 665C6BC21F78F91600399A6E /* UPRspInvestorPositionModel.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		665C6C271F78F91600399A6E /* UPRspInvestorPositionModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 665C6BC31F78F91600399A6E /* UPRspInvestorPositionModel.m */; };
+		665C6C281F78F91600399A6E /* UPRspNotifyQueryAccountModel.h in Headers */ = {isa = PBXBuildFile; fileRef = 665C6BC41F78F91600399A6E /* UPRspNotifyQueryAccountModel.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		665C6C291F78F91600399A6E /* UPRspNotifyQueryAccountModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 665C6BC51F78F91600399A6E /* UPRspNotifyQueryAccountModel.m */; };
+		665C6C2A1F78F91600399A6E /* UPRspOrderActionModel.h in Headers */ = {isa = PBXBuildFile; fileRef = 665C6BC61F78F91600399A6E /* UPRspOrderActionModel.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		665C6C2B1F78F91600399A6E /* UPRspOrderActionModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 665C6BC71F78F91600399A6E /* UPRspOrderActionModel.m */; };
+		665C6C2C1F78F91600399A6E /* UPRspOrderInsertModel.h in Headers */ = {isa = PBXBuildFile; fileRef = 665C6BC81F78F91600399A6E /* UPRspOrderInsertModel.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		665C6C2D1F78F91600399A6E /* UPRspOrderInsertModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 665C6BC91F78F91600399A6E /* UPRspOrderInsertModel.m */; };
+		665C6C2E1F78F91600399A6E /* UPRspOrderModel.h in Headers */ = {isa = PBXBuildFile; fileRef = 665C6BCA1F78F91600399A6E /* UPRspOrderModel.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		665C6C2F1F78F91600399A6E /* UPRspOrderModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 665C6BCB1F78F91600399A6E /* UPRspOrderModel.m */; };
+		665C6C301F78F91600399A6E /* UPRspTradeModel.h in Headers */ = {isa = PBXBuildFile; fileRef = 665C6BCC1F78F91600399A6E /* UPRspTradeModel.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		665C6C311F78F91600399A6E /* UPRspTradeModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 665C6BCD1F78F91600399A6E /* UPRspTradeModel.m */; };
+		665C6C321F78F91600399A6E /* UPRspTradingAccountModel.h in Headers */ = {isa = PBXBuildFile; fileRef = 665C6BCE1F78F91600399A6E /* UPRspTradingAccountModel.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		665C6C331F78F91600399A6E /* UPRspTradingAccountModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 665C6BCF1F78F91600399A6E /* UPRspTradingAccountModel.m */; };
+		665C6C341F78F91600399A6E /* UPRspTransferBankModel.h in Headers */ = {isa = PBXBuildFile; fileRef = 665C6BD01F78F91600399A6E /* UPRspTransferBankModel.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		665C6C351F78F91600399A6E /* UPRspTransferBankModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 665C6BD11F78F91600399A6E /* UPRspTransferBankModel.m */; };
+		665C6C361F78F91600399A6E /* UPRspTransferModel.h in Headers */ = {isa = PBXBuildFile; fileRef = 665C6BD21F78F91600399A6E /* UPRspTransferModel.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		665C6C371F78F91600399A6E /* UPRspTransferModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 665C6BD31F78F91600399A6E /* UPRspTransferModel.m */; };
+		665C6C381F78F91600399A6E /* UPRspTransferSerialModel.h in Headers */ = {isa = PBXBuildFile; fileRef = 665C6BD41F78F91600399A6E /* UPRspTransferSerialModel.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		665C6C391F78F91600399A6E /* UPRspTransferSerialModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 665C6BD51F78F91600399A6E /* UPRspTransferSerialModel.m */; };
+		665C6C3A1F78F91600399A6E /* UPRspUserLoginModel.h in Headers */ = {isa = PBXBuildFile; fileRef = 665C6BD61F78F91600399A6E /* UPRspUserLoginModel.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		665C6C3B1F78F91600399A6E /* UPRspUserLoginModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 665C6BD71F78F91600399A6E /* UPRspUserLoginModel.m */; };
+		665C6C3C1F78F91600399A6E /* UPCTPRequestQueue.h in Headers */ = {isa = PBXBuildFile; fileRef = 665C6BD91F78F91600399A6E /* UPCTPRequestQueue.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		665C6C3D1F78F91600399A6E /* UPCTPRequestQueue.m in Sources */ = {isa = PBXBuildFile; fileRef = 665C6BDA1F78F91600399A6E /* UPCTPRequestQueue.m */; };
+		665C6C3E1F78F91600399A6E /* UPCTPSimRequestQueue.h in Headers */ = {isa = PBXBuildFile; fileRef = 665C6BDB1F78F91600399A6E /* UPCTPSimRequestQueue.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		665C6C3F1F78F91600399A6E /* UPCTPSimRequestQueue.m in Sources */ = {isa = PBXBuildFile; fileRef = 665C6BDC1F78F91600399A6E /* UPCTPSimRequestQueue.m */; };
+		665C6C401F78F91600399A6E /* UPErrorUtil.h in Headers */ = {isa = PBXBuildFile; fileRef = 665C6BDE1F78F91600399A6E /* UPErrorUtil.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		665C6C411F78F91600399A6E /* UPErrorUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 665C6BDF1F78F91600399A6E /* UPErrorUtil.m */; };
+		665C6C421F78F91600399A6E /* UPFuturesTradeEnvironmentUtil.h in Headers */ = {isa = PBXBuildFile; fileRef = 665C6BE01F78F91600399A6E /* UPFuturesTradeEnvironmentUtil.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		665C6C431F78F91600399A6E /* UPFuturesTradeEnvironmentUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 665C6BE11F78F91600399A6E /* UPFuturesTradeEnvironmentUtil.m */; };
+		665C6C441F78F91600399A6E /* KSCosApi.h in Headers */ = {isa = PBXBuildFile; fileRef = 665C6BE41F78F91600399A6E /* KSCosApi.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		665C6C451F78F91600399A6E /* KSMarketDataAPI.h in Headers */ = {isa = PBXBuildFile; fileRef = 665C6BE51F78F91600399A6E /* KSMarketDataAPI.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		665C6C461F78F91600399A6E /* KSMdApiEx.h in Headers */ = {isa = PBXBuildFile; fileRef = 665C6BE61F78F91600399A6E /* KSMdApiEx.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		665C6C471F78F91600399A6E /* KSOptionApi.h in Headers */ = {isa = PBXBuildFile; fileRef = 665C6BE71F78F91600399A6E /* KSOptionApi.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		665C6C481F78F91600399A6E /* KSTradeAPI.h in Headers */ = {isa = PBXBuildFile; fileRef = 665C6BE81F78F91600399A6E /* KSTradeAPI.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		665C6C491F78F91600399A6E /* KSTraderApiEx.h in Headers */ = {isa = PBXBuildFile; fileRef = 665C6BE91F78F91600399A6E /* KSTraderApiEx.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		665C6C4A1F78F91600399A6E /* KSUserApiDataTypeEx.h in Headers */ = {isa = PBXBuildFile; fileRef = 665C6BEA1F78F91600399A6E /* KSUserApiDataTypeEx.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		665C6C4B1F78F91600399A6E /* KSUserApiStructEx.h in Headers */ = {isa = PBXBuildFile; fileRef = 665C6BEB1F78F91600399A6E /* KSUserApiStructEx.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		665C6C4C1F78F91600399A6E /* KSVocApi.h in Headers */ = {isa = PBXBuildFile; fileRef = 665C6BEC1F78F91600399A6E /* KSVocApi.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		665C6C4D1F78F91600399A6E /* KSVocApiDataType.h in Headers */ = {isa = PBXBuildFile; fileRef = 665C6BED1F78F91600399A6E /* KSVocApiDataType.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		665C6C4E1F78F91600399A6E /* KSVocApiStruct.h in Headers */ = {isa = PBXBuildFile; fileRef = 665C6BEE1F78F91600399A6E /* KSVocApiStruct.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		665C6C4F1F78F91600399A6E /* KSVocMdApi.h in Headers */ = {isa = PBXBuildFile; fileRef = 665C6BEF1F78F91600399A6E /* KSVocMdApi.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		668EAC3E1F7B33360099EBDF /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 665C6C681F78F97600399A6E /* UIKit.framework */; };
+		668EAC3F1F7B333B0099EBDF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 665C6C641F78F96400399A6E /* Foundation.framework */; };
+		668EAC401F7B33420099EBDF /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 665C6C661F78F96E00399A6E /* CoreGraphics.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		665C6B821F78F8EE00399A6E /* FuturesTradeSDK.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = FuturesTradeSDK.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		665C6B851F78F8EE00399A6E /* FuturesTradeSDK.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FuturesTradeSDK.h; sourceTree = "<group>"; };
+		665C6B861F78F8EE00399A6E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		665C6B901F78F91600399A6E /* UPCTPTradeCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UPCTPTradeCache.h; sourceTree = "<group>"; };
+		665C6B911F78F91600399A6E /* UPCTPTradeCache.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UPCTPTradeCache.m; sourceTree = "<group>"; };
+		665C6B931F78F91600399A6E /* UPCTPRequestCode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UPCTPRequestCode.h; sourceTree = "<group>"; };
+		665C6B941F78F91600399A6E /* UPCTPRequestCode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UPCTPRequestCode.m; sourceTree = "<group>"; };
+		665C6B951F78F91600399A6E /* UPCTPTradeErrorConstants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UPCTPTradeErrorConstants.h; sourceTree = "<group>"; };
+		665C6B961F78F91600399A6E /* UPCTPTradeErrorConstants.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UPCTPTradeErrorConstants.m; sourceTree = "<group>"; };
+		665C6B981F78F91600399A6E /* UPCTPBaseClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UPCTPBaseClient.h; sourceTree = "<group>"; };
+		665C6B991F78F91600399A6E /* UPCTPBaseClient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UPCTPBaseClient.m; sourceTree = "<group>"; };
+		665C6B9A1F78F91600399A6E /* UPCTPSimTradeClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UPCTPSimTradeClient.h; sourceTree = "<group>"; };
+		665C6B9B1F78F91600399A6E /* UPCTPSimTradeClient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UPCTPSimTradeClient.m; sourceTree = "<group>"; };
+		665C6B9C1F78F91600399A6E /* UPCTPSimUserClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UPCTPSimUserClient.h; sourceTree = "<group>"; };
+		665C6B9D1F78F91600399A6E /* UPCTPSimUserClient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UPCTPSimUserClient.m; sourceTree = "<group>"; };
+		665C6B9E1F78F91600399A6E /* UPCTPTradeClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UPCTPTradeClient.h; sourceTree = "<group>"; };
+		665C6B9F1F78F91600399A6E /* UPCTPTradeClient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UPCTPTradeClient.m; sourceTree = "<group>"; };
+		665C6BA01F78F91600399A6E /* UPCTPUserClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UPCTPUserClient.h; sourceTree = "<group>"; };
+		665C6BA11F78F91600399A6E /* UPCTPUserClient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UPCTPUserClient.m; sourceTree = "<group>"; };
+		665C6BA31F78F91600399A6E /* UPCThostFtdcMdSpi.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UPCThostFtdcMdSpi.h; sourceTree = "<group>"; };
+		665C6BA41F78F91600399A6E /* UPCThostFtdcMdSpi.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = UPCThostFtdcMdSpi.mm; sourceTree = "<group>"; };
+		665C6BA51F78F91600399A6E /* UPCThostFtdcTraderService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UPCThostFtdcTraderService.h; sourceTree = "<group>"; };
+		665C6BA61F78F91600399A6E /* UPCThostFtdcTraderService.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = UPCThostFtdcTraderService.mm; sourceTree = "<group>"; };
+		665C6BA71F78F91600399A6E /* UPCThostFtdcTraderSpi.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UPCThostFtdcTraderSpi.h; sourceTree = "<group>"; };
+		665C6BA81F78F91600399A6E /* UPCThostFtdcTraderSpi.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = UPCThostFtdcTraderSpi.mm; sourceTree = "<group>"; };
+		665C6BAA1F78F91600399A6E /* UPCTPDefineHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UPCTPDefineHeader.h; sourceTree = "<group>"; };
+		665C6BAC1F78F91600399A6E /* UPCTPTradeManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UPCTPTradeManager.h; sourceTree = "<group>"; };
+		665C6BAD1F78F91600399A6E /* UPCTPTradeManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UPCTPTradeManager.m; sourceTree = "<group>"; };
+		665C6BAF1F78F91600399A6E /* UPCTPBlockModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UPCTPBlockModel.h; sourceTree = "<group>"; };
+		665C6BB01F78F91600399A6E /* UPCTPBlockModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UPCTPBlockModel.m; sourceTree = "<group>"; };
+		665C6BB11F78F91600399A6E /* UPCTPModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UPCTPModel.h; sourceTree = "<group>"; };
+		665C6BB21F78F91600399A6E /* UPCTPModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UPCTPModel.m; sourceTree = "<group>"; };
+		665C6BB31F78F91600399A6E /* UPCTPModelHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UPCTPModelHeader.h; sourceTree = "<group>"; };
+		665C6BB41F78F91600399A6E /* UPRspAccountregisterModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UPRspAccountregisterModel.h; sourceTree = "<group>"; };
+		665C6BB51F78F91600399A6E /* UPRspAccountregisterModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UPRspAccountregisterModel.m; sourceTree = "<group>"; };
+		665C6BB61F78F91600399A6E /* UPRspDepthMarketDataModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UPRspDepthMarketDataModel.h; sourceTree = "<group>"; };
+		665C6BB71F78F91600399A6E /* UPRspDepthMarketDataModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UPRspDepthMarketDataModel.m; sourceTree = "<group>"; };
+		665C6BB81F78F91600399A6E /* UPRspInfoModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UPRspInfoModel.h; sourceTree = "<group>"; };
+		665C6BB91F78F91600399A6E /* UPRspInfoModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UPRspInfoModel.m; sourceTree = "<group>"; };
+		665C6BBA1F78F91600399A6E /* UPRspInstrumentMarginRateModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UPRspInstrumentMarginRateModel.h; sourceTree = "<group>"; };
+		665C6BBB1F78F91600399A6E /* UPRspInstrumentMarginRateModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UPRspInstrumentMarginRateModel.m; sourceTree = "<group>"; };
+		665C6BBC1F78F91600399A6E /* UPRspInstrumentModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UPRspInstrumentModel.h; sourceTree = "<group>"; };
+		665C6BBD1F78F91600399A6E /* UPRspInstrumentModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UPRspInstrumentModel.m; sourceTree = "<group>"; };
+		665C6BBE1F78F91600399A6E /* UPRspInstrumentWithIndexModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UPRspInstrumentWithIndexModel.h; sourceTree = "<group>"; };
+		665C6BBF1F78F91600399A6E /* UPRspInstrumentWithIndexModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UPRspInstrumentWithIndexModel.m; sourceTree = "<group>"; };
+		665C6BC01F78F91600399A6E /* UPRspInvestorPositionDetailModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UPRspInvestorPositionDetailModel.h; sourceTree = "<group>"; };
+		665C6BC11F78F91600399A6E /* UPRspInvestorPositionDetailModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UPRspInvestorPositionDetailModel.m; sourceTree = "<group>"; };
+		665C6BC21F78F91600399A6E /* UPRspInvestorPositionModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UPRspInvestorPositionModel.h; sourceTree = "<group>"; };
+		665C6BC31F78F91600399A6E /* UPRspInvestorPositionModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UPRspInvestorPositionModel.m; sourceTree = "<group>"; };
+		665C6BC41F78F91600399A6E /* UPRspNotifyQueryAccountModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UPRspNotifyQueryAccountModel.h; sourceTree = "<group>"; };
+		665C6BC51F78F91600399A6E /* UPRspNotifyQueryAccountModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UPRspNotifyQueryAccountModel.m; sourceTree = "<group>"; };
+		665C6BC61F78F91600399A6E /* UPRspOrderActionModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UPRspOrderActionModel.h; sourceTree = "<group>"; };
+		665C6BC71F78F91600399A6E /* UPRspOrderActionModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UPRspOrderActionModel.m; sourceTree = "<group>"; };
+		665C6BC81F78F91600399A6E /* UPRspOrderInsertModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UPRspOrderInsertModel.h; sourceTree = "<group>"; };
+		665C6BC91F78F91600399A6E /* UPRspOrderInsertModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UPRspOrderInsertModel.m; sourceTree = "<group>"; };
+		665C6BCA1F78F91600399A6E /* UPRspOrderModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UPRspOrderModel.h; sourceTree = "<group>"; };
+		665C6BCB1F78F91600399A6E /* UPRspOrderModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UPRspOrderModel.m; sourceTree = "<group>"; };
+		665C6BCC1F78F91600399A6E /* UPRspTradeModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UPRspTradeModel.h; sourceTree = "<group>"; };
+		665C6BCD1F78F91600399A6E /* UPRspTradeModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UPRspTradeModel.m; sourceTree = "<group>"; };
+		665C6BCE1F78F91600399A6E /* UPRspTradingAccountModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UPRspTradingAccountModel.h; sourceTree = "<group>"; };
+		665C6BCF1F78F91600399A6E /* UPRspTradingAccountModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UPRspTradingAccountModel.m; sourceTree = "<group>"; };
+		665C6BD01F78F91600399A6E /* UPRspTransferBankModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UPRspTransferBankModel.h; sourceTree = "<group>"; };
+		665C6BD11F78F91600399A6E /* UPRspTransferBankModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UPRspTransferBankModel.m; sourceTree = "<group>"; };
+		665C6BD21F78F91600399A6E /* UPRspTransferModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UPRspTransferModel.h; sourceTree = "<group>"; };
+		665C6BD31F78F91600399A6E /* UPRspTransferModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UPRspTransferModel.m; sourceTree = "<group>"; };
+		665C6BD41F78F91600399A6E /* UPRspTransferSerialModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UPRspTransferSerialModel.h; sourceTree = "<group>"; };
+		665C6BD51F78F91600399A6E /* UPRspTransferSerialModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UPRspTransferSerialModel.m; sourceTree = "<group>"; };
+		665C6BD61F78F91600399A6E /* UPRspUserLoginModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UPRspUserLoginModel.h; sourceTree = "<group>"; };
+		665C6BD71F78F91600399A6E /* UPRspUserLoginModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UPRspUserLoginModel.m; sourceTree = "<group>"; };
+		665C6BD91F78F91600399A6E /* UPCTPRequestQueue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UPCTPRequestQueue.h; sourceTree = "<group>"; };
+		665C6BDA1F78F91600399A6E /* UPCTPRequestQueue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UPCTPRequestQueue.m; sourceTree = "<group>"; };
+		665C6BDB1F78F91600399A6E /* UPCTPSimRequestQueue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UPCTPSimRequestQueue.h; sourceTree = "<group>"; };
+		665C6BDC1F78F91600399A6E /* UPCTPSimRequestQueue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UPCTPSimRequestQueue.m; sourceTree = "<group>"; };
+		665C6BDE1F78F91600399A6E /* UPErrorUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UPErrorUtil.h; sourceTree = "<group>"; };
+		665C6BDF1F78F91600399A6E /* UPErrorUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UPErrorUtil.m; sourceTree = "<group>"; };
+		665C6BE01F78F91600399A6E /* UPFuturesTradeEnvironmentUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UPFuturesTradeEnvironmentUtil.h; sourceTree = "<group>"; };
+		665C6BE11F78F91600399A6E /* UPFuturesTradeEnvironmentUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UPFuturesTradeEnvironmentUtil.m; sourceTree = "<group>"; };
+		665C6BE41F78F91600399A6E /* KSCosApi.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KSCosApi.h; sourceTree = "<group>"; };
+		665C6BE51F78F91600399A6E /* KSMarketDataAPI.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KSMarketDataAPI.h; sourceTree = "<group>"; };
+		665C6BE61F78F91600399A6E /* KSMdApiEx.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KSMdApiEx.h; sourceTree = "<group>"; };
+		665C6BE71F78F91600399A6E /* KSOptionApi.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KSOptionApi.h; sourceTree = "<group>"; };
+		665C6BE81F78F91600399A6E /* KSTradeAPI.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KSTradeAPI.h; sourceTree = "<group>"; };
+		665C6BE91F78F91600399A6E /* KSTraderApiEx.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KSTraderApiEx.h; sourceTree = "<group>"; };
+		665C6BEA1F78F91600399A6E /* KSUserApiDataTypeEx.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KSUserApiDataTypeEx.h; sourceTree = "<group>"; };
+		665C6BEB1F78F91600399A6E /* KSUserApiStructEx.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KSUserApiStructEx.h; sourceTree = "<group>"; };
+		665C6BEC1F78F91600399A6E /* KSVocApi.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KSVocApi.h; sourceTree = "<group>"; };
+		665C6BED1F78F91600399A6E /* KSVocApiDataType.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KSVocApiDataType.h; sourceTree = "<group>"; };
+		665C6BEE1F78F91600399A6E /* KSVocApiStruct.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KSVocApiStruct.h; sourceTree = "<group>"; };
+		665C6BEF1F78F91600399A6E /* KSVocMdApi.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KSVocMdApi.h; sourceTree = "<group>"; };
+		665C6C5A1F78F94300399A6E /* libiconv.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libiconv.tbd; path = usr/lib/libiconv.tbd; sourceTree = SDKROOT; };
+		665C6C5C1F78F95300399A6E /* libsqlite3.0.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.0.tbd; path = usr/lib/libsqlite3.0.tbd; sourceTree = SDKROOT; };
+		665C6C5D1F78F95300399A6E /* libsqlite3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.tbd; path = usr/lib/libsqlite3.tbd; sourceTree = SDKROOT; };
+		665C6C601F78F95D00399A6E /* libstdc++.6.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libstdc++.6.tbd"; path = "usr/lib/libstdc++.6.tbd"; sourceTree = SDKROOT; };
+		665C6C611F78F95D00399A6E /* libstdc++.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libstdc++.tbd"; path = "usr/lib/libstdc++.tbd"; sourceTree = SDKROOT; };
+		665C6C641F78F96400399A6E /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		665C6C661F78F96E00399A6E /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		665C6C681F78F97600399A6E /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		665C6B7E1F78F8ED00399A6E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				668EAC401F7B33420099EBDF /* CoreGraphics.framework in Frameworks */,
+				668EAC3F1F7B333B0099EBDF /* Foundation.framework in Frameworks */,
+				668EAC3E1F7B33360099EBDF /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		665C6B781F78F8ED00399A6E = {
+			isa = PBXGroup;
+			children = (
+				665C6B841F78F8EE00399A6E /* FuturesTradeSDK */,
+				665C6B831F78F8EE00399A6E /* Products */,
+				665C6C591F78F94300399A6E /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		665C6B831F78F8EE00399A6E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				665C6B821F78F8EE00399A6E /* FuturesTradeSDK.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		665C6B841F78F8EE00399A6E /* FuturesTradeSDK */ = {
+			isa = PBXGroup;
+			children = (
+				665C6B8D1F78F91600399A6E /* FuturesTradeSDK */,
+				665C6B851F78F8EE00399A6E /* FuturesTradeSDK.h */,
+				665C6B861F78F8EE00399A6E /* Info.plist */,
+			);
+			path = FuturesTradeSDK;
+			sourceTree = "<group>";
+		};
+		665C6B8D1F78F91600399A6E /* FuturesTradeSDK */ = {
+			isa = PBXGroup;
+			children = (
+				665C6B8E1F78F91600399A6E /* CTPTrade */,
+				665C6BE21F78F91600399A6E /* Vender */,
+			);
+			path = FuturesTradeSDK;
+			sourceTree = "<group>";
+		};
+		665C6B8E1F78F91600399A6E /* CTPTrade */ = {
+			isa = PBXGroup;
+			children = (
+				665C6BA91F78F91600399A6E /* Define */,
+				665C6BDD1F78F91600399A6E /* Util */,
+				665C6B8F1F78F91600399A6E /* Cache */,
+				665C6B921F78F91600399A6E /* Constants */,
+				665C6BAE1F78F91600399A6E /* Model */,
+				665C6BAB1F78F91600399A6E /* Manager */,
+				665C6B971F78F91600399A6E /* Core */,
+				665C6BD81F78F91600399A6E /* RequestQueue */,
+				665C6BA21F78F91600399A6E /* CTP */,
+			);
+			path = CTPTrade;
+			sourceTree = "<group>";
+		};
+		665C6B8F1F78F91600399A6E /* Cache */ = {
+			isa = PBXGroup;
+			children = (
+				665C6B901F78F91600399A6E /* UPCTPTradeCache.h */,
+				665C6B911F78F91600399A6E /* UPCTPTradeCache.m */,
+			);
+			path = Cache;
+			sourceTree = "<group>";
+		};
+		665C6B921F78F91600399A6E /* Constants */ = {
+			isa = PBXGroup;
+			children = (
+				665C6B931F78F91600399A6E /* UPCTPRequestCode.h */,
+				665C6B941F78F91600399A6E /* UPCTPRequestCode.m */,
+				665C6B951F78F91600399A6E /* UPCTPTradeErrorConstants.h */,
+				665C6B961F78F91600399A6E /* UPCTPTradeErrorConstants.m */,
+			);
+			path = Constants;
+			sourceTree = "<group>";
+		};
+		665C6B971F78F91600399A6E /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				665C6B981F78F91600399A6E /* UPCTPBaseClient.h */,
+				665C6B991F78F91600399A6E /* UPCTPBaseClient.m */,
+				665C6B9A1F78F91600399A6E /* UPCTPSimTradeClient.h */,
+				665C6B9B1F78F91600399A6E /* UPCTPSimTradeClient.m */,
+				665C6B9C1F78F91600399A6E /* UPCTPSimUserClient.h */,
+				665C6B9D1F78F91600399A6E /* UPCTPSimUserClient.m */,
+				665C6B9E1F78F91600399A6E /* UPCTPTradeClient.h */,
+				665C6B9F1F78F91600399A6E /* UPCTPTradeClient.m */,
+				665C6BA01F78F91600399A6E /* UPCTPUserClient.h */,
+				665C6BA11F78F91600399A6E /* UPCTPUserClient.m */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		665C6BA21F78F91600399A6E /* CTP */ = {
+			isa = PBXGroup;
+			children = (
+				665C6BA51F78F91600399A6E /* UPCThostFtdcTraderService.h */,
+				665C6BA61F78F91600399A6E /* UPCThostFtdcTraderService.mm */,
+				665C6BA71F78F91600399A6E /* UPCThostFtdcTraderSpi.h */,
+				665C6BA81F78F91600399A6E /* UPCThostFtdcTraderSpi.mm */,
+				665C6BA31F78F91600399A6E /* UPCThostFtdcMdSpi.h */,
+				665C6BA41F78F91600399A6E /* UPCThostFtdcMdSpi.mm */,
+			);
+			path = CTP;
+			sourceTree = "<group>";
+		};
+		665C6BA91F78F91600399A6E /* Define */ = {
+			isa = PBXGroup;
+			children = (
+				665C6BAA1F78F91600399A6E /* UPCTPDefineHeader.h */,
+			);
+			path = Define;
+			sourceTree = "<group>";
+		};
+		665C6BAB1F78F91600399A6E /* Manager */ = {
+			isa = PBXGroup;
+			children = (
+				665C6BAC1F78F91600399A6E /* UPCTPTradeManager.h */,
+				665C6BAD1F78F91600399A6E /* UPCTPTradeManager.m */,
+			);
+			path = Manager;
+			sourceTree = "<group>";
+		};
+		665C6BAE1F78F91600399A6E /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				665C6BAF1F78F91600399A6E /* UPCTPBlockModel.h */,
+				665C6BB01F78F91600399A6E /* UPCTPBlockModel.m */,
+				665C6BB11F78F91600399A6E /* UPCTPModel.h */,
+				665C6BB21F78F91600399A6E /* UPCTPModel.m */,
+				665C6BB31F78F91600399A6E /* UPCTPModelHeader.h */,
+				665C6BB41F78F91600399A6E /* UPRspAccountregisterModel.h */,
+				665C6BB51F78F91600399A6E /* UPRspAccountregisterModel.m */,
+				665C6BB61F78F91600399A6E /* UPRspDepthMarketDataModel.h */,
+				665C6BB71F78F91600399A6E /* UPRspDepthMarketDataModel.m */,
+				665C6BB81F78F91600399A6E /* UPRspInfoModel.h */,
+				665C6BB91F78F91600399A6E /* UPRspInfoModel.m */,
+				665C6BBA1F78F91600399A6E /* UPRspInstrumentMarginRateModel.h */,
+				665C6BBB1F78F91600399A6E /* UPRspInstrumentMarginRateModel.m */,
+				665C6BBC1F78F91600399A6E /* UPRspInstrumentModel.h */,
+				665C6BBD1F78F91600399A6E /* UPRspInstrumentModel.m */,
+				665C6BBE1F78F91600399A6E /* UPRspInstrumentWithIndexModel.h */,
+				665C6BBF1F78F91600399A6E /* UPRspInstrumentWithIndexModel.m */,
+				665C6BC01F78F91600399A6E /* UPRspInvestorPositionDetailModel.h */,
+				665C6BC11F78F91600399A6E /* UPRspInvestorPositionDetailModel.m */,
+				665C6BC21F78F91600399A6E /* UPRspInvestorPositionModel.h */,
+				665C6BC31F78F91600399A6E /* UPRspInvestorPositionModel.m */,
+				665C6BC41F78F91600399A6E /* UPRspNotifyQueryAccountModel.h */,
+				665C6BC51F78F91600399A6E /* UPRspNotifyQueryAccountModel.m */,
+				665C6BC61F78F91600399A6E /* UPRspOrderActionModel.h */,
+				665C6BC71F78F91600399A6E /* UPRspOrderActionModel.m */,
+				665C6BC81F78F91600399A6E /* UPRspOrderInsertModel.h */,
+				665C6BC91F78F91600399A6E /* UPRspOrderInsertModel.m */,
+				665C6BCA1F78F91600399A6E /* UPRspOrderModel.h */,
+				665C6BCB1F78F91600399A6E /* UPRspOrderModel.m */,
+				665C6BCC1F78F91600399A6E /* UPRspTradeModel.h */,
+				665C6BCD1F78F91600399A6E /* UPRspTradeModel.m */,
+				665C6BCE1F78F91600399A6E /* UPRspTradingAccountModel.h */,
+				665C6BCF1F78F91600399A6E /* UPRspTradingAccountModel.m */,
+				665C6BD01F78F91600399A6E /* UPRspTransferBankModel.h */,
+				665C6BD11F78F91600399A6E /* UPRspTransferBankModel.m */,
+				665C6BD21F78F91600399A6E /* UPRspTransferModel.h */,
+				665C6BD31F78F91600399A6E /* UPRspTransferModel.m */,
+				665C6BD41F78F91600399A6E /* UPRspTransferSerialModel.h */,
+				665C6BD51F78F91600399A6E /* UPRspTransferSerialModel.m */,
+				665C6BD61F78F91600399A6E /* UPRspUserLoginModel.h */,
+				665C6BD71F78F91600399A6E /* UPRspUserLoginModel.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		665C6BD81F78F91600399A6E /* RequestQueue */ = {
+			isa = PBXGroup;
+			children = (
+				665C6BD91F78F91600399A6E /* UPCTPRequestQueue.h */,
+				665C6BDA1F78F91600399A6E /* UPCTPRequestQueue.m */,
+				665C6BDB1F78F91600399A6E /* UPCTPSimRequestQueue.h */,
+				665C6BDC1F78F91600399A6E /* UPCTPSimRequestQueue.m */,
+			);
+			path = RequestQueue;
+			sourceTree = "<group>";
+		};
+		665C6BDD1F78F91600399A6E /* Util */ = {
+			isa = PBXGroup;
+			children = (
+				665C6BDE1F78F91600399A6E /* UPErrorUtil.h */,
+				665C6BDF1F78F91600399A6E /* UPErrorUtil.m */,
+				665C6BE01F78F91600399A6E /* UPFuturesTradeEnvironmentUtil.h */,
+				665C6BE11F78F91600399A6E /* UPFuturesTradeEnvironmentUtil.m */,
+			);
+			path = Util;
+			sourceTree = "<group>";
+		};
+		665C6BE21F78F91600399A6E /* Vender */ = {
+			isa = PBXGroup;
+			children = (
+				665C6BE31F78F91600399A6E /* ksft_api */,
+			);
+			path = Vender;
+			sourceTree = "<group>";
+		};
+		665C6BE31F78F91600399A6E /* ksft_api */ = {
+			isa = PBXGroup;
+			children = (
+				665C6BE41F78F91600399A6E /* KSCosApi.h */,
+				665C6BE51F78F91600399A6E /* KSMarketDataAPI.h */,
+				665C6BE61F78F91600399A6E /* KSMdApiEx.h */,
+				665C6BE71F78F91600399A6E /* KSOptionApi.h */,
+				665C6BE81F78F91600399A6E /* KSTradeAPI.h */,
+				665C6BE91F78F91600399A6E /* KSTraderApiEx.h */,
+				665C6BEA1F78F91600399A6E /* KSUserApiDataTypeEx.h */,
+				665C6BEB1F78F91600399A6E /* KSUserApiStructEx.h */,
+				665C6BEC1F78F91600399A6E /* KSVocApi.h */,
+				665C6BED1F78F91600399A6E /* KSVocApiDataType.h */,
+				665C6BEE1F78F91600399A6E /* KSVocApiStruct.h */,
+				665C6BEF1F78F91600399A6E /* KSVocMdApi.h */,
+			);
+			path = ksft_api;
+			sourceTree = "<group>";
+		};
+		665C6C591F78F94300399A6E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				665C6C681F78F97600399A6E /* UIKit.framework */,
+				665C6C661F78F96E00399A6E /* CoreGraphics.framework */,
+				665C6C641F78F96400399A6E /* Foundation.framework */,
+				665C6C601F78F95D00399A6E /* libstdc++.6.tbd */,
+				665C6C611F78F95D00399A6E /* libstdc++.tbd */,
+				665C6C5C1F78F95300399A6E /* libsqlite3.0.tbd */,
+				665C6C5D1F78F95300399A6E /* libsqlite3.tbd */,
+				665C6C5A1F78F94300399A6E /* libiconv.tbd */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		665C6B7F1F78F8ED00399A6E /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				665C6C321F78F91600399A6E /* UPRspTradingAccountModel.h in Headers */,
+				665C6C111F78F91600399A6E /* UPCTPTradeManager.h in Headers */,
+				665C6C1C1F78F91600399A6E /* UPRspInfoModel.h in Headers */,
+				665C6C4A1F78F91600399A6E /* KSUserApiDataTypeEx.h in Headers */,
+				665C6C1A1F78F91600399A6E /* UPRspDepthMarketDataModel.h in Headers */,
+				665C6C101F78F91600399A6E /* UPCTPDefineHeader.h in Headers */,
+				665C6C221F78F91600399A6E /* UPRspInstrumentWithIndexModel.h in Headers */,
+				665C6C201F78F91600399A6E /* UPRspInstrumentModel.h in Headers */,
+				665C6C451F78F91600399A6E /* KSMarketDataAPI.h in Headers */,
+				665C6BFC1F78F91600399A6E /* UPCTPRequestCode.h in Headers */,
+				665C6B871F78F8EE00399A6E /* FuturesTradeSDK.h in Headers */,
+				665C6C3E1F78F91600399A6E /* UPCTPSimRequestQueue.h in Headers */,
+				665C6BFA1F78F91600399A6E /* UPCTPTradeCache.h in Headers */,
+				665C6C281F78F91600399A6E /* UPRspNotifyQueryAccountModel.h in Headers */,
+				665C6C401F78F91600399A6E /* UPErrorUtil.h in Headers */,
+				665C6C301F78F91600399A6E /* UPRspTradeModel.h in Headers */,
+				665C6C4C1F78F91600399A6E /* KSVocApi.h in Headers */,
+				665C6C241F78F91600399A6E /* UPRspInvestorPositionDetailModel.h in Headers */,
+				665C6C3A1F78F91600399A6E /* UPRspUserLoginModel.h in Headers */,
+				665C6C2A1F78F91600399A6E /* UPRspOrderActionModel.h in Headers */,
+				665C6C381F78F91600399A6E /* UPRspTransferSerialModel.h in Headers */,
+				665C6C1E1F78F91600399A6E /* UPRspInstrumentMarginRateModel.h in Headers */,
+				665C6C4D1F78F91600399A6E /* KSVocApiDataType.h in Headers */,
+				665C6C081F78F91600399A6E /* UPCTPUserClient.h in Headers */,
+				665C6C421F78F91600399A6E /* UPFuturesTradeEnvironmentUtil.h in Headers */,
+				665C6C131F78F91600399A6E /* UPCTPBlockModel.h in Headers */,
+				665C6C4B1F78F91600399A6E /* KSUserApiStructEx.h in Headers */,
+				665C6C261F78F91600399A6E /* UPRspInvestorPositionModel.h in Headers */,
+				665C6C061F78F91600399A6E /* UPCTPTradeClient.h in Headers */,
+				665C6C2C1F78F91600399A6E /* UPRspOrderInsertModel.h in Headers */,
+				665C6C021F78F91600399A6E /* UPCTPSimTradeClient.h in Headers */,
+				665C6C3C1F78F91600399A6E /* UPCTPRequestQueue.h in Headers */,
+				665C6BFE1F78F91600399A6E /* UPCTPTradeErrorConstants.h in Headers */,
+				665C6C0C1F78F91600399A6E /* UPCThostFtdcTraderService.h in Headers */,
+				665C6C481F78F91600399A6E /* KSTradeAPI.h in Headers */,
+				665C6C0A1F78F91600399A6E /* UPCThostFtdcMdSpi.h in Headers */,
+				665C6C491F78F91600399A6E /* KSTraderApiEx.h in Headers */,
+				665C6C171F78F91600399A6E /* UPCTPModelHeader.h in Headers */,
+				665C6C2E1F78F91600399A6E /* UPRspOrderModel.h in Headers */,
+				665C6C461F78F91600399A6E /* KSMdApiEx.h in Headers */,
+				665C6C341F78F91600399A6E /* UPRspTransferBankModel.h in Headers */,
+				665C6C471F78F91600399A6E /* KSOptionApi.h in Headers */,
+				665C6C001F78F91600399A6E /* UPCTPBaseClient.h in Headers */,
+				665C6C0E1F78F91600399A6E /* UPCThostFtdcTraderSpi.h in Headers */,
+				665C6C041F78F91600399A6E /* UPCTPSimUserClient.h in Headers */,
+				665C6C361F78F91600399A6E /* UPRspTransferModel.h in Headers */,
+				665C6C441F78F91600399A6E /* KSCosApi.h in Headers */,
+				665C6C181F78F91600399A6E /* UPRspAccountregisterModel.h in Headers */,
+				665C6C4F1F78F91600399A6E /* KSVocMdApi.h in Headers */,
+				665C6C151F78F91600399A6E /* UPCTPModel.h in Headers */,
+				665C6C4E1F78F91600399A6E /* KSVocApiStruct.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		665C6B811F78F8ED00399A6E /* FuturesTradeSDK */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 665C6B8A1F78F8EE00399A6E /* Build configuration list for PBXNativeTarget "FuturesTradeSDK" */;
+			buildPhases = (
+				665C6B7D1F78F8ED00399A6E /* Sources */,
+				665C6B7E1F78F8ED00399A6E /* Frameworks */,
+				665C6B7F1F78F8ED00399A6E /* Headers */,
+				665C6B801F78F8ED00399A6E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FuturesTradeSDK;
+			productName = FuturesTradeSDK;
+			productReference = 665C6B821F78F8EE00399A6E /* FuturesTradeSDK.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		665C6B791F78F8ED00399A6E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = ferdinand;
+				TargetAttributes = {
+					665C6B811F78F8ED00399A6E = {
+						CreatedOnToolsVersion = 8.2;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 665C6B7C1F78F8ED00399A6E /* Build configuration list for PBXProject "FuturesTradeSDK" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 665C6B781F78F8ED00399A6E;
+			productRefGroup = 665C6B831F78F8EE00399A6E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				665C6B811F78F8ED00399A6E /* FuturesTradeSDK */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		665C6B801F78F8ED00399A6E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		665C6B7D1F78F8ED00399A6E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				665C6C071F78F91600399A6E /* UPCTPTradeClient.m in Sources */,
+				665C6C051F78F91600399A6E /* UPCTPSimUserClient.m in Sources */,
+				665C6C1F1F78F91600399A6E /* UPRspInstrumentMarginRateModel.m in Sources */,
+				665C6C0D1F78F91600399A6E /* UPCThostFtdcTraderService.mm in Sources */,
+				665C6C351F78F91600399A6E /* UPRspTransferBankModel.m in Sources */,
+				665C6BFB1F78F91600399A6E /* UPCTPTradeCache.m in Sources */,
+				665C6C1B1F78F91600399A6E /* UPRspDepthMarketDataModel.m in Sources */,
+				665C6C1D1F78F91600399A6E /* UPRspInfoModel.m in Sources */,
+				665C6C431F78F91600399A6E /* UPFuturesTradeEnvironmentUtil.m in Sources */,
+				665C6C161F78F91600399A6E /* UPCTPModel.m in Sources */,
+				665C6BFD1F78F91600399A6E /* UPCTPRequestCode.m in Sources */,
+				665C6C3F1F78F91600399A6E /* UPCTPSimRequestQueue.m in Sources */,
+				665C6C2D1F78F91600399A6E /* UPRspOrderInsertModel.m in Sources */,
+				665C6C331F78F91600399A6E /* UPRspTradingAccountModel.m in Sources */,
+				665C6C011F78F91600399A6E /* UPCTPBaseClient.m in Sources */,
+				665C6C251F78F91600399A6E /* UPRspInvestorPositionDetailModel.m in Sources */,
+				665C6C3D1F78F91600399A6E /* UPCTPRequestQueue.m in Sources */,
+				665C6C391F78F91600399A6E /* UPRspTransferSerialModel.m in Sources */,
+				665C6C231F78F91600399A6E /* UPRspInstrumentWithIndexModel.m in Sources */,
+				665C6C291F78F91600399A6E /* UPRspNotifyQueryAccountModel.m in Sources */,
+				665C6C0F1F78F91600399A6E /* UPCThostFtdcTraderSpi.mm in Sources */,
+				665C6C0B1F78F91600399A6E /* UPCThostFtdcMdSpi.mm in Sources */,
+				665C6C3B1F78F91600399A6E /* UPRspUserLoginModel.m in Sources */,
+				665C6C311F78F91600399A6E /* UPRspTradeModel.m in Sources */,
+				665C6C371F78F91600399A6E /* UPRspTransferModel.m in Sources */,
+				665C6C031F78F91600399A6E /* UPCTPSimTradeClient.m in Sources */,
+				665C6C121F78F91600399A6E /* UPCTPTradeManager.m in Sources */,
+				665C6C211F78F91600399A6E /* UPRspInstrumentModel.m in Sources */,
+				665C6C2F1F78F91600399A6E /* UPRspOrderModel.m in Sources */,
+				665C6C091F78F91600399A6E /* UPCTPUserClient.m in Sources */,
+				665C6BFF1F78F91600399A6E /* UPCTPTradeErrorConstants.m in Sources */,
+				665C6C411F78F91600399A6E /* UPErrorUtil.m in Sources */,
+				665C6C191F78F91600399A6E /* UPRspAccountregisterModel.m in Sources */,
+				665C6C141F78F91600399A6E /* UPCTPBlockModel.m in Sources */,
+				665C6C271F78F91600399A6E /* UPRspInvestorPositionModel.m in Sources */,
+				665C6C2B1F78F91600399A6E /* UPRspOrderActionModel.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		665C6B881F78F8EE00399A6E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		665C6B891F78F8EE00399A6E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		665C6B8B1F78F8EE00399A6E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ALLOW_NON_MODULAR_INCLUDES_IN_FRAMEWORK_MODULES = YES;
+				CODE_SIGN_IDENTITY = "";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_BITCODE = NO;
+				INFOPLIST_FILE = FuturesTradeSDK/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/FuturesTradeSDK/FuturesTradeSDK/Vender/ksft_api",
+				);
+				MACH_O_TYPE = staticlib;
+				ONLY_ACTIVE_ARCH = NO;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ferdinand.FuturesTradeSDK;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos10.2;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		665C6B8C1F78F8EE00399A6E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ALLOW_NON_MODULAR_INCLUDES_IN_FRAMEWORK_MODULES = YES;
+				CODE_SIGN_IDENTITY = "";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_BITCODE = NO;
+				INFOPLIST_FILE = FuturesTradeSDK/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/FuturesTradeSDK/FuturesTradeSDK/Vender/ksft_api",
+				);
+				MACH_O_TYPE = staticlib;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ferdinand.FuturesTradeSDK;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos10.2;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		665C6B7C1F78F8ED00399A6E /* Build configuration list for PBXProject "FuturesTradeSDK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				665C6B881F78F8EE00399A6E /* Debug */,
+				665C6B891F78F8EE00399A6E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		665C6B8A1F78F8EE00399A6E /* Build configuration list for PBXNativeTarget "FuturesTradeSDK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				665C6B8B1F78F8EE00399A6E /* Debug */,
+				665C6B8C1F78F8EE00399A6E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 665C6B791F78F8ED00399A6E /* Project object */;
+}

@@ -1,0 +1,216 @@
+#update_fastlane
+
+fastlane_version "2.27.0"
+
+default_platform :ios
+
+platform :ios do
+
+  xcodeproj = "FuturesTradeTest.xcodeproj"
+  plist = "FuturesTradeTest/Info.plist"
+  exportMethod = "ad-hoc"
+
+  git_url = "http://ios_certificates:123456789@gitlab.whup.com/UPMobile-ThirdParty/certificates.git"
+
+  desc "Config certificates and profiles"
+  lane :config do
+    # register_devices(
+    #   devices: {
+    #     'JMS iPhone SE' => '9df42789744d66b0be748195461c513dd81e013e'
+    #   }
+    # )
+
+    match(
+      git_url: git_url,
+      git_branch: "99goldfutures",
+      type: "development",
+      app_identifier: "com.upchina.qhydt",
+      username: "upyaoyaoyao@163.com",
+      readonly: true,
+      force_for_new_devices: true
+    )
+
+    match(
+      git_url: git_url,
+      git_branch: "99goldfutures",
+      type: "adhoc",
+      app_identifier: "com.upchina.qhydt",
+      username: "upyaoyaoyao@163.com",
+      readonly: true,
+      force_for_new_devices: true
+    )
+
+    match(
+      git_url: git_url,
+      git_branch: "99goldfutures",
+      type: "appstore",
+      app_identifier: "com.upchina.qhydt",
+      username: "upyaoyaoyao@163.com",
+      readonly: true
+    )
+
+    match(
+      git_url: "http://ios_certificates:123456789@gitlab.whup.com/UPMobile-iOS/certificates.git",
+      git_branch: "enterprise",
+      type: "enterprise",
+      app_identifier: "com.jiujiujin.futures",
+      username: "ios11@upchina.com",
+      readonly: true
+    )
+  end
+
+  desc "Build package"
+  lane :build do |options|
+    type = options[:type]
+    build_number = options[:build_number]
+    build_address = options[:build_address]
+    project_name = options[:project_name]
+    
+    if build_address == "jenkins" then
+        time = Time.now.strftime("%y%m%d")
+
+        # 格式yyyyMMdd + 2位构建号
+        if build_number.length == 0 then
+            build_number = "local"
+        elsif build_number.length > 1 then
+            build_number = time + build_number[build_number.length - 2, 2]
+        else
+            build_number = time + "0" + build_number
+        end
+    end
+
+    perform_build(
+      type: type,
+      build_number: build_number,
+      build_address: build_address,
+      project_name: project_name
+    )
+  end
+
+  desc "Perform package"
+  private_lane :perform_build do |options|
+    type = options[:type]
+    build_number = options[:build_number]
+    version = get_version_number
+    build_address = options[:build_address]
+    project_name = options[:project_name]
+
+    if type == "adhoc" then
+      puts "Build AdHoc"
+
+      ipa_suffix = "AdHoc"
+      config = "AdHoc"
+      upload_appsotre = false
+      app_id = "com.upchina.qhydt"
+      export_team_id = "5ZETP585UD"
+
+      match(
+        git_url: git_url,
+        git_branch: "master",
+        type: "adhoc",
+        app_identifier: app_id,
+        username: "upyaoyaoyao@163.com",
+        readonly: true,
+        force_for_new_devices: true
+      )
+    elsif type == "inhouse" then
+      puts "Build InHouse"
+
+      ipa_suffix = "InHouse"
+      config = "InHouse"
+      upload_appsotre = false
+      app_id = "com.jiujiujin.futurestrade"
+      export_team_id = "AF8NPSNPVJ"
+      exportMethod = "enterprise"
+ 	
+      match(
+        git_url: "http://ios_certificates:123456789@gitlab.whup.com/UPMobile-iOS/certificates.git",
+        git_branch: "enterprise",
+        type: "enterprise",
+        app_identifier: app_id,
+        username: "ios11@upchina.com",
+        readonly: true
+      )
+    elsif type == "appstore" then
+      puts "Build AppStore"
+
+      ipa_suffix = "AppStore"
+      config = "Release"
+      upload_appsotre = true
+      app_id = "com.upchina.qhydt"
+      export_team_id = "5ZETP585UD"
+      exportMethod = "app-store"
+
+      match(
+        git_url: git_url,
+        git_branch: "master",
+        type: "appstore",
+        app_identifier: app_id,
+        username: "upyaoyaoyao@163.com",
+        readonly: true
+      )
+    end
+
+    if build_address == "local" then
+        # ipa名字
+        ipa_name = "iOS-" + project_name + "-" + build_number + ".ipa"
+
+        # 构建
+        gym(
+          project: xcodeproj,
+          scheme: "FuturesTradeTest",
+          configuration: config,
+          output_directory: "out",
+          output_name: ipa_name,
+          export_team_id: export_team_id,
+          clean: true
+        )
+    elsif build_address == "jenkins" then
+      puts "Build with options:"
+    	puts "  version: " + version
+    	puts "  build_number: " + build_number
+    	puts "  ipa_suffix: " + ipa_suffix
+    	puts "  config: " + config
+    	puts "  upload_appsotre: " + (upload_appsotre ? "true" : "false")
+
+    	# ipa名字
+    	ipa_name = "iOS-QHYDT-“ + version + "-" + build_number + "-" + ipa_suffix + ".ipa"
+
+    	# 构建号
+    	increment_build_number(
+      		xcodeproj: xcodeproj,
+      		build_number: build_number
+    	)
+
+    	# 解锁keychain
+    	unlock_keychain(
+      		path: "login.keychain-db",
+      		password: "1qaz2wsx"
+    	)
+
+    	# 构建
+    	gym(
+      		project: xcodeproj,
+      		export_method: exportMethod,
+      		scheme: "HQProject",
+      		configuration: config,
+      		output_directory: "out",
+      		output_name: ipa_name,
+      		export_team_id: export_team_id,
+      		#use_legacy_build_api: true,
+      		clean: true
+    	)
+    end
+  
+
+    # 上传到App Store
+    if upload_appsotre then
+      appstore(
+        skip_screenshots: true,
+        skip_metadata: true,
+        force: true
+      )
+    end
+  end
+
+end
